@@ -23,7 +23,7 @@
                                  <div class="col-lg-4 col-md-6">
                                     <div class="product">
                                       <div class="text">
-                                       <img src="/items/{{ $e->codice }}.JPG" class="img-responsive">
+                                       <img src="/items/{{ $e->codice }}.jpg" class="img-responsive">
                                         <h3><a href="/detail/{{$e->id }}">{{ $e->nome }}</a></h3>
                                         <p class="price"> 
                                           <del></del>{{ $e->prezzo }} €

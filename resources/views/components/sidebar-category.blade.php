@@ -10,7 +10,7 @@
                 <div class="card-body">
                   <ul class="nav nav-pills flex-column category-menu">
                    @foreach( App\Categorie::all() as $categories )
-                   <li><a href="category.html" class="nav-link">{{ $categories->nome }}</a>
+                   <li><a href="/category/{{ $categories["id"] }}" class="nav-link">{{ $categories->nome }}</a>
                     <?php $subcats = App\Categorie::find($categories->id)->subcategories; ?>
                       <ul class="">
                         @foreach( $subcats as $subcat )
@@ -28,14 +28,3 @@
     
               <!-- *** MENUS AND FILTERS END ***-->
 </div>
-
-<!--
- <li><a href="category.html" class="nav-link">Men <span class="badge badge-secondary">42</span></a>
-                      <ul class="list-unstyled">
-                        <li><a href="category.html" class="nav-link">T-shirts</a></li>
-                        <li><a href="category.html" class="nav-link">Shirts</a></li>
-                        <li><a href="category.html" class="nav-link">Pants</a></li>
-                        <li><a href="category.html" class="nav-link">Accessories</a></li>
-                      </ul>
-                    </li>
-                    -->
