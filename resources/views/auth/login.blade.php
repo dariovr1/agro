@@ -9,12 +9,8 @@
                 <div class="box">
                   <h1>Login</h1>
                   <hr>
-                  @if(session("warning") != "")
-                  <div class="alert alert-warning" role="alert">
-                   {{ session("warning") }}
-                  </div>
-                  @endif
-
+                  @include("components.errors")
+                  @include("components.success")
 
                    <h2 class="text-center">Connettiti</h2>
                     <form method="POST" action="{{ route('login') }}" class="login-form">
