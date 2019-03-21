@@ -9,6 +9,10 @@ class Product extends Model
 
 	public $timestamps = false;
 
+
+    public function getCodiceAttribute($value){
+        return  preg_replace('/\s+/', '', $value);
+    }
 	
      public function subcategories(){
     	return $this->belongsToMany(Subcategorie::class);

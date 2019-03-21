@@ -50,7 +50,7 @@
                            @if (empty($elem))
 
                              <div class="box">
-                              <h1>Gent.le utente, Benvenuto su Agroambiente s.r.l</h1>
+                              <h1>Gentile utente, Benvenuto su Agroambiente s.r.l</h1>
                             </div>
 
                             <div class="box">

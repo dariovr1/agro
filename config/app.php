@@ -80,12 +80,12 @@ return [
     |
     */
 
-    'locale' => 'en',
+    'locale' => 'it',
 
     /*
     |--------------------------------------------------------------------------
     | Application Fallback Locale
-    |--------------------------------------------------------------------------
+    |------------------------------------------------------------------------
     |
     | The fallback locale determines the locale to use when the current one
     | is not available. You may change the value to correspond to any of
@@ -93,7 +93,7 @@ return [
     |
     */
 
-    'fallback_locale' => 'en',
+    'fallback_locale' => 'it',
 
     /*
     |--------------------------------------------------------------------------
@@ -222,8 +222,7 @@ return [
         'URL' => Illuminate\Support\Facades\URL::class,
         'Validator' => Illuminate\Support\Facades\Validator::class,
         'View' => Illuminate\Support\Facades\View::class,
-        'Paypalpayment' => Anouar\Paypalpayment\Facades\PaypalPayment::class,
-
+        'Paypalpayment' => Anouar\Paypalpayment\Facades\PaypalPayment::class
     ],
 
 ];
