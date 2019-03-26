@@ -696,3 +696,14 @@ padding:20px;
   content:"*";
   color:red;
 }
+
+
+.btn-primary:hover {
+   background-color: #42d328;
+        border-color:#57a749;
+}
+
+  .btn-primary {
+        background-color: #42d328;
+        border-color:#57a749;
+  }

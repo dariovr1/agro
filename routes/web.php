@@ -17,10 +17,20 @@ Route::get('/pag/{slug}','PagesController@contatti');
 
 Auth::routes();
 
+Route::get('user/password-reset','ResetPasswordController@passwordReset');
+Route::post('user/password-reset/create','ResetPasswordController@create');
+
+
+
+//verifica e-mail e reset password
+Route::get('verify/{id}/{mail}','verifyController@verifyEmailforRegister');
+
+
 Route::get("cart","CartController@index");
-Route::patch("cart/update/{id}","CartController@update");
+Route::patch("cart/update","CartController@update");
 Route::get("cart/insert/{id}","CartController@insert");
 Route::delete("cart/destroy/{id}","CartController@destroy");
+Route::get("cart/checkout","CartController@checkout");
 
 Route::get("category/{id}","CategoryController@index");
 
@@ -51,9 +61,6 @@ Route::get("profile/{profile}/addbook","addBook@index");
 Route::post("profile/{profile}/addbook/create","addBook@create");
 
 Route::get("/detail/{id}","ProductController@index");
-
-Route::get("/fix/peso","ResetController@index");
-Route::get("/fix/prezzo","ResetController@prezzo");
 
 Route::get("/index/sc/{id}","SubcategoriesController@showCatIndex");
 

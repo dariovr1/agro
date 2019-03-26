@@ -9,7 +9,7 @@
     <meta name="author" content="Agroambiente">
 
     <!-- Title Page-->
-    <title>@yield("title")</title>
+    <title><?php echo $__env->yieldContent("title"); ?></title>
 
     <link href="/vendor/mdi-font/css/material-design-iconic-font.min.css" rel="stylesheet" media="all">
     <link href="/vendor/font-awesome-4.7/css/font-awesome.min.css" rel="stylesheet" media="all">
@@ -30,7 +30,7 @@
     <div class="page-wrapper bg-gra-02 p-t-130 p-b-100 font-poppins">
         <div class="wrapper wrapper--w680">
             <div class="card card-4">
-              @yield("content")
+              <?php echo $__env->yieldContent("content"); ?>
             </div>
         </div>
     </div>

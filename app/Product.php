@@ -13,6 +13,12 @@ class Product extends Model
     public function getCodiceAttribute($value){
         return  preg_replace('/\s+/', '', $value);
     }
+
+     public function getPrezzoAttribute($value){
+        $clean_space = str_replace(" ","",$value);
+        return str_replace(",",".",$clean_space);
+    }
+
 	
      public function subcategories(){
     	return $this->belongsToMany(Subcategorie::class);

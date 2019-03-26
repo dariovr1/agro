@@ -5,57 +5,47 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 
 use App\Product;
-use App\Cart as CartModel;
 use Cart;
 use auth;
+use App\Services\cartService;
+
 
 class CartController extends Controller
 {
 
-  private $items = '';
-  public $userId = '';
+  private $cart;
 
-   public function __construct() {
 
-      $this->middleware(function ($request, $next) {
-
-        $this->items = (Auth::check() ) ? $this->checkItemsById(Auth::user()->id) : "";
-
-        return $next($request);
-      });
-
-   }
+  public function __construct(cartService $cart)
+    {
+        $this->cart = $cart;
+    }
 
     public function index()
     {
 
-        return view("cart.index",compact('carts'));
+        return view("cart.index",[
+          "carts" => Cart::content(),
+          "count" => Cart::count(),
+          "weight" => $this->cart->cartTotalWeight(),
+          "subtotale" => Cart::subtotal()
+        ]);
 
     }
 
+    public function checkout(){
 
-  private function setItemsInCarts($elem){
-    dd($elem);
-  }
+      $this->verifyUserLogin();
+      $this->cart->newCartbyId(auth()->id());
 
+      return redirect("checkout/address");
 
-  private function checkItemsById($user){
-    $result = CartModel::with('product')->where('user_id',$user)->get();
-      if ($result->count()) {
-        return $this->setItemsInCarts($result);
-      }
-      return "";
-  }
-
+    }
 
     public function insert($id)
     {
 
-      dd("items vale".$this->items);
-
-        if(!Auth::user()){
-             return redirect('/login')->with("warning","è necessario loggarsi o registrarsi per inserire prodotti nel carrello");
-        }
+      $this->verifyUserLogin();
 
          if (!Cart::where('product_id', '=', $id)->exists()) {
             Cart::create([
@@ -68,25 +58,22 @@ class CartController extends Controller
     }
 
 
-    public function update(Request $request, $id)
+    public function update(Request $request)
     {
-        Cart::where('id', $id)->update([
-            "quantita" => Request()->qty
-        ]);
-
-        return redirect()->back();
+        Cart::update($request->rowId, $request->qty);
+        return redirect()->back()->with("success","prodotto aggiornato con successo");
     }
 
-    /**
-     * Remove the specified resource from storage.
-     *
-     * @param  int  $id
-     * @return \Illuminate\Http\Response
-     */
     public function destroy($id)
     {
-        Cart::destroy($id);
-
-        return redirect()->back();
+        Cart::remove($id);
+        return redirect()->back()->with("success","prodotto eliminato");
     }
+
+    public function verifyUserLogin(){
+       if(!Auth::user()){
+             return redirect('/login')->with("warning","è necessario loggarsi o registrarsi per inserire prodotti nel carrello");
+        }
+    }
+
 }

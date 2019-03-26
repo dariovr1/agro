@@ -23,8 +23,6 @@ use Auth;
 class checkoutController extends Controller
 {
 
-	private $array = [];
-
 	public function index(Request $request)
 	{
 		Session::forget('cartItem');
@@ -40,51 +38,22 @@ class checkoutController extends Controller
 
 	public function addressCreate(SupplAddressStoreRequest $request)
 	{
-		Session::forget('address');
-		Session::push('address', [
-			 'nominativo' => $request->nome." ".$request->cognome,
-             'presso' => $request->presso,
-             'via' => $request->via,
-             'cap' => $request->cap,
-             'citie_id' => $request->comune,
-             'prov_id' => $request->provincia,
-             'presso' => $request->presso,
-             'azienda' => $request->azienda,
-             'email' => $request->email,
-             'telefono'=> $request->telefono
-		]);
 
-
-		/*
-		 Supplement::create([
-                'nominativo' => $request->nome." ".$request->cognome,
-                'presso' => $request->presso,
-                'via' => $request->via,
-                'cap' => $request->cap,
-                'citie_id' => $request->comune,
-                'prov_id' => $request->provincia,
-                'user_id' => auth()->id(),
-                'presso' => $request->presso,
-                'azienda' => $request->azienda,
-                'email' => $request->email,
-                'telefono'=> $request->telefono
-            ]);
-        */
+		session(["address" => $request->except('_token')]);
 
 		 return redirect("checkout/spedizione")->with('success', 'indirizzo salvato con successo');
 	}
 
 	public function spedizione()
 	{
-
-		$shipping = ShipMethod::all();
-
-		return view("checkout.shipping",compact("shipping"));
+		return view("checkout.shipping",[
+			"shipping" => ShipMethod::all()
+		]);
 	}
 
 	public function spedizioneCreate(ShippingRequest $request)
 	{
-		session(["shipping" => $request->shipping]);
+		session(["shipping" => $request->except('_token')]);
 
 		 return redirect("checkout/paymentMethod");
 	}
@@ -98,14 +67,15 @@ class checkoutController extends Controller
 
 	public function paymentMethod()
 	{
-		$pays = Pay::all();
-		return view("checkout.payments",compact('pays'));
+		return view("checkout.payments",[
+			"pays" => Pay::all()
+		]);
 	}
 
 
 	public function paymentMethodCreate(PaymentsRequest $request)
 	{
-		session(["payment" => $request->payment]);
+		session(["payment" => $request->except('_token')]);
 
 		return redirect("checkout/reviewOrder");
 	}
@@ -113,11 +83,11 @@ class checkoutController extends Controller
 
 	public function reviewOrder()
 	{
-		$shipping = ShipMethod::find( Session::get("shipping") , ['nome']);
-
-	    $pay = Pay::find( Session::get("payment") , ['nome']);
-
-		return view("checkout.order",compact('shipping','pay'));
+		return view("checkout.order",[
+			"address" => session("address"),
+			"shipping" => session("shipping"),
+			"payment" => session("payment")
+		]);
 	}
 
 

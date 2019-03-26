@@ -6,10 +6,10 @@
           <div class="row">
             <div id="basket" class="col-lg-9">
               <div class="box">
-                  <h1>Riepilogo Carrello</h1>
-                  <br/>
-                   @if(isset($carts))
-			 		 @if(!$carts->isEmpty())
+			 		 @if( $count > 0)
+			 		 @include("components.success")
+			 		 <h1>Riepilogo Carrello</h1>
+                  	 <br/>
                   <div class="table-responsive">
 				  		<table class="table">
 				  			 <thead>
@@ -21,44 +21,29 @@
 						      </tr>
 						    </thead>
 						    <tbody>
-
 					  		@foreach($carts as $cart)
-
 					  		<tr>
 	                          <td>
 		                          	<a href="#">
-		                                <img class="img-responsive" src="/items/{{ $cart->product->codice}}.jpg" />
+		                                <img class="img-responsive" src="/items/{{ $cart->options->codice}}.jpg" />
 		                          	</a>
 	                      	  </td>
-	                          <td><a href="#">{{ $cart->product->nome }}</a></td>
+	                          <td><a href="#">{{ $cart->name }}</a></td>
 	                          <td>
-	                           		 <div class="cart-item-cell qty recurring-enabled">
-										    <div class="js-plusminus plusminus">
-										    	<form name="cart_less{{ $cart->id }}" method="POST" action="/cart/update/{{ $cart->id }}">
-										    		@method("PATCH")
-										    		@csrf
-										    		<input type="hidden" name="qty" value="{{ ($cart->quantita - 1) <=0 ? 1 : $cart->quantita - 1 }}" />
-										    		<a class="decrement-value js-decrement-value" href="#" rel="nofollow" onclick="return document.forms.cart_less{{ $cart->id }}.submit();"> − </a>
-										    	</form>
-										        <input type="number" name="qty" class="font-light js-plusminus-number" value="{{$cart->quantita}}" maxlength="2" min="1" max="99" data-base-value="3">
-										        <form method="POST" name="cart_add{{ $cart->id }}" action="/cart/update/{{ $cart->id }}">
-										        	@method("PATCH")
-										        	@csrf
-										        	<input type="hidden" name="qty" value="{{ ($cart->quantita + 1) }}" />
-										        <a class="increment-value js-increment-value" href="#" rel="nofollow" onclick="return document.forms.cart_add{{ $cart->id }}.submit();"> + </a>
-										    	</form>
-										    </div>
-	    								</div>
+	                          	<form name="update{{ $cart->rowId }}" method="POST" action="/cart/update">
+	                          		@method("PATCH")
+	                          		@csrf
+	                          		<input type="hidden" name="rowId" value="{{$cart->rowId}}" />
+	                          	<input type="number" name="qty" value="{{ $cart->qty }}" class="form-control numberCheckOut" onclick="return document.forms.update{{ $cart->rowId }}.submit();" />
+	                          	</form>
 	                          </td>
 	                          <td></td>
-	                          <?php $value = str_replace (',', '.' ,$cart->product->prezzo);
-	                           ?>
-	                          <td>{{ floatval($value) * $cart->quantita  }} €</td>
+	                          <td>{{ $cart->price * $cart->qty  }} €</td>
 	                          <td>
-	                          	<form name="delete{{ $cart->id }}" method="POST" action="/cart/destroy/{{ $cart->id }}">
+	                          	<form name="delete{{ $cart->rowId }}" method="POST" action="/cart/destroy/{{ $cart->rowId }}">
 					  						@method("DELETE")
 										    @csrf
-	                          	<a href="#" onclick="return document.forms.delete{{ $cart->id }}.submit();"><i class="fa fa-trash-o"></i></a>
+	                          	<a href="#" onclick="return document.forms.delete{{ $cart->rowId }}.submit();"><i class="fa fa-trash-o"></i></a>
 	                          		</form>	
 	                          </td>
                        	   </tr>
@@ -66,37 +51,30 @@
 					  		</tbody>
 					  		<tfoot>
                         <tr>
-                          <th colspan="4">Totale</th>
-                          <th colspan="2">{{ totalCart() }} €</th>
+                          <th colspan="4">Subtotale prodotti</th>
+                          <th colspan="2">{{$subtotale}} €</th>
                         </tr>
                       </tfoot>
 				  		</table>
                   </div>
-                  <!-- /.table-responsive-->
+                  @endif
+                   @if($count == 0)
+                  	<p>il carrello è vuoto. Inserisci un prodotto per continuare gli acquisti.</p>
+                  @endif
                   <div class="box-footer d-flex justify-content-between flex-column flex-lg-row">
                     <div class="left"><a href="category.html" class="btn btn-outline-secondary"><i class="fa fa-chevron-left"></i> Continua gli acquisti</a></div>
                     <div class="right">
-                    	<form method="POST" action="/checkout">
-                    		@csrf
-                    		@foreach($carts as $cart)
-                    				<input type="hidden" name="cartItem[]" value="{{$cart->id}}" />
-                    		@endforeach
+                      <a href="/cart/checkout">
                    	   <button type="submit" class="btn btn-primary">Procedi con l'ordine<i class="fa fa-chevron-right"></i></button>
-                  		</form>
+                   	  </a>
                     </div>
                   </div>
-                  	  @else
-				  	<p>Il carrello è vuoto. Torna allo shop</p>
-						@endif
-						@else
-						  @if (!Auth::check())
-		  		<p>il tuo carrello non è visualizzabile. Per favore <a href="{{ url("/register") }}">registrati</a> o fai <a href="{{ url("/login") }}">login</a> per accedere al nostro e-commerce.</p>
-		  @endif
-					@endif
               </div>
             </div>
             <!-- /.col-lg-9-->
-            @include("components.totale")
+            @if($count > 0)
+           		 @include("components.totale")
+            @endif
             <!-- /.col-md-3-->
           </div>
         </div>

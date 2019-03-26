@@ -6,6 +6,10 @@ use Illuminate\Support\ServiceProvider;
 
 use App\Slideshow;
 
+use Cart;
+
+use App\Services\cartService;
+
 
 class AppServiceProvider extends ServiceProvider
 {
@@ -19,6 +23,14 @@ class AppServiceProvider extends ServiceProvider
          view()->composer('components.slideshow',function($view){
             $view->with('slides',Slideshow::all());
         });
+
+         $cart = new cartService();
+
+         view()->composer('components.totale',function($view) use ($cart) {
+            $view->with('subtotale',Cart::subtotal())
+            ->with('weight',$cart->cartTotalWeight());
+        });
+
     }
 
     /**

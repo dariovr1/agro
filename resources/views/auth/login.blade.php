@@ -1,19 +1,13 @@
-@extends("templates.master")
+@extends("templates.sign.master")
+
+@section("title","Area registrazione Agroambiente")
 
 @section("content")
+     <div class="card-body">
+         <h2 class="title">Login</h2>
 
-<section class="login-block">
-	<div class="row">
-    <div class="container">
-      <div class="col-lg-6">
-                <div class="box">
-                  <h1>Login</h1>
-                  <hr>
-                  @include("components.errors")
-                  @include("components.success")
 
-                   <h2 class="text-center">Connettiti</h2>
-                    <form method="POST" action="{{ route('login') }}" class="login-form">
+         <form method="POST" action="{{ route('login') }}" class="login-form">
                       @csrf
 
 
@@ -41,7 +35,8 @@
                         
                         
                           <div class="form-check">
-                                <input class="form-check-input" type="checkbox" name="remember" id="remember" {{ old('remember') ? 'checked' : '' }}>
+                                <input class="form-check-input" style="    left: -247px;
+    top: 0px;" type="checkbox" name="remember" id="remember" {{ old('remember') ? 'checked' : '' }}>
 
                                 <label class="form-check-label" for="remember">
                                     {{ __('Ricordami') }}
@@ -56,19 +51,15 @@
                             </button>
 
                              @if (Route::has('password.request'))
-                                <a class="btn btn-link" href="{{ route('password.request') }}">
+                                <a class="btn btn-link" style="color:#40d427;" href="user/password-reset">
                                     {{ __('Password Dimenticata?') }}
                                 </a>
                             @endif
 
 
                   </form>
-               
-                </div>
-    </div>
-    <div class="col-lg-6">
-    </div>
-  </div>
-   </div>
-</section>
+                 
+      </div>
 @endsection
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">

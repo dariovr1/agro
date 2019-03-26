@@ -9,18 +9,18 @@
                     <tbody>
                       <tr>
                         <td>Subtotale Ordine</td>
-                        <th>{{ $subtotale }} €</th>
+                        <th><?php echo e($subtotale); ?> €</th>
                       <tr>
                         <td>Costi di Spedizione</td>
-                        <th>{{ $weight }} €</th>
+                        <th><?php echo e($weight); ?> €</th>
                       </tr>
                       <tr class="total">
                         <td>Totale</td>
-                        <th style="padding-left:0px; padding-right:0px;">{{ $subtotale + $weight }} €</th>
+                        <th style="padding-left:0px; padding-right:0px;"><?php echo e($subtotale + $weight); ?> €</th>
                       </tr>
                     </tbody>
                   </table>
                 </div>
               </div>
-              @include("components.checkout.coupon")
+              <?php echo $__env->make("components.checkout.coupon", \Illuminate\Support\Arr::except(get_defined_vars(), array('__data', '__path')))->render(); ?>
             </div>

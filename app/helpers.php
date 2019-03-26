@@ -4,7 +4,6 @@ use App\Product;
 use App\Cart;
 use App\Categorie;
 
-//App\Citie::select('comune')->where('id', $value)->get()
 
 if(!function_exists("sendEmail")) {
 	function sendEmail($view,$data,$to,$subject){

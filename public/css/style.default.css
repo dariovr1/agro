@@ -1023,6 +1023,11 @@ h1 {
   height: 400px;
 }
 
+
+.numberCheckOut {
+  width:60px!important;
+}
+
 #content #blog-listing .post, #content #blog-homepage .post {
   margin-bottom: 15px;
   background: #fff;
