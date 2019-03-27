@@ -9,8 +9,9 @@ use App\Subcategorie;
 class SubcategoriesController extends Controller
 {
     function showCatIndex($id) {
-    	 $nome = Subcategorie::where('id', $id)->first()->nome;
-    	 $elem = Subcategorie::find($id)->products()->paginate(24);
-    	return view("welcome",compact("elem","nome"));
+    	return view("welcome",[
+    		"nome" => Subcategorie::where('id', $id)->first()->nome,
+    		"elem" => Subcategorie::find($id)->products()->paginate(24)
+    	]);
     }
 }

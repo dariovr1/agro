@@ -7,11 +7,29 @@ use App\User;
 use App\Cart as CartModel;
 use Cart;
 use Log;
+use App\Services\prodService;
 
 class cartService {
 
+	private $prod;
+
+
+    public function  __construct(){
+    	$this->prod = new prodService();
+    }
+
+
 	public function countCartElemfromDb($id){
 		return User::find($id)->carts()->count();
+	}
+
+	public function insertProductInCartById($id) {
+
+		$this->insertProdIntoCart($this->prod->getProdById($id));
+	}
+
+	private function updateQtyElem($data){
+		dd($data);
 	}
 
 
@@ -56,6 +74,17 @@ class cartService {
 
 	}
 
+
+	public function insertProdIntoCart($prod) {
+			Cart::add([
+				'id' => $prod["id"],
+				'name' => $prod["nome"],
+				'qty' => "1",
+				'price' => floatval($prod["prezzo"]),
+				'options' => ['peso' => floatval($prod["peso"]), 'codice' => $prod["codice"] ]
+			]);
+	}
+
 	public function insertProdCartSession($id){
 		$carts = CartModel::with('product')->where('user_id',$id)->get();
 		foreach($carts as $cart) {
@@ -69,6 +98,7 @@ class cartService {
 			]);
 		}
 	}
+
 
 	public function retriaveCartElem($id){
 		if($this->countCartElemfromDb($id) > 0){

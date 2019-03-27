@@ -15,6 +15,8 @@
                               <h1><?php echo e($nome); ?></h1>
                             </div>
 
+                            <?php echo $__env->make('components.success', \Illuminate\Support\Arr::except(get_defined_vars(), array('__data', '__path')))->render(); ?>
+
                            <div class="row products">
                                 <?php $__currentLoopData = $elem; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $e): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>
                                  <div class="col-lg-4 col-md-6">

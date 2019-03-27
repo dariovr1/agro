@@ -35,7 +35,6 @@ class CartController extends Controller
 
     public function checkout(){
 
-      $this->verifyUserLogin();
       $this->cart->newCartbyId(auth()->id());
 
       return redirect("checkout/address");
@@ -44,16 +43,7 @@ class CartController extends Controller
 
     public function insert($id)
     {
-
-      $this->verifyUserLogin();
-
-         if (!Cart::where('product_id', '=', $id)->exists()) {
-            Cart::create([
-                'product_id' => $id,
-                'user_id' => auth()->id()
-            ]);
-        }
-
+        $this->cart->insertProductInCartById($id);
         return redirect('cart/');
     }
 

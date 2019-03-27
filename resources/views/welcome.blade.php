@@ -18,6 +18,8 @@
                               <h1>{{ $nome }}</h1>
                             </div>
 
+                            @include('components.success')
+
                            <div class="row products">
                                 @foreach($elem as $e)
                                  <div class="col-lg-4 col-md-6">
