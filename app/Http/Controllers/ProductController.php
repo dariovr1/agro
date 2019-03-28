@@ -3,19 +3,26 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-
 use App\Product;
+use App\Services\grabHTML;
 
 class ProductController extends Controller
 {
+
+	private $html;
+
+	public function __construct(grabHTML $html)
+    {
+        $this->html = $html;
+    }
+
+
     public function index($id)
     {
-    	$elem = Product::find($id);
-
-    	$elem->info = json_decode(str_replace(" tecnici","",$elem->descrizione));
-
-    	$info = $elem->info;
-
-    	return view("detail",compact("elem","info"));
+    	return view("detail",[
+    		"elem" => Product::find($id),
+    		"info" => Product::find($id)->descrizione,
+    		"detail" => $this->html->getOrderInfoById($id)
+    	]);
     }
 }

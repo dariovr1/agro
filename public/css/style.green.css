@@ -3022,3 +3022,25 @@ code {
 .dropdown-item.disabled, .dropdown-item:disabled {
   color: #6c757d;
 }
+
+
+.statusBar {
+      height: 40px;
+    margin-top: 10px;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+.statusBar.available {
+  background-color:#73bf45;
+  color:white;
+}
+
+
+.statusBar.pending {
+      background-color: #ffc800;
+}

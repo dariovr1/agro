@@ -19,6 +19,10 @@ class Product extends Model
         return str_replace(",",".",$clean_space);
     }
 
+    public function getDescrizioneAttribute($value) {
+       return  json_decode(str_replace(" tecnici","",$value));
+    }
+
 	
      public function subcategories(){
     	return $this->belongsToMany(Subcategorie::class);

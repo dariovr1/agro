@@ -2,10 +2,28 @@
 
 namespace App\Services;
 use Sunra\PhpSimple\HtmlDomParser;
+use Exception;
+use Log;
+use App\Services\prodService;
+
 
 class grabHTML {
 
+	private $prod;
+
+	public function __construct(prodService $prod){
+		$this->logga();
+		$this->prod = $prod;
+	}
+
+	public function getOrderInfoById($id){
+		$prodInfo = $this->prod->getProdById($id);
+		return $this->getOrderInfo($prodInfo["codice"]);
+	}
+
+
 	public function getOrderInfo($codice){
+		try{
 		$curlSES=curl_init(); 
 		curl_setopt($curlSES,CURLOPT_URL,"https://www.granit-parts.it/productdetails?ids=".$codice);
 		curl_setopt($curlSES,CURLOPT_RETURNTRANSFER,true);
@@ -14,30 +32,38 @@ class grabHTML {
 		curl_setopt($curlSES, CURLOPT_COOKIEJAR, "cookie.txt");
 		$result=curl_exec($curlSES);
 		curl_close($curlSES);
-		$html = str_get_html($result);
+		$html = HtmlDomParser::str_get_html($result);
 		$test = $html->find('template[data-json]', 0);
 		$decodedText = html_entity_decode($test->attr["data-json"]);
 		$myArray = json_decode($decodedText, true);
 		return $myArray[0]["orderinfo"];
+
+		}catch (Exception $e) {
+			Log::info("è stata riscontrata un eccezione durante il getOrderInfo ".$e);
+		}
 	}
 
 
 	public function logga(){
-		$data = array(
-			'_method' => "put",
-			'referer' => "%2F",
-			'user' => '350912',
-			'password' => 'X04884'
-		);
+		try{
+			$data = array(
+				'_method' => "put",
+				'referer' => "%2F",
+				'user' => '350912',
+				'password' => 'X04884'
+			);
 
-		$ch = curl_init("https://www.granit-parts.it/sessions");
-		curl_setopt($ch, CURLOPT_FOLLOWLOCATION, true);
-		curl_setopt($ch, CURLOPT_POST, true);
-		curl_setopt($ch, CURLOPT_POSTFIELDS, $data);
-		curl_setopt($ch, CURLOPT_COOKIEJAR, 'cookie.txt');
-		curl_setopt($ch, CURLOPT_RETURNTRANSFER, 'cookie.txt');
-		$result = curl_exec($ch);
-		curl_close($ch);
+			$ch = curl_init("https://www.granit-parts.it/sessions");
+			curl_setopt($ch, CURLOPT_FOLLOWLOCATION, true);
+			curl_setopt($ch, CURLOPT_POST, true);
+			curl_setopt($ch, CURLOPT_POSTFIELDS, $data);
+			curl_setopt($ch, CURLOPT_COOKIEJAR, 'cookie.txt');
+			curl_setopt($ch, CURLOPT_RETURNTRANSFER, 'cookie.txt');
+			$result = curl_exec($ch);
+			curl_close($ch);
+		}catch (Exception $e) {
+			Log::info("è stata riscontrata un eccezione durante il logga() ".$e);
+		}
 	}
 
 	public function getHtmlByCode($code) {

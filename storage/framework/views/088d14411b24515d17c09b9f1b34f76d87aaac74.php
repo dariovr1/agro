@@ -1,7 +1,12 @@
 <?php $__env->startSection("content"); ?>
 		<div id="content" class="container">
 
+			<div class="statusBar <?php echo e($detail["availabilityCode"]); ?>">
+				<p><?php echo e($detail["availabilityText"]); ?></p>
+					</div>
+
 				<div id="productMain" class="row">
+
 						<div class="col-md-4">
 								<img src="/items/<?php echo e($elem->codice); ?>.jpg" class="img-responsive" />
 						</div>
@@ -11,7 +16,9 @@
 			                    <h1><?php echo e($elem->nome); ?></h1>
 			                    <p class="goToDescription"><a href="#details" class="scroll-to">Peso: <?php echo e($elem->peso); ?> kg</a></p>
 			                    <p class="price"><?php echo e($elem->prezzo); ?> €</p>
+			                    <?php if($detail["availabilityCode"] == "available"): ?>
 			                    <p class="text-center buttons"><a href="/cart/insert/<?php echo e($elem->id); ?>" class="btn btn-primary"><i class="fa fa-shopping-cart"></i> Aggiungi al carrello</a></p>
+			                    <?php endif; ?>
 			                  </div>
 						</div>
 				</div>
