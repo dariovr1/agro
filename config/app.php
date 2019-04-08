@@ -164,7 +164,6 @@ return [
         /*
          * Package Service Providers...
          */
-        Anouar\Paypalpayment\PaypalpaymentServiceProvider::class,
         /*
          * Application Service Providers...
          */

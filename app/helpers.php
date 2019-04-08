@@ -5,6 +5,31 @@ use App\Cart;
 use App\Categorie;
 
 
+if(!function_exists("surplusIvaPrezzo")) {
+
+	function surplusIvaPrezzo($value) {
+		$iva = 22;
+		$surplus = 30;
+
+		//calcolo surplus
+		$prezzo_surplus = ($value / 100) * 30;
+
+		$prezzo_iva = ($prezzo_surplus / 100) * 22; 
+
+		return $value + $prezzo_surplus + $prezzo_iva;
+
+	}
+}
+
+
+
+if(!function_exists("FormatNumber")) {
+	function FormatNumber($value){
+		return number_format($value,(int)$value);
+	}
+}
+
+
 if(!function_exists("sendEmail")) {
 	function sendEmail($view,$data,$to,$subject){
 		Mail::send($view, ['data'=> $data], function ($message) use ($to,$subject) {

@@ -49,10 +49,11 @@ Route::post("checkout/spedizione/create","checkoutController@spedizioneCreate");
 Route::get("checkout/paymentMethod","checkoutController@paymentMethod");
 Route::post("checkout/paymentMethod/create","checkoutController@paymentMethodCreate");
 Route::get("checkout/reviewOrder","checkoutController@reviewOrder");
-Route::post("checkout/reviewOrder/create","checkoutController@reviewOrderCreate");
 Route::get("checkout/reviewOrderPay","checkoutController@reviewOrderPay");
 Route::get("checkout/reviewOrderPay/success","checkoutController@reviewOrderPaySuccess");
 
+Route::get("/paywithpaypal","PaymentController@payWithPayPal");
+Route::get("/return","PaymentController@Return");
 
 Route::get('chisiamo','PagesController@chisiamo');
 
@@ -65,3 +66,7 @@ Route::get("/detail/{id}","ProductController@index");
 Route::get("/index/sc/{id}","SubcategoriesController@showCatIndex");
 
 Route::get('/home', 'HomeController@index')->name('home');
+
+//sucess
+
+Route::get("/success/buy/{id}","PaymentController@ShowOkBuy");

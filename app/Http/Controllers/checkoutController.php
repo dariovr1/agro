@@ -3,20 +3,16 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-
 use App\Buy, App\ShipMethod, App\BuyCart, App\Pay, App\Supplement;
-
 use App\Http\Requests\SupplAddressStoreRequest;
-
 use App\Http\Requests\ShippingRequest;
-
 use App\Http\Requests\PaymentsRequest;
-
 use App\Mail\Order;
-
 use Session;
-
 use Auth;
+use Cart;
+use App\Services\paypalService;
+use App\Services\cartService;
 
 
 
@@ -83,51 +79,15 @@ class checkoutController extends Controller
 
 	public function reviewOrder()
 	{
+
 		return view("checkout.order",[
 			"address" => session("address"),
 			"shipping" => session("shipping"),
-			"payment" => session("payment")
+			"payment" => session("payment"),
+			"items" => Cart::Content(),
+			"subtotal" => Cart::subtotal()
 		]);
 	}
-
-
-	public function reviewOrderCreate()
-	{
-
-		$arr = Session::get("address")[0];
-
-		$arr["user_id"] = Auth::id();
-
-		$id_suppl = Supplement::create($arr)->id;
-
-		//creo il codice buys = ordine
-		$buy = new Buy;
-	    $buy->user_id = Auth::id();
-	    $buy->supplement_id = intval($id_suppl);
-	    $buy->pay_id = intval(Session::get("payment"));
-	    $buy->shipmethod_id = intval(Session::get("shipping"));
-	    $buy->save();
-	    $lastid = $buy->id;
-
-		foreach(Session::get('cartItem')[0] as $cart) {
-			$buy = new BuyCart;
-	   		$buy->buy_id = $lastid;
-	   		$buy->cart_id = intval($cart);
-	   		$buy->save();
-		}
-
-		session::forget("order");
-
-		session(["order" => $lastid]);
-
-		return redirect("checkout/reviewOrderPay");
-	}
-
-	public function reviewOrderPay()
-	{
-		return view("checkout.orderpay");
-	}
-
 
 
 	public function reviewOrderPaySuccess()

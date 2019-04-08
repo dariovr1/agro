@@ -5,9 +5,8 @@
 
 	<div class="container">
 
-		<div class="row">
-
-		  <div id="checkout" class="col-lg-9">
+    <div class="row">
+           <div id="checkout" class="col-lg-9">
               <div class="box">
                 <form method="POST" action="{{ url()->current() }}/create">
                   @csrf
@@ -46,31 +45,23 @@
                     <div class="row">
                       <div class="col-md-6">
                         <div class="form-group">
-                              @include('components.input',[
-                                "elem" => "azienda",
-                                "required" => "required"
-                              ])
-                        </div>
-                      </div>
-                      <div class="col-md-6">
-                        <div class="form-group">
                              @include('components.input',[
                                 "elem" => "via",
                                 "required" => "required"
                               ])
                         </div>
                       </div>
-                    </div>
                     <!-- /.row-->
-                    <div class="row">
-                      <div class="col-md-6 col-lg-3">
+                      <div class="col-md-6">
                         <div class="form-group">
                            @include('components.input',[
                                 "elem" => "presso"
                                 ])
                         </div>
                       </div>
-                      <div class="col-md-6 col-lg-3">
+                    </div>
+                    <div class="row">
+                      <div class="col-md-6">
                         <div class="form-group">
                           @include('components.input',[
                                 "elem" => "cap",
@@ -78,7 +69,7 @@
                               ])
                         </div>
                       </div>
-                      <div class="col-md-6 col-lg-3">
+                      <div class="col-md-6">
                         <div class="form-group">
                            @include('components.select',[
                               "name" => "comune",
@@ -89,7 +80,9 @@
                             ])
                         </div>
                       </div>
-                      <div class="col-md-6 col-lg-3">
+                    </div>
+                    <div class="row">
+                      <div class="col-md-6">
                        @include('components.select',[
                             "name" => "provincia",
                             "elems" => App\Prov::orderBy('provincia')->get(),
@@ -101,32 +94,24 @@
                       <div class="col-md-6">
                         <div class="form-group">
                          @include('components.input',[
-                                "elem" => "telefono"
-                              ])
-                        </div>
-                      </div>
-                      <div class="col-md-6">
-                        <div class="form-group">
-                         @include('components.input',[
-                                "elem" => "email"
+                                "elem" => "telefono",
+                                 "required" => "required"
                               ])
                         </div>
                       </div>
                     </div>
+                    </div>
                     <!-- /.row-->
                   </div>
-                  <div class="box-footer d-flex justify-content-between"><a href="basket.html" class="btn btn-outline-secondary"><i class="fa fa-chevron-left"></i>Vai al carrello</a>
+                  <div class="box-footer d-flex justify-content-between">
+                    <a href="basket.html" class="btn btn-outline-secondary"><i class="fa fa-chevron-left"></i>Vai al carrello</a>
                     <button type="submit" class="btn btn-primary">Continua con il metodo di spedizione<i class="fa fa-chevron-right"></i></button>
                   </div>
                 </form>
-              </div>
-              <!-- /.box-->
-   		 </div>
-
+      </div>
+                            <!-- /.box-->
        @include("components.totale")
-
-
-		</div>
+    </div>
 
 	</div>
 

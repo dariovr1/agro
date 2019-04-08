@@ -3040,7 +3040,16 @@ code {
   color:white;
 }
 
+.reviewOrderAfterPay {
+  margin:0 auto 0 auto;
+}
+
 
 .statusBar.pending {
       background-color: #ffc800;
+}
+
+.form-group.required label:after {
+  content:"*";
+  color:red;
 }

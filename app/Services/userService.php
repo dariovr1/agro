@@ -24,6 +24,7 @@ class userService {
 		User::where('id', $data["id"])->update($data);
 	}
 
+
 	public function isUserVerified($id) {
 		return User::where('id',$id)->pluck('email_verified_at')->first();
 	}

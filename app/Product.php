@@ -9,14 +9,17 @@ class Product extends Model
 
 	public $timestamps = false;
 
+     protected $guarded = [];
+
 
     public function getCodiceAttribute($value){
         return  preg_replace('/\s+/', '', $value);
     }
 
      public function getPrezzoAttribute($value){
-        $clean_space = str_replace(" ","",$value);
-        return str_replace(",",".",$clean_space);
+        $prezzo = surplusIvaPrezzo($value);
+
+        return number_format($prezzo,2,",",".");
     }
 
     public function getDescrizioneAttribute($value) {
@@ -35,5 +38,11 @@ class Product extends Model
      public function carts(){
     	return $this->hasMany(Cart::class);
     }
+
+
+       public function buys(){
+        return $this->belongsToMany(Buy::class);
+    }
+
 
 }

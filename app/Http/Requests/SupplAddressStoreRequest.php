@@ -26,7 +26,6 @@ class SupplAddressStoreRequest extends FormRequest
        return [
             'nome' => 'required',
             'cognome' => 'required',
-            'azienda' => 'required',
             'via' => 'required',
             'cap' => 'required',
             'comune' => 'required',

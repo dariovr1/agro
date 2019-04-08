@@ -22,18 +22,14 @@
                    		<td>quantità</td>
                    		<td>subtotale</td>
                    	</tr>
-                       @foreach( $data as $data )
+                       <?php $__currentLoopData = $data; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $data): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>
                           <tr>
-                       			<td>{{$data["name"]}}</td>
-                       			<td>{{
-                       				number_format((float)$data["price"], 2, ',', '.')
-                       				}}</td>
-                       			<td>{{$data["qty"]}}</td>
-                       			<td>{{
-                       				number_format((float)$data["price"] * $data["qty"], 2, ',', '.')
-                       				}}</td>
+                       			<td><?php echo e($data["name"]); ?></td>
+                       			<td><?php echo e(number_format((float)$data["price"], 2, ',', '.')); ?></td>
+                       			<td><?php echo e($data["qty"]); ?></td>
+                       			<td><?php echo e(number_format((float)$data["price"] * $data["qty"], 2, ',', '.')); ?></td>
                        	  </tr>
-                       @endforeach
+                       <?php endforeach; $__env->popLoop(); $loop = $__env->getLastLoop(); ?>
             </table>
     </body>
 </html>

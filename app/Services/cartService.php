@@ -32,9 +32,12 @@ class cartService {
 		dd($data);
 	}
 
+	public function getTotalCost(){
+		return Cart::subtotal() + $this->cartTotalWeight(); 
+	}
+
 
 	public function newCartbyId($id){
-
 		$this->destroyAllDbRef($id);
 		$this->insertAllCartDb($id);
 	}
@@ -80,7 +83,7 @@ class cartService {
 				'id' => $prod["id"],
 				'name' => $prod["nome"],
 				'qty' => "1",
-				'price' => floatval($prod["prezzo"]),
+				'price' => str_replace(",",".",$prod["prezzo"]),
 				'options' => ['peso' => floatval($prod["peso"]), 'codice' => $prod["codice"] ]
 			]);
 	}
@@ -88,16 +91,16 @@ class cartService {
 	public function insertProdCartSession($id){
 		$carts = CartModel::with('product')->where('user_id',$id)->get();
 		foreach($carts as $cart) {
-			Log::info("prezzo è ".$cart->product->prezzo);
 			Cart::add([
 				'id' => $cart->product->id,
 				'name' => $cart->product->nome,
 				'qty' => $cart->quantita,
-				'price' => floatval($cart->product->prezzo),
+				'price' => str_replace(",",".",$cart->product->prezzo),
 				'options' => ['peso' => $cart->product->peso, 'codice' => $cart->product->codice]
 			]);
 		}
-	}
+	} 
+	
 
 
 	public function retriaveCartElem($id){

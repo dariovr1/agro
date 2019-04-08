@@ -2,9 +2,8 @@
 
 	<div class="container">
 
-		<div class="row">
-
-		  <div id="checkout" class="col-lg-9">
+    <div class="row">
+           <div id="checkout" class="col-lg-9">
               <div class="box">
                 <form method="POST" action="<?php echo e(url()->current()); ?>/create">
                   <?php echo csrf_field(); ?>
@@ -43,31 +42,23 @@
                     <div class="row">
                       <div class="col-md-6">
                         <div class="form-group">
-                              <?php echo $__env->make('components.input',[
-                                "elem" => "azienda",
-                                "required" => "required"
-                              ], \Illuminate\Support\Arr::except(get_defined_vars(), array('__data', '__path')))->render(); ?>
-                        </div>
-                      </div>
-                      <div class="col-md-6">
-                        <div class="form-group">
                              <?php echo $__env->make('components.input',[
                                 "elem" => "via",
                                 "required" => "required"
                               ], \Illuminate\Support\Arr::except(get_defined_vars(), array('__data', '__path')))->render(); ?>
                         </div>
                       </div>
-                    </div>
                     <!-- /.row-->
-                    <div class="row">
-                      <div class="col-md-6 col-lg-3">
+                      <div class="col-md-6">
                         <div class="form-group">
                            <?php echo $__env->make('components.input',[
                                 "elem" => "presso"
                                 ], \Illuminate\Support\Arr::except(get_defined_vars(), array('__data', '__path')))->render(); ?>
                         </div>
                       </div>
-                      <div class="col-md-6 col-lg-3">
+                    </div>
+                    <div class="row">
+                      <div class="col-md-6">
                         <div class="form-group">
                           <?php echo $__env->make('components.input',[
                                 "elem" => "cap",
@@ -75,7 +66,7 @@
                               ], \Illuminate\Support\Arr::except(get_defined_vars(), array('__data', '__path')))->render(); ?>
                         </div>
                       </div>
-                      <div class="col-md-6 col-lg-3">
+                      <div class="col-md-6">
                         <div class="form-group">
                            <?php echo $__env->make('components.select',[
                               "name" => "comune",
@@ -86,7 +77,9 @@
                             ], \Illuminate\Support\Arr::except(get_defined_vars(), array('__data', '__path')))->render(); ?>
                         </div>
                       </div>
-                      <div class="col-md-6 col-lg-3">
+                    </div>
+                    <div class="row">
+                      <div class="col-md-6">
                        <?php echo $__env->make('components.select',[
                             "name" => "provincia",
                             "elems" => App\Prov::orderBy('provincia')->get(),
@@ -98,32 +91,24 @@
                       <div class="col-md-6">
                         <div class="form-group">
                          <?php echo $__env->make('components.input',[
-                                "elem" => "telefono"
-                              ], \Illuminate\Support\Arr::except(get_defined_vars(), array('__data', '__path')))->render(); ?>
-                        </div>
-                      </div>
-                      <div class="col-md-6">
-                        <div class="form-group">
-                         <?php echo $__env->make('components.input',[
-                                "elem" => "email"
+                                "elem" => "telefono",
+                                 "required" => "required"
                               ], \Illuminate\Support\Arr::except(get_defined_vars(), array('__data', '__path')))->render(); ?>
                         </div>
                       </div>
                     </div>
+                    </div>
                     <!-- /.row-->
                   </div>
-                  <div class="box-footer d-flex justify-content-between"><a href="basket.html" class="btn btn-outline-secondary"><i class="fa fa-chevron-left"></i>Vai al carrello</a>
+                  <div class="box-footer d-flex justify-content-between">
+                    <a href="basket.html" class="btn btn-outline-secondary"><i class="fa fa-chevron-left"></i>Vai al carrello</a>
                     <button type="submit" class="btn btn-primary">Continua con il metodo di spedizione<i class="fa fa-chevron-right"></i></button>
                   </div>
                 </form>
-              </div>
-              <!-- /.box-->
-   		 </div>
-
+      </div>
+                            <!-- /.box-->
        <?php echo $__env->make("components.totale", \Illuminate\Support\Arr::except(get_defined_vars(), array('__data', '__path')))->render(); ?>
-
-
-		</div>
+    </div>
 
 	</div>
 
