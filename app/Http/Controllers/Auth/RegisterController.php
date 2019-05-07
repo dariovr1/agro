@@ -7,6 +7,8 @@ use App\Http\Controllers\Controller;
 use Illuminate\Support\Facades\Hash;
 use Illuminate\Support\Facades\Validator;
 use Illuminate\Foundation\Auth\RegistersUsers;
+use Illuminate\Http\Request;
+
 
 
 class RegisterController extends Controller
@@ -41,6 +43,19 @@ class RegisterController extends Controller
         $this->middleware('guest');
     }
 
+
+        /**
+     * Show the application registration form.
+     *
+     * @return \Illuminate\Http\Response
+     */
+    public function showRegistrationForm(Request $request)
+    {
+        $choice = ($request->azienda) ? "auth.registercorporate" : "auth.register";
+
+       return view($choice);
+    }
+    
     /**
      * Get a validator for an incoming registration request.
      *
@@ -59,7 +74,11 @@ class RegisterController extends Controller
             'compleanno' => ['required','before:18 years ago'],
             'sesso' => ['required'],
             'phone' => 'required|numeric|min:10',
-            'accept_terms' => ['required']
+            'accept_terms' => ['required'],
+            'piva' => 'required|numeric|min:10',
+            'codfiscale' => 'required|numeric|min:11',
+            'ragsoc' => 'required|string|min:4',
+            'paese' => 'required'
         ], [
             'compleanno.date_format' => 'il formato della data è errato',
             'compleanno.before' => 'sei troppo giovane per iscriverti al portale',
