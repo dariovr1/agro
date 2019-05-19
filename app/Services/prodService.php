@@ -14,6 +14,10 @@ class prodService {
 		return Product::find($id)->toarray();
 	}
 
+	public function getCodeById($id){
+		return Product::find($id)->pluck('codice')->toarray();
+	}
+
 	public function checkProductExistsInCart($id){
 		Cart::search(function($cartItem,$rowId) use ($id) {
 			if($cartItem->id === $id) {

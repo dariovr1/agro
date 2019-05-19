@@ -47,7 +47,7 @@
 		            	 <div class="col-lg-4 col-md-6">
 		                  <div class="product">
 		                    <div class="text">
-		                     <img src="/items/<?php echo e($e->codice); ?>.JPG" class="img-responsive">
+		                     <img src="/items/<?php echo e($e->img); ?>" class="img-responsive">
 		                      <h3><a href="/detail/<?php echo e($e->id); ?>"><?php echo e($e->nome); ?></a></h3>
 		                      <p class="price"> 
 		                        <del></del><?php echo e($e->prezzo); ?> €

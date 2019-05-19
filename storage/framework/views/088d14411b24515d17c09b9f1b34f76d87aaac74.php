@@ -8,7 +8,7 @@
 				<div id="productMain" class="row">
 
 						<div class="col-md-4">
-								<img src="/items/<?php echo e($elem->codice); ?>.jpg" class="img-responsive" />
+								<img src="/items/<?php echo e($elem->img); ?>" class="img-responsive" />
 						</div>
 
 						<div class="col-md-8">
@@ -27,12 +27,14 @@
 						<div id="details" class="box">
 		              	  <h4>Dettaglio prodotto</h4>
 		              	  <ul>
+		              	  	<?php if($info !== 0 && $info !== NULL && $info !== ""): ?>
 		              	  		<?php $__currentLoopData = $info; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $key => $value): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>
 		              	  			<?php if($key == "dati" || $key == "peso"): ?>
 		              	  			  <?php continue; ?>
 		              	  			<?php endif; ?>
 		              	  			<li><b><?php echo e($key); ?>:</b><?php echo e($value); ?></li>
 		              	  		<?php endforeach; $__env->popLoop(); $loop = $__env->getLastLoop(); ?>
+		              	  	<?php endif; ?>
 		              	  </ul>
 		              	  <?php if(isset($info->dati)): ?>
 		              	  <?php echo e($info->dati); ?>

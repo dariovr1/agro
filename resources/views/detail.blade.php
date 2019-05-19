@@ -10,7 +10,7 @@
 				<div id="productMain" class="row">
 
 						<div class="col-md-4">
-								<img src="/items/{{ $elem->codice }}.jpg" class="img-responsive" />
+								<img src="/items/{{ $elem->img }}" class="img-responsive" />
 						</div>
 
 						<div class="col-md-8">
@@ -29,12 +29,14 @@
 						<div id="details" class="box">
 		              	  <h4>Dettaglio prodotto</h4>
 		              	  <ul>
+		              	  	@if($info !== 0 && $info !== NULL && $info !== "")
 		              	  		@foreach($info as $key => $value)
 		              	  			@if($key == "dati" || $key == "peso")
 		              	  			  @continue
 		              	  			@endif
 		              	  			<li><b>{{$key}}:</b>{{$value}}</li>
 		              	  		@endforeach
+		              	  	@endif
 		              	  </ul>
 		              	  @isset($info->dati)
 		              	  {{$info->dati}}

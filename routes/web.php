@@ -21,6 +21,11 @@ Route::get('user/password-reset','ResetPasswordController@passwordReset');
 Route::post('user/password-reset/create','ResetPasswordController@create');
 
 
+//quantita update
+
+Route::get('quantityUpdate','UpdateDBController@qtyUpdate');
+Route::get('updateimgdb','UpdateDBController@insertImgInDb');
+
 
 //verifica e-mail e reset password
 Route::get('verify/{id}/{mail}','verifyController@verifyEmailforRegister');
@@ -56,7 +61,6 @@ Route::get("/paywithpaypal","PaymentController@payWithPayPal");
 Route::get("/return","PaymentController@Return");
 
 Route::get('chisiamo','PagesController@chisiamo');
-
 
 Route::get("profile/{profile}/addbook","addBook@index");
 Route::post("profile/{profile}/addbook/create","addBook@create");
