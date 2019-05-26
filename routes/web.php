@@ -25,6 +25,8 @@ Route::post('user/password-reset/create','ResetPasswordController@create');
 
 Route::get('quantityUpdate','UpdateDBController@qtyUpdate');
 Route::get('updateimgdb','UpdateDBController@insertImgInDb');
+Route::get('fixrefimg','UpdateDBController@setImgJpg');
+Route::get('setext','UpdateDBController@setdbext');
 
 
 //verifica e-mail e reset password
