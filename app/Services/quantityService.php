@@ -4,7 +4,7 @@ namespace App\Services;
 use Mail;
 use App\Product;
 use Log;
-use App\Services\grabHTMl;
+use App\Services\grabHTML;
 use DB;
 
 
@@ -13,18 +13,32 @@ class quantityService {
 	private $granit;
 	private $minQuantity = 3;
 
-	public function __construct(grabHTMl $granit){
+	public function __construct(grabHTML $granit){
 		$this->granit = $granit;
 	}
 
 	//facade update products cronjob
 
 	public function qtyUpdate() {
+
 		foreach(Product::all()->pluck("codice")->toarray() as $codice) {
     		$this->qtyUpdateByCode($codice);
         }
 
         $this->sendReport();
+
+	}
+
+	public function updateQuantityLimit() {
+
+		$array = Product::where('qty', '<=', $this->minQuantity)->get(['codice','qty'])->toarray();
+
+		foreach($array as $arr) {
+    		$this->qtyByGranit($arr["codice"]);
+        }
+
+        $this->sendReport();
+
 	}
 
 	private function codeToId($codice){
@@ -38,14 +52,6 @@ class quantityService {
 		 sendEmail("emails.quantity", $products,"jobamato@gmail.com","aggiornamento detabase quantita prodotti del ".date('d-m-Y H:i:s'));
 	}
 
-
-	private function qtyUpdateByCode($codice)
-    {
-    	foreach(Product::all()->pluck("codice")->toarray() as $codice) {
-    		Log::info("PRODUCT:sto processando il codice ".$this->codeToId($codice));
-    		$this->qtyByGranit($codice);
-        }
-    }
 
     private function qtyByGranit($codice){
     	$qty = $this->granit->getQTYById($codice);

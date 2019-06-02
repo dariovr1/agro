@@ -19,4 +19,8 @@ class CronJobController extends Controller
    		$this->qty->qtyUpdate();
    }
 
+   public function updateQuantityLimit(){
+   		$this->qty->updateQuantityLimit();
+   }
+
 }
