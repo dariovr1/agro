@@ -27,7 +27,7 @@ Route::get('quantityUpdate','UpdateDBController@qtyUpdate');
 Route::get('updateimgdb','UpdateDBController@insertImgInDb');
 Route::get('fixrefimg','UpdateDBController@setImgJpg');
 Route::get('setext','UpdateDBController@setdbext');
-
+Route::get('cronjobqty','CronJobController@updateQuantity');
 
 //verifica e-mail e reset password
 Route::get('verify/{id}/{mail}','verifyController@verifyEmailforRegister');

@@ -10,7 +10,7 @@
 				<div id="productMain" class="row">
 
 						<div class="col-md-4">
-								<img src="/items/{{ $elem->img }}" class="img-responsive" />
+								<img src="/items/{{ $elem->codice.'.'.$elem->ext }}" class="img-responsive" />
 						</div>
 
 						<div class="col-md-8">

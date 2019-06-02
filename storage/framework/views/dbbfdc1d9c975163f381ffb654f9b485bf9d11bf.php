@@ -23,6 +23,7 @@
                                     <div class="product">
                                       <div class="text">
                                        <img src="/items/<?php echo e($e->codice.'.'.$e->ext); ?>" class="img-responsive">
+                                       <p>codice: <?php echo e($e->codice); ?></p>
                                         <h3><a href="/detail/<?php echo e($e->id); ?>"><?php echo e($e->nome); ?></a></h3>
                                         <p class="price"> 
                                           <del></del><?php echo e($e->prezzo); ?> €

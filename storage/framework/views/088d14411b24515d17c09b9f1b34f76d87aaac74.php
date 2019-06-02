@@ -8,7 +8,7 @@
 				<div id="productMain" class="row">
 
 						<div class="col-md-4">
-								<img src="/items/<?php echo e($elem->img); ?>" class="img-responsive" />
+								<img src="/items/<?php echo e($elem->codice.'.'.$elem->ext); ?>" class="img-responsive" />
 						</div>
 
 						<div class="col-md-8">
