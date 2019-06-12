@@ -50,7 +50,6 @@
 		                  <div class="product">
 		                    <div class="text">
 		                     <img src="/items/{{ $e->codice.'.'.$e->ext }}" class="img-responsive">
-		                     <p>codice: {{$e->codice}}</p>
 		                      <h3><a href="/detail/{{$e->id }}">{{ $e->nome }}</a></h3>
 		                      <p class="price"> 
 		                        <del></del>{{ $e->prezzo }} €

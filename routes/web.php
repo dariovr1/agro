@@ -27,11 +27,17 @@ Route::get('quantityUpdate','UpdateDBController@qtyUpdate');
 Route::get('updateimgdb','UpdateDBController@insertImgInDb');
 Route::get('fixrefimg','UpdateDBController@setImgJpg');
 Route::get('setext','UpdateDBController@setdbext');
+Route::get('fixlowerupper','UpdateDBController@setImgJpg');
+
 Route::get('cronjobqty','CronJobController@updateQuantity');
 Route::get('cronjobqtylimit','CronJobController@updateQuantityLimit');
 
 //verifica e-mail e reset password
 Route::get('verify/{id}/{mail}','verifyController@verifyEmailforRegister');
+
+//aggiorna le quantità
+
+Route::get('subtract/{codice}/{qty}','UpdateDBController@qtyUpdate');
 
 
 Route::get("cart","CartController@index");

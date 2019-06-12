@@ -1,10 +1,6 @@
 <?php $__env->startSection("content"); ?>
 		<div id="content" class="container">
 
-			<div class="statusBar <?php echo e($detail["availabilityCode"]); ?>">
-				<p><?php echo e($detail["availabilityText"]); ?></p>
-					</div>
-
 				<div id="productMain" class="row">
 
 						<div class="col-md-4">
@@ -13,12 +9,14 @@
 
 						<div class="col-md-8">
 							 <div class="box">
-			                    <h1><?php echo e($elem->nome); ?></h1>
-			                    <p class="goToDescription"><a href="#details" class="scroll-to">Peso: <?php echo e($elem->peso); ?> kg</a></p>
+			                    <h1 class="details--title"><?php echo e($elem->nome); ?></h1>
+			                    <p class="goToDescription">Peso: <?php echo e($elem->peso); ?> kg</p>
 			                    <p class="price"><?php echo e($elem->prezzo); ?> €</p>
-			                    <?php if($detail["availabilityCode"] == "available"): ?>
-			                    <p class="text-center buttons"><a href="/cart/insert/<?php echo e($elem->id); ?>" class="btn btn-primary"><i class="fa fa-shopping-cart"></i> Aggiungi al carrello</a></p>
-			                    <?php endif; ?>
+			                    <p class="text-center buttons"><a href="/cart/insert/<?php echo e($elem->id); ?>" class="btn btn-primary"><i class="fa fa-shopping-cart"></i> Aggiungi al carrello</a>
+			                    	<?php $__currentLoopData = $status; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $key => $value): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>
+			                    		<p class="badge badge-<?php echo e($key); ?>"><?php echo e($value); ?></p>
+			                    	<?php endforeach; $__env->popLoop(); $loop = $__env->getLastLoop(); ?>
+			                    </p>
 			                  </div>
 						</div>
 				</div>
