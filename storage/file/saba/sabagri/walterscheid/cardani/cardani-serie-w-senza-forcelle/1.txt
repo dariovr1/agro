@@ -1,0 +1,1238 @@
+<div id="tabella_articoli" class="scrollstyle" style="height: 328px; overflow-y: scroll;">
+<table border="0" width="100%" cellpadding="0" cellspacing="0">
+
+	<tbody><tr>
+	
+	<td align="left" style="border-bottom: 2px solid rgb(161,161,161);">
+	
+	<table border="0">
+	<tbody><tr>
+	<td align="center" width="1%" rowspan="6">
+	<div id="img_articolo" class="img_articolo" align="center" style="border: 2px solid rgb(161,161,161); background-color: #FFF; width: 150px; height: 150px; margin: 10px 10px 10px 10px;" onmouseover="apridivimmaginebig('../paint/1113119.jpg');" onmouseout="chiudidivimmaginebig();">
+				<img src="../paint/1113119.jpg" class="immagine_articolo" style="margin-top: 0px; border: 0px solid green; max-width: 150px; max-height: 150px;">
+	</div>
+	</td>
+	<td align="left" valign="bottom"><span class="font_nero font_myriad font_grassetto font_size_14">1113119</span></td>
+	</tr>
+	<tr><td align="left" valign="top"><span class="font_nero font_myriad font_normale font_size_12">ALBERO W2100  0860 SD05 00cH/0a S.FORC.</span></td></tr>
+	<tr><td align="right" valign="top">&nbsp;</td></tr>
+	<tr><td align="right" valign="top"><span class="font_nero font_myriad font_normale font_size_10"><img src="images/giacenza_rosso.png" class="immaginemenu">non disponibile&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br><span class="font_link font_myriad font_size_14 font_grassetto font_verde" onclick="richiediDataDispo('1113119','');">richiedi la disponibilità</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></td></tr>
+	<tr><td align="left" valign="top"><span class="font_myriad font_normale font_size_10 font_link" onclick="apridivrifalternativo('1113119');">riferimento alternativo</span></td></tr>
+	<tr><td align="left" valign="top"><span class="font_myriad font_normale font_size_10 font_link" onclick="apridivdisegnotecnico('1113119');">disegno tecnico</span></td></tr>
+	</tbody></table>
+	
+	</td>
+
+	<td align="center" width="1%" style="border-bottom: 2px solid rgb(161,161,161); padding-right: 10;">
+	
+	<div class="prezzidanascondere">
+	<table border="0" id="tabella_prezzi">
+	<tbody><tr>
+	<td align="left">
+	<span class="font_nero font_myriad font_normale font_size_12">
+	Listino&nbsp;&nbsp;<b>LP18</b>:	</span>
+	</td>
+	<td align="right">
+	<span class="font_nero font_myriad font_normale font_size_12"><b>
+	€&nbsp;241,10	</b></span>
+	</td>
+	</tr>
+	<tr>
+	<td align="left">
+	<span class="font_nero font_myriad font_normale font_size_12">
+	Sconto:	</span>
+	</td>
+	<td align="right">
+	<span class="font_nero font_myriad font_grassetto font_size_12">
+	35,00%	</span>
+	</td>
+	</tr>
+	<tr>
+	<td align="left">
+	<span class="font_nero font_myriad font_normale font_size_15">
+	prezzo:	</span></td>
+	
+	<td align="right">
+	<span class="font_verde font_myriad font_grassetto font_size_15">
+	€&nbsp;156,72	</span>
+	</td>
+	</tr>
+	<tr><td align="center" colspan="2" class="font_nero font_myriad font_grassetto font_size_10">
+		</td></tr>
+
+		<tr>
+	<td align="right">
+		<span class="font_myriad font_nero font_normale font_size_14">n.</span>
+	&nbsp;
+	<input type="text" size="4" id="qta_carrello0" value="" class="font_nero font_myriad font_normale font_size_15 campoQta bordo_grigio_scuro" onkeypress="if(event.which == 13){  aggiungiArticoloCarrello('1113119', '0', '156.715', '241.10000', '35', '0', '0', '1', 'L18');  }else{ return controlloNumeriInteri(event); } ">
+		</td>
+	<td align="left">
+		<img src="images/carrello_aggiungi.png" class="immaginemenuBig font_link" onclick=" aggiungiArticoloCarrello('1113119', '0', '156.715', '241.10000', '35', '0', '0', '1', 'L18'); ">
+		</td>
+	</tr>
+	
+	</tbody></table>
+	</div>
+
+	</td>
+
+	</tr>
+
+	<tr>
+	
+	<td align="left" style="border-bottom: 2px solid rgb(161,161,161);">
+	
+	<table border="0">
+	<tbody><tr>
+	<td align="center" width="1%" rowspan="6">
+	<div id="img_articolo" class="img_articolo" align="center" style="border: 2px solid rgb(161,161,161); background-color: #FFF; width: 150px; height: 150px; margin: 10px 10px 10px 10px;" onmouseover="apridivimmaginebig('../paint/1113120.jpg');" onmouseout="chiudidivimmaginebig();">
+				<img src="../paint/1113120.jpg" class="immagine_articolo" style="margin-top: 0px; border: 0px solid green; max-width: 150px; max-height: 150px;">
+	</div>
+	</td>
+	<td align="left" valign="bottom"><span class="font_nero font_myriad font_grassetto font_size_14">1113120</span></td>
+	</tr>
+	<tr><td align="left" valign="top"><span class="font_nero font_myriad font_normale font_size_12">ALBERO W2100  1210 SD05 00cH/0a S.FORC.</span></td></tr>
+	<tr><td align="right" valign="top">&nbsp;</td></tr>
+	<tr><td align="right" valign="top"><span class="font_nero font_myriad font_normale font_size_10"><img src="images/giacenza_rosso.png" class="immaginemenu">non disponibile&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br><span class="font_link font_myriad font_size_14 font_grassetto font_verde" onclick="richiediDataDispo('1113120','');">richiedi la disponibilità</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></td></tr>
+	<tr><td align="left" valign="top"><span class="font_myriad font_normale font_size_10 font_link" onclick="apridivrifalternativo('1113120');">riferimento alternativo</span></td></tr>
+	<tr><td align="left" valign="top"><span class="font_myriad font_normale font_size_10 font_link" onclick="apridivdisegnotecnico('1113120');">disegno tecnico</span></td></tr>
+	</tbody></table>
+	
+	</td>
+
+	<td align="center" width="1%" style="border-bottom: 2px solid rgb(161,161,161); padding-right: 10;">
+	
+	<div class="prezzidanascondere">
+	<table border="0" id="tabella_prezzi">
+	<tbody><tr>
+	<td align="left">
+	<span class="font_nero font_myriad font_normale font_size_12">
+	Listino&nbsp;&nbsp;<b>LP18</b>:	</span>
+	</td>
+	<td align="right">
+	<span class="font_nero font_myriad font_normale font_size_12"><b>
+	€&nbsp;289,10	</b></span>
+	</td>
+	</tr>
+	<tr>
+	<td align="left">
+	<span class="font_nero font_myriad font_normale font_size_12">
+	Sconto:	</span>
+	</td>
+	<td align="right">
+	<span class="font_nero font_myriad font_grassetto font_size_12">
+	35,00%	</span>
+	</td>
+	</tr>
+	<tr>
+	<td align="left">
+	<span class="font_nero font_myriad font_normale font_size_15">
+	prezzo:	</span></td>
+	
+	<td align="right">
+	<span class="font_verde font_myriad font_grassetto font_size_15">
+	€&nbsp;187,92	</span>
+	</td>
+	</tr>
+	<tr><td align="center" colspan="2" class="font_nero font_myriad font_grassetto font_size_10">
+		</td></tr>
+
+		<tr>
+	<td align="right">
+		<span class="font_myriad font_nero font_normale font_size_14">n.</span>
+	&nbsp;
+	<input type="text" size="4" id="qta_carrello1" value="" class="font_nero font_myriad font_normale font_size_15 campoQta bordo_grigio_scuro" onkeypress="if(event.which == 13){  aggiungiArticoloCarrello('1113120', '1', '187.915', '289.10000', '35', '0', '0', '1', 'L18');  }else{ return controlloNumeriInteri(event); } ">
+		</td>
+	<td align="left">
+		<img src="images/carrello_aggiungi.png" class="immaginemenuBig font_link" onclick=" aggiungiArticoloCarrello('1113120', '1', '187.915', '289.10000', '35', '0', '0', '1', 'L18'); ">
+		</td>
+	</tr>
+	
+	</tbody></table>
+	</div>
+
+	</td>
+
+	</tr>
+
+	<tr>
+	
+	<td align="left" style="border-bottom: 2px solid rgb(161,161,161);">
+	
+	<table border="0">
+	<tbody><tr>
+	<td align="center" width="1%" rowspan="6">
+	<div id="img_articolo" class="img_articolo" align="center" style="border: 2px solid rgb(161,161,161); background-color: #FFF; width: 150px; height: 150px; margin: 10px 10px 10px 10px;" onmouseover="apridivimmaginebig('../paint/1113121.jpg');" onmouseout="chiudidivimmaginebig();">
+				<img src="../paint/1113121.jpg" class="immagine_articolo" style="margin-top: 0px; border: 0px solid green; max-width: 150px; max-height: 150px;">
+	</div>
+	</td>
+	<td align="left" valign="bottom"><span class="font_nero font_myriad font_grassetto font_size_14">1113121</span></td>
+	</tr>
+	<tr><td align="left" valign="top"><span class="font_nero font_myriad font_normale font_size_12">ALBERO W2200  0860 SD15 0v/1 S.FORC.</span></td></tr>
+	<tr><td align="right" valign="top">&nbsp;</td></tr>
+	<tr><td align="right" valign="top"><span class="font_nero font_myriad font_normale font_size_10"><img src="images/giacenza_rosso.png" class="immaginemenu">non disponibile&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br><span class="font_link font_myriad font_size_14 font_grassetto font_verde" onclick="richiediDataDispo('1113121','');">richiedi la disponibilità</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></td></tr>
+	<tr><td align="left" valign="top"><span class="font_myriad font_normale font_size_10 font_link" onclick="apridivrifalternativo('1113121');">riferimento alternativo</span></td></tr>
+	<tr><td align="left" valign="top"><span class="font_myriad font_normale font_size_10 font_link" onclick="apridivdisegnotecnico('1113121');">disegno tecnico</span></td></tr>
+	</tbody></table>
+	
+	</td>
+
+	<td align="center" width="1%" style="border-bottom: 2px solid rgb(161,161,161); padding-right: 10;">
+	
+	<div class="prezzidanascondere">
+	<table border="0" id="tabella_prezzi">
+	<tbody><tr>
+	<td align="left">
+	<span class="font_nero font_myriad font_normale font_size_12">
+	Listino&nbsp;&nbsp;<b>LP18</b>:	</span>
+	</td>
+	<td align="right">
+	<span class="font_nero font_myriad font_normale font_size_12"><b>
+	€&nbsp;244,60	</b></span>
+	</td>
+	</tr>
+	<tr>
+	<td align="left">
+	<span class="font_nero font_myriad font_normale font_size_12">
+	Sconto:	</span>
+	</td>
+	<td align="right">
+	<span class="font_nero font_myriad font_grassetto font_size_12">
+	35,00%	</span>
+	</td>
+	</tr>
+	<tr>
+	<td align="left">
+	<span class="font_nero font_myriad font_normale font_size_15">
+	prezzo:	</span></td>
+	
+	<td align="right">
+	<span class="font_verde font_myriad font_grassetto font_size_15">
+	€&nbsp;158,99	</span>
+	</td>
+	</tr>
+	<tr><td align="center" colspan="2" class="font_nero font_myriad font_grassetto font_size_10">
+		</td></tr>
+
+		<tr>
+	<td align="right">
+		<span class="font_myriad font_nero font_normale font_size_14">n.</span>
+	&nbsp;
+	<input type="text" size="4" id="qta_carrello2" value="" class="font_nero font_myriad font_normale font_size_15 campoQta bordo_grigio_scuro" onkeypress="if(event.which == 13){  aggiungiArticoloCarrello('1113121', '2', '158.99', '244.60000', '35', '0', '0', '1', 'L18');  }else{ return controlloNumeriInteri(event); } ">
+		</td>
+	<td align="left">
+		<img src="images/carrello_aggiungi.png" class="immaginemenuBig font_link" onclick=" aggiungiArticoloCarrello('1113121', '2', '158.99', '244.60000', '35', '0', '0', '1', 'L18'); ">
+		</td>
+	</tr>
+	
+	</tbody></table>
+	</div>
+
+	</td>
+
+	</tr>
+
+	<tr>
+	
+	<td align="left" style="border-bottom: 2px solid rgb(161,161,161);">
+	
+	<table border="0">
+	<tbody><tr>
+	<td align="center" width="1%" rowspan="6">
+	<div id="img_articolo" class="img_articolo" align="center" style="border: 2px solid rgb(161,161,161); background-color: #FFF; width: 150px; height: 150px; margin: 10px 10px 10px 10px;" onmouseover="apridivimmaginebig('../paint/1113122.jpg');" onmouseout="chiudidivimmaginebig();">
+				<img src="../paint/1113122.jpg" class="immagine_articolo" style="margin-top: 0px; border: 0px solid green; max-width: 150px; max-height: 150px;">
+	</div>
+	</td>
+	<td align="left" valign="bottom"><span class="font_nero font_myriad font_grassetto font_size_14">1113122</span></td>
+	</tr>
+	<tr><td align="left" valign="top"><span class="font_nero font_myriad font_normale font_size_12">ALBERO W2200  1210 SD15Z 0v/1 S.FORC.</span></td></tr>
+	<tr><td align="right" valign="top">&nbsp;</td></tr>
+	<tr><td align="right" valign="top"><span class="font_nero font_myriad font_normale font_size_10"><img src="images/giacenza_rosso.png" class="immaginemenu">non disponibile&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br><span class="font_link font_myriad font_size_14 font_grassetto font_verde" onclick="richiediDataDispo('1113122','');">richiedi la disponibilità</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></td></tr>
+	<tr><td align="left" valign="top"><span class="font_myriad font_normale font_size_10 font_link" onclick="apridivrifalternativo('1113122');">riferimento alternativo</span></td></tr>
+	<tr><td align="left" valign="top"><span class="font_myriad font_normale font_size_10 font_link" onclick="apridivdisegnotecnico('1113122');">disegno tecnico</span></td></tr>
+	</tbody></table>
+	
+	</td>
+
+	<td align="center" width="1%" style="border-bottom: 2px solid rgb(161,161,161); padding-right: 10;">
+	
+	<div class="prezzidanascondere">
+	<table border="0" id="tabella_prezzi">
+	<tbody><tr>
+	<td align="left">
+	<span class="font_nero font_myriad font_normale font_size_12">
+	Listino&nbsp;&nbsp;<b>LP18</b>:	</span>
+	</td>
+	<td align="right">
+	<span class="font_nero font_myriad font_normale font_size_12"><b>
+	€&nbsp;297,70	</b></span>
+	</td>
+	</tr>
+	<tr>
+	<td align="left">
+	<span class="font_nero font_myriad font_normale font_size_12">
+	Sconto:	</span>
+	</td>
+	<td align="right">
+	<span class="font_nero font_myriad font_grassetto font_size_12">
+	35,00%	</span>
+	</td>
+	</tr>
+	<tr>
+	<td align="left">
+	<span class="font_nero font_myriad font_normale font_size_15">
+	prezzo:	</span></td>
+	
+	<td align="right">
+	<span class="font_verde font_myriad font_grassetto font_size_15">
+	€&nbsp;193,51	</span>
+	</td>
+	</tr>
+	<tr><td align="center" colspan="2" class="font_nero font_myriad font_grassetto font_size_10">
+		</td></tr>
+
+		<tr>
+	<td align="right">
+		<span class="font_myriad font_nero font_normale font_size_14">n.</span>
+	&nbsp;
+	<input type="text" size="4" id="qta_carrello3" value="" class="font_nero font_myriad font_normale font_size_15 campoQta bordo_grigio_scuro" onkeypress="if(event.which == 13){  aggiungiArticoloCarrello('1113122', '3', '193.505', '297.70000', '35', '0', '0', '1', 'L18');  }else{ return controlloNumeriInteri(event); } ">
+		</td>
+	<td align="left">
+		<img src="images/carrello_aggiungi.png" class="immaginemenuBig font_link" onclick=" aggiungiArticoloCarrello('1113122', '3', '193.505', '297.70000', '35', '0', '0', '1', 'L18'); ">
+		</td>
+	</tr>
+	
+	</tbody></table>
+	</div>
+
+	</td>
+
+	</tr>
+
+	<tr>
+	
+	<td align="left" style="border-bottom: 2px solid rgb(161,161,161);">
+	
+	<table border="0">
+	<tbody><tr>
+	<td align="center" width="1%" rowspan="6">
+	<div id="img_articolo" class="img_articolo" align="center" style="border: 2px solid rgb(161,161,161); background-color: #FFF; width: 150px; height: 150px; margin: 10px 10px 10px 10px;" onmouseover="apridivimmaginebig('../paint/1113123.jpg');" onmouseout="chiudidivimmaginebig();">
+				<img src="../paint/1113123.jpg" class="immagine_articolo" style="margin-top: 0px; border: 0px solid green; max-width: 150px; max-height: 150px;">
+	</div>
+	</td>
+	<td align="left" valign="bottom"><span class="font_nero font_myriad font_grassetto font_size_14">1113123</span></td>
+	</tr>
+	<tr><td align="left" valign="top"><span class="font_nero font_myriad font_normale font_size_12">ALBERO W2300  0860 SD15 0v/1 S.FORC.</span></td></tr>
+	<tr><td align="right" valign="top">&nbsp;</td></tr>
+	<tr><td align="right" valign="top"><span class="font_nero font_myriad font_normale font_size_10"><img src="images/giacenza_rosso.png" class="immaginemenu">non disponibile&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br><span class="font_link font_myriad font_size_14 font_grassetto font_verde" onclick="richiediDataDispo('1113123','');">richiedi la disponibilità</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></td></tr>
+	<tr><td align="left" valign="top"><span class="font_myriad font_normale font_size_10 font_link" onclick="apridivrifalternativo('1113123');">riferimento alternativo</span></td></tr>
+	<tr><td align="left" valign="top"><span class="font_myriad font_normale font_size_10 font_link" onclick="apridivdisegnotecnico('1113123');">disegno tecnico</span></td></tr>
+	</tbody></table>
+	
+	</td>
+
+	<td align="center" width="1%" style="border-bottom: 2px solid rgb(161,161,161); padding-right: 10;">
+	
+	<div class="prezzidanascondere">
+	<table border="0" id="tabella_prezzi">
+	<tbody><tr>
+	<td align="left">
+	<span class="font_nero font_myriad font_normale font_size_12">
+	Listino&nbsp;&nbsp;<b>LP18</b>:	</span>
+	</td>
+	<td align="right">
+	<span class="font_nero font_myriad font_normale font_size_12"><b>
+	€&nbsp;256,10	</b></span>
+	</td>
+	</tr>
+	<tr>
+	<td align="left">
+	<span class="font_nero font_myriad font_normale font_size_12">
+	Sconto:	</span>
+	</td>
+	<td align="right">
+	<span class="font_nero font_myriad font_grassetto font_size_12">
+	35,00%	</span>
+	</td>
+	</tr>
+	<tr>
+	<td align="left">
+	<span class="font_nero font_myriad font_normale font_size_15">
+	prezzo:	</span></td>
+	
+	<td align="right">
+	<span class="font_verde font_myriad font_grassetto font_size_15">
+	€&nbsp;166,47	</span>
+	</td>
+	</tr>
+	<tr><td align="center" colspan="2" class="font_nero font_myriad font_grassetto font_size_10">
+		</td></tr>
+
+		<tr>
+	<td align="right">
+		<span class="font_myriad font_nero font_normale font_size_14">n.</span>
+	&nbsp;
+	<input type="text" size="4" id="qta_carrello4" value="" class="font_nero font_myriad font_normale font_size_15 campoQta bordo_grigio_scuro" onkeypress="if(event.which == 13){  aggiungiArticoloCarrello('1113123', '4', '166.465', '256.10000', '35', '0', '0', '1', 'L18');  }else{ return controlloNumeriInteri(event); } ">
+		</td>
+	<td align="left">
+		<img src="images/carrello_aggiungi.png" class="immaginemenuBig font_link" onclick=" aggiungiArticoloCarrello('1113123', '4', '166.465', '256.10000', '35', '0', '0', '1', 'L18'); ">
+		</td>
+	</tr>
+	
+	</tbody></table>
+	</div>
+
+	</td>
+
+	</tr>
+
+	<tr>
+	
+	<td align="left" style="border-bottom: 2px solid rgb(161,161,161);">
+	
+	<table border="0">
+	<tbody><tr>
+	<td align="center" width="1%" rowspan="6">
+	<div id="img_articolo" class="img_articolo" align="center" style="border: 2px solid rgb(161,161,161); background-color: #FFF; width: 150px; height: 150px; margin: 10px 10px 10px 10px;" onmouseover="apridivimmaginebig('../paint/1113124.jpg');" onmouseout="chiudidivimmaginebig();">
+				<img src="../paint/1113124.jpg" class="immagine_articolo" style="margin-top: 0px; border: 0px solid green; max-width: 150px; max-height: 150px;">
+	</div>
+	</td>
+	<td align="left" valign="bottom"><span class="font_nero font_myriad font_grassetto font_size_14">1113124</span></td>
+	</tr>
+	<tr><td align="left" valign="top"><span class="font_nero font_myriad font_normale font_size_12">ALBERO W2300  1210 SD15Z 0v/1 S.FORC.</span></td></tr>
+	<tr><td align="right" valign="top">&nbsp;</td></tr>
+	<tr><td align="right" valign="top"><span class="font_nero font_myriad font_normale font_size_10"><img src="images/giacenza_rosso.png" class="immaginemenu">non disponibile&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br><span class="font_link font_myriad font_size_14 font_grassetto font_verde" onclick="richiediDataDispo('1113124','');">richiedi la disponibilità</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></td></tr>
+	<tr><td align="left" valign="top"><span class="font_myriad font_normale font_size_10 font_link" onclick="apridivrifalternativo('1113124');">riferimento alternativo</span></td></tr>
+	<tr><td align="left" valign="top"><span class="font_myriad font_normale font_size_10 font_link" onclick="apridivdisegnotecnico('1113124');">disegno tecnico</span></td></tr>
+	</tbody></table>
+	
+	</td>
+
+	<td align="center" width="1%" style="border-bottom: 2px solid rgb(161,161,161); padding-right: 10;">
+	
+	<div class="prezzidanascondere">
+	<table border="0" id="tabella_prezzi">
+	<tbody><tr>
+	<td align="left">
+	<span class="font_nero font_myriad font_normale font_size_12">
+	Listino&nbsp;&nbsp;<b>LP18</b>:	</span>
+	</td>
+	<td align="right">
+	<span class="font_nero font_myriad font_normale font_size_12"><b>
+	€&nbsp;304,50	</b></span>
+	</td>
+	</tr>
+	<tr>
+	<td align="left">
+	<span class="font_nero font_myriad font_normale font_size_12">
+	Sconto:	</span>
+	</td>
+	<td align="right">
+	<span class="font_nero font_myriad font_grassetto font_size_12">
+	35,00%	</span>
+	</td>
+	</tr>
+	<tr>
+	<td align="left">
+	<span class="font_nero font_myriad font_normale font_size_15">
+	prezzo:	</span></td>
+	
+	<td align="right">
+	<span class="font_verde font_myriad font_grassetto font_size_15">
+	€&nbsp;197,93	</span>
+	</td>
+	</tr>
+	<tr><td align="center" colspan="2" class="font_nero font_myriad font_grassetto font_size_10">
+		</td></tr>
+
+		<tr>
+	<td align="right">
+		<span class="font_myriad font_nero font_normale font_size_14">n.</span>
+	&nbsp;
+	<input type="text" size="4" id="qta_carrello5" value="" class="font_nero font_myriad font_normale font_size_15 campoQta bordo_grigio_scuro" onkeypress="if(event.which == 13){  aggiungiArticoloCarrello('1113124', '5', '197.925', '304.50000', '35', '0', '0', '1', 'L18');  }else{ return controlloNumeriInteri(event); } ">
+		</td>
+	<td align="left">
+		<img src="images/carrello_aggiungi.png" class="immaginemenuBig font_link" onclick=" aggiungiArticoloCarrello('1113124', '5', '197.925', '304.50000', '35', '0', '0', '1', 'L18'); ">
+		</td>
+	</tr>
+	
+	</tbody></table>
+	</div>
+
+	</td>
+
+	</tr>
+
+	<tr>
+	
+	<td align="left" style="border-bottom: 2px solid rgb(161,161,161);">
+	
+	<table border="0">
+	<tbody><tr>
+	<td align="center" width="1%" rowspan="6">
+	<div id="img_articolo" class="img_articolo" align="center" style="border: 2px solid rgb(161,161,161); background-color: #FFF; width: 150px; height: 150px; margin: 10px 10px 10px 10px;" onmouseover="apridivimmaginebig('../paint/1113125.jpg');" onmouseout="chiudidivimmaginebig();">
+				<img src="../paint/1113125.jpg" class="immagine_articolo" style="margin-top: 0px; border: 0px solid green; max-width: 150px; max-height: 150px;">
+	</div>
+	</td>
+	<td align="left" valign="bottom"><span class="font_nero font_myriad font_grassetto font_size_14">1113125</span></td>
+	</tr>
+	<tr><td align="left" valign="top"><span class="font_nero font_myriad font_normale font_size_12">ALBERO W2300  0860 SD25 0v/1 S.FORC.</span></td></tr>
+	<tr><td align="right" valign="top">&nbsp;</td></tr>
+	<tr><td align="right" valign="top"><span class="font_nero font_myriad font_normale font_size_10"><img src="images/giacenza_rosso.png" class="immaginemenu">non disponibile&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br><span class="font_link font_myriad font_size_14 font_grassetto font_verde" onclick="richiediDataDispo('1113125','');">richiedi la disponibilità</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></td></tr>
+	<tr><td align="left" valign="top"><span class="font_myriad font_normale font_size_10 font_link" onclick="apridivrifalternativo('1113125');">riferimento alternativo</span></td></tr>
+	<tr><td align="left" valign="top"><span class="font_myriad font_normale font_size_10 font_link" onclick="apridivdisegnotecnico('1113125');">disegno tecnico</span></td></tr>
+	</tbody></table>
+	
+	</td>
+
+	<td align="center" width="1%" style="border-bottom: 2px solid rgb(161,161,161); padding-right: 10;">
+	
+	<div class="prezzidanascondere">
+	<table border="0" id="tabella_prezzi">
+	<tbody><tr>
+	<td align="left">
+	<span class="font_nero font_myriad font_normale font_size_12">
+	Listino&nbsp;&nbsp;<b>LP18</b>:	</span>
+	</td>
+	<td align="right">
+	<span class="font_nero font_myriad font_normale font_size_12"><b>
+	€&nbsp;292,60	</b></span>
+	</td>
+	</tr>
+	<tr>
+	<td align="left">
+	<span class="font_nero font_myriad font_normale font_size_12">
+	Sconto:	</span>
+	</td>
+	<td align="right">
+	<span class="font_nero font_myriad font_grassetto font_size_12">
+	35,00%	</span>
+	</td>
+	</tr>
+	<tr>
+	<td align="left">
+	<span class="font_nero font_myriad font_normale font_size_15">
+	prezzo:	</span></td>
+	
+	<td align="right">
+	<span class="font_verde font_myriad font_grassetto font_size_15">
+	€&nbsp;190,19	</span>
+	</td>
+	</tr>
+	<tr><td align="center" colspan="2" class="font_nero font_myriad font_grassetto font_size_10">
+		</td></tr>
+
+		<tr>
+	<td align="right">
+		<span class="font_myriad font_nero font_normale font_size_14">n.</span>
+	&nbsp;
+	<input type="text" size="4" id="qta_carrello6" value="" class="font_nero font_myriad font_normale font_size_15 campoQta bordo_grigio_scuro" onkeypress="if(event.which == 13){  aggiungiArticoloCarrello('1113125', '6', '190.19', '292.60000', '35', '0', '0', '1', 'L18');  }else{ return controlloNumeriInteri(event); } ">
+		</td>
+	<td align="left">
+		<img src="images/carrello_aggiungi.png" class="immaginemenuBig font_link" onclick=" aggiungiArticoloCarrello('1113125', '6', '190.19', '292.60000', '35', '0', '0', '1', 'L18'); ">
+		</td>
+	</tr>
+	
+	</tbody></table>
+	</div>
+
+	</td>
+
+	</tr>
+
+	<tr>
+	
+	<td align="left" style="border-bottom: 2px solid rgb(161,161,161);">
+	
+	<table border="0">
+	<tbody><tr>
+	<td align="center" width="1%" rowspan="6">
+	<div id="img_articolo" class="img_articolo" align="center" style="border: 2px solid rgb(161,161,161); background-color: #FFF; width: 150px; height: 150px; margin: 10px 10px 10px 10px;" onmouseover="apridivimmaginebig('../paint/1113126.jpg');" onmouseout="chiudidivimmaginebig();">
+				<img src="../paint/1113126.jpg" class="immagine_articolo" style="margin-top: 0px; border: 0px solid green; max-width: 150px; max-height: 150px;">
+	</div>
+	</td>
+	<td align="left" valign="bottom"><span class="font_nero font_myriad font_grassetto font_size_14">1113126</span></td>
+	</tr>
+	<tr><td align="left" valign="top"><span class="font_nero font_myriad font_normale font_size_12">ALBERO W2300  1210 SD25Z 0v/1 S.FORC.</span></td></tr>
+	<tr><td align="right" valign="top">&nbsp;</td></tr>
+	<tr><td align="right" valign="top"><span class="font_nero font_myriad font_normale font_size_10"><img src="images/giacenza_rosso.png" class="immaginemenu">non disponibile&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br><span class="font_link font_myriad font_size_14 font_grassetto font_verde" onclick="richiediDataDispo('1113126','');">richiedi la disponibilità</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></td></tr>
+	<tr><td align="left" valign="top"><span class="font_myriad font_normale font_size_10 font_link" onclick="apridivrifalternativo('1113126');">riferimento alternativo</span></td></tr>
+	<tr><td align="left" valign="top"><span class="font_myriad font_normale font_size_10 font_link" onclick="apridivdisegnotecnico('1113126');">disegno tecnico</span></td></tr>
+	</tbody></table>
+	
+	</td>
+
+	<td align="center" width="1%" style="border-bottom: 2px solid rgb(161,161,161); padding-right: 10;">
+	
+	<div class="prezzidanascondere">
+	<table border="0" id="tabella_prezzi">
+	<tbody><tr>
+	<td align="left">
+	<span class="font_nero font_myriad font_normale font_size_12">
+	Listino&nbsp;&nbsp;<b>LP18</b>:	</span>
+	</td>
+	<td align="right">
+	<span class="font_nero font_myriad font_normale font_size_12"><b>
+	€&nbsp;351,90	</b></span>
+	</td>
+	</tr>
+	<tr>
+	<td align="left">
+	<span class="font_nero font_myriad font_normale font_size_12">
+	Sconto:	</span>
+	</td>
+	<td align="right">
+	<span class="font_nero font_myriad font_grassetto font_size_12">
+	35,00%	</span>
+	</td>
+	</tr>
+	<tr>
+	<td align="left">
+	<span class="font_nero font_myriad font_normale font_size_15">
+	prezzo:	</span></td>
+	
+	<td align="right">
+	<span class="font_verde font_myriad font_grassetto font_size_15">
+	€&nbsp;228,74	</span>
+	</td>
+	</tr>
+	<tr><td align="center" colspan="2" class="font_nero font_myriad font_grassetto font_size_10">
+		</td></tr>
+
+		<tr>
+	<td align="right">
+		<span class="font_myriad font_nero font_normale font_size_14">n.</span>
+	&nbsp;
+	<input type="text" size="4" id="qta_carrello7" value="" class="font_nero font_myriad font_normale font_size_15 campoQta bordo_grigio_scuro" onkeypress="if(event.which == 13){  aggiungiArticoloCarrello('1113126', '7', '228.735', '351.90000', '35', '0', '0', '1', 'L18');  }else{ return controlloNumeriInteri(event); } ">
+		</td>
+	<td align="left">
+		<img src="images/carrello_aggiungi.png" class="immaginemenuBig font_link" onclick=" aggiungiArticoloCarrello('1113126', '7', '228.735', '351.90000', '35', '0', '0', '1', 'L18'); ">
+		</td>
+	</tr>
+	
+	</tbody></table>
+	</div>
+
+	</td>
+
+	</tr>
+
+	<tr>
+	
+	<td align="left" style="border-bottom: 2px solid rgb(161,161,161);">
+	
+	<table border="0">
+	<tbody><tr>
+	<td align="center" width="1%" rowspan="6">
+	<div id="img_articolo" class="img_articolo" align="center" style="border: 2px solid rgb(161,161,161); background-color: #FFF; width: 150px; height: 150px; margin: 10px 10px 10px 10px;" onmouseover="apridivimmaginebig('../paint/1113127.jpg');" onmouseout="chiudidivimmaginebig();">
+				<img src="../paint/1113127.jpg" class="immagine_articolo" style="margin-top: 0px; border: 0px solid green; max-width: 150px; max-height: 150px;">
+	</div>
+	</td>
+	<td align="left" valign="bottom"><span class="font_nero font_myriad font_grassetto font_size_14">1113127</span></td>
+	</tr>
+	<tr><td align="left" valign="top"><span class="font_nero font_myriad font_normale font_size_12">ALBERO W2400  0860 SD25 0v/1 S.FORC.</span></td></tr>
+	<tr><td align="right" valign="top">&nbsp;</td></tr>
+	<tr><td align="right" valign="top"><span class="font_nero font_myriad font_normale font_size_10"><img src="images/giacenza_rosso.png" class="immaginemenu">non disponibile&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br><span class="font_link font_myriad font_size_14 font_grassetto font_verde" onclick="richiediDataDispo('1113127','');">richiedi la disponibilità</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></td></tr>
+	<tr><td align="left" valign="top"><span class="font_myriad font_normale font_size_10 font_link" onclick="apridivrifalternativo('1113127');">riferimento alternativo</span></td></tr>
+	<tr><td align="left" valign="top"><span class="font_myriad font_normale font_size_10 font_link" onclick="apridivdisegnotecnico('1113127');">disegno tecnico</span></td></tr>
+	</tbody></table>
+	
+	</td>
+
+	<td align="center" width="1%" style="border-bottom: 2px solid rgb(161,161,161); padding-right: 10;">
+	
+	<div class="prezzidanascondere">
+	<table border="0" id="tabella_prezzi">
+	<tbody><tr>
+	<td align="left">
+	<span class="font_nero font_myriad font_normale font_size_12">
+	Listino&nbsp;&nbsp;<b>LP18</b>:	</span>
+	</td>
+	<td align="right">
+	<span class="font_nero font_myriad font_normale font_size_12"><b>
+	€&nbsp;280,30	</b></span>
+	</td>
+	</tr>
+	<tr>
+	<td align="left">
+	<span class="font_nero font_myriad font_normale font_size_12">
+	Sconto:	</span>
+	</td>
+	<td align="right">
+	<span class="font_nero font_myriad font_grassetto font_size_12">
+	35,00%	</span>
+	</td>
+	</tr>
+	<tr>
+	<td align="left">
+	<span class="font_nero font_myriad font_normale font_size_15">
+	prezzo:	</span></td>
+	
+	<td align="right">
+	<span class="font_verde font_myriad font_grassetto font_size_15">
+	€&nbsp;182,20	</span>
+	</td>
+	</tr>
+	<tr><td align="center" colspan="2" class="font_nero font_myriad font_grassetto font_size_10">
+		</td></tr>
+
+		<tr>
+	<td align="right">
+		<span class="font_myriad font_nero font_normale font_size_14">n.</span>
+	&nbsp;
+	<input type="text" size="4" id="qta_carrello8" value="" class="font_nero font_myriad font_normale font_size_15 campoQta bordo_grigio_scuro" onkeypress="if(event.which == 13){  aggiungiArticoloCarrello('1113127', '8', '182.195', '280.30000', '35', '0', '0', '1', 'L18');  }else{ return controlloNumeriInteri(event); } ">
+		</td>
+	<td align="left">
+		<img src="images/carrello_aggiungi.png" class="immaginemenuBig font_link" onclick=" aggiungiArticoloCarrello('1113127', '8', '182.195', '280.30000', '35', '0', '0', '1', 'L18'); ">
+		</td>
+	</tr>
+	
+	</tbody></table>
+	</div>
+
+	</td>
+
+	</tr>
+
+	<tr>
+	
+	<td align="left" style="border-bottom: 2px solid rgb(161,161,161);">
+	
+	<table border="0">
+	<tbody><tr>
+	<td align="center" width="1%" rowspan="6">
+	<div id="img_articolo" class="img_articolo" align="center" style="border: 2px solid rgb(161,161,161); background-color: #FFF; width: 150px; height: 150px; margin: 10px 10px 10px 10px;" onmouseover="apridivimmaginebig('../paint/1113128.jpg');" onmouseout="chiudidivimmaginebig();">
+				<img src="../paint/1113128.jpg" class="immagine_articolo" style="margin-top: 0px; border: 0px solid green; max-width: 150px; max-height: 150px;">
+	</div>
+	</td>
+	<td align="left" valign="bottom"><span class="font_nero font_myriad font_grassetto font_size_14">1113128</span></td>
+	</tr>
+	<tr><td align="left" valign="top"><span class="font_nero font_myriad font_normale font_size_12">ALBERO W2400  1210 SD25Z 0v/1 S.FORC.</span></td></tr>
+	<tr><td align="right" valign="top">&nbsp;</td></tr>
+	<tr><td align="right" valign="top"><span class="font_nero font_myriad font_normale font_size_10"><img src="images/giacenza_rosso.png" class="immaginemenu">non disponibile&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br><span class="font_link font_myriad font_size_14 font_grassetto font_verde" onclick="richiediDataDispo('1113128','');">richiedi la disponibilità</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></td></tr>
+	<tr><td align="left" valign="top"><span class="font_myriad font_normale font_size_10 font_link" onclick="apridivrifalternativo('1113128');">riferimento alternativo</span></td></tr>
+	<tr><td align="left" valign="top"><span class="font_myriad font_normale font_size_10 font_link" onclick="apridivdisegnotecnico('1113128');">disegno tecnico</span></td></tr>
+	</tbody></table>
+	
+	</td>
+
+	<td align="center" width="1%" style="border-bottom: 2px solid rgb(161,161,161); padding-right: 10;">
+	
+	<div class="prezzidanascondere">
+	<table border="0" id="tabella_prezzi">
+	<tbody><tr>
+	<td align="left">
+	<span class="font_nero font_myriad font_normale font_size_12">
+	Listino&nbsp;&nbsp;<b>LP18</b>:	</span>
+	</td>
+	<td align="right">
+	<span class="font_nero font_myriad font_normale font_size_12"><b>
+	€&nbsp;366,60	</b></span>
+	</td>
+	</tr>
+	<tr>
+	<td align="left">
+	<span class="font_nero font_myriad font_normale font_size_12">
+	Sconto:	</span>
+	</td>
+	<td align="right">
+	<span class="font_nero font_myriad font_grassetto font_size_12">
+	35,00%	</span>
+	</td>
+	</tr>
+	<tr>
+	<td align="left">
+	<span class="font_nero font_myriad font_normale font_size_15">
+	prezzo:	</span></td>
+	
+	<td align="right">
+	<span class="font_verde font_myriad font_grassetto font_size_15">
+	€&nbsp;238,29	</span>
+	</td>
+	</tr>
+	<tr><td align="center" colspan="2" class="font_nero font_myriad font_grassetto font_size_10">
+		</td></tr>
+
+		<tr>
+	<td align="right">
+		<span class="font_myriad font_nero font_normale font_size_14">n.</span>
+	&nbsp;
+	<input type="text" size="4" id="qta_carrello9" value="" class="font_nero font_myriad font_normale font_size_15 campoQta bordo_grigio_scuro" onkeypress="if(event.which == 13){  aggiungiArticoloCarrello('1113128', '9', '238.29', '366.60000', '35', '0', '0', '1', 'L18');  }else{ return controlloNumeriInteri(event); } ">
+		</td>
+	<td align="left">
+		<img src="images/carrello_aggiungi.png" class="immaginemenuBig font_link" onclick=" aggiungiArticoloCarrello('1113128', '9', '238.29', '366.60000', '35', '0', '0', '1', 'L18'); ">
+		</td>
+	</tr>
+	
+	</tbody></table>
+	</div>
+
+	</td>
+
+	</tr>
+
+	<tr>
+	
+	<td align="left" style="border-bottom: 2px solid rgb(161,161,161);">
+	
+	<table border="0">
+	<tbody><tr>
+	<td align="center" width="1%" rowspan="6">
+	<div id="img_articolo" class="img_articolo" align="center" style="border: 2px solid rgb(161,161,161); background-color: #FFF; width: 150px; height: 150px; margin: 10px 10px 10px 10px;" onmouseover="apridivimmaginebig('../paint/1113129.jpg');" onmouseout="chiudidivimmaginebig();">
+				<img src="../paint/1113129.jpg" class="immagine_articolo" style="margin-top: 0px; border: 0px solid green; max-width: 150px; max-height: 150px;">
+	</div>
+	</td>
+	<td align="left" valign="bottom"><span class="font_nero font_myriad font_grassetto font_size_14">1113129</span></td>
+	</tr>
+	<tr><td align="left" valign="top"><span class="font_nero font_myriad font_normale font_size_12">ALBERO W2400  0860 SD25 S4LH/S5 S.FORC.</span></td></tr>
+	<tr><td align="right" valign="top">&nbsp;</td></tr>
+	<tr><td align="right" valign="top"><span class="font_nero font_myriad font_normale font_size_10"><img src="images/giacenza_verde.png" class="immaginemenu">disponibile&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></td></tr>
+	<tr><td align="left" valign="top"><span class="font_myriad font_normale font_size_10 font_link" onclick="apridivrifalternativo('1113129');">riferimento alternativo</span></td></tr>
+	<tr><td align="left" valign="top"><span class="font_myriad font_normale font_size_10 font_link" onclick="apridivdisegnotecnico('1113129');">disegno tecnico</span></td></tr>
+	</tbody></table>
+	
+	</td>
+
+	<td align="center" width="1%" style="border-bottom: 2px solid rgb(161,161,161); padding-right: 10;">
+	
+	<div class="prezzidanascondere">
+	<table border="0" id="tabella_prezzi">
+	<tbody><tr>
+	<td align="left">
+	<span class="font_nero font_myriad font_normale font_size_12">
+	Listino&nbsp;&nbsp;<b>LP18</b>:	</span>
+	</td>
+	<td align="right">
+	<span class="font_nero font_myriad font_normale font_size_12"><b>
+	€&nbsp;373,30	</b></span>
+	</td>
+	</tr>
+	<tr>
+	<td align="left">
+	<span class="font_nero font_myriad font_normale font_size_12">
+	Sconto:	</span>
+	</td>
+	<td align="right">
+	<span class="font_nero font_myriad font_grassetto font_size_12">
+	35,00%	</span>
+	</td>
+	</tr>
+	<tr>
+	<td align="left">
+	<span class="font_nero font_myriad font_normale font_size_15">
+	prezzo:	</span></td>
+	
+	<td align="right">
+	<span class="font_verde font_myriad font_grassetto font_size_15">
+	€&nbsp;242,65	</span>
+	</td>
+	</tr>
+	<tr><td align="center" colspan="2" class="font_nero font_myriad font_grassetto font_size_10">
+		</td></tr>
+
+		<tr>
+	<td align="right">
+		<span class="font_myriad font_nero font_normale font_size_14">n.</span>
+	&nbsp;
+	<input type="text" size="4" id="qta_carrello10" value="" class="font_nero font_myriad font_normale font_size_15 campoQta bordo_grigio_scuro" onkeypress="if(event.which == 13){  aggiungiArticoloCarrello('1113129', '10', '242.645', '373.30000', '35', '0', '0', '1', 'L18');  }else{ return controlloNumeriInteri(event); } ">
+		</td>
+	<td align="left">
+		<img src="images/carrello_aggiungi.png" class="immaginemenuBig font_link" onclick=" aggiungiArticoloCarrello('1113129', '10', '242.645', '373.30000', '35', '0', '0', '1', 'L18'); ">
+		</td>
+	</tr>
+	
+	</tbody></table>
+	</div>
+
+	</td>
+
+	</tr>
+
+	<tr>
+	
+	<td align="left" style="border-bottom: 2px solid rgb(161,161,161);">
+	
+	<table border="0">
+	<tbody><tr>
+	<td align="center" width="1%" rowspan="6">
+	<div id="img_articolo" class="img_articolo" align="center" style="border: 2px solid rgb(161,161,161); background-color: #FFF; width: 150px; height: 150px; margin: 10px 10px 10px 10px;" onmouseover="apridivimmaginebig('../paint/1113130.jpg');" onmouseout="chiudidivimmaginebig();">
+				<img src="../paint/1113130.jpg" class="immagine_articolo" style="margin-top: 0px; border: 0px solid green; max-width: 150px; max-height: 150px;">
+	</div>
+	</td>
+	<td align="left" valign="bottom"><span class="font_nero font_myriad font_grassetto font_size_14">1113130</span></td>
+	</tr>
+	<tr><td align="left" valign="top"><span class="font_nero font_myriad font_normale font_size_12">ALBERO W2400  1210 SD25Z S4LH/S5 S.FORC.</span></td></tr>
+	<tr><td align="right" valign="top">&nbsp;</td></tr>
+	<tr><td align="right" valign="top"><span class="font_nero font_myriad font_normale font_size_10"><img src="images/giacenza_rosso.png" class="immaginemenu">non disponibile&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br><span class="font_link font_myriad font_size_14 font_grassetto font_verde" onclick="richiediDataDispo('1113130','');">richiedi la disponibilità</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></td></tr>
+	<tr><td align="left" valign="top"><span class="font_myriad font_normale font_size_10 font_link" onclick="apridivrifalternativo('1113130');">riferimento alternativo</span></td></tr>
+	<tr><td align="left" valign="top"><span class="font_myriad font_normale font_size_10 font_link" onclick="apridivdisegnotecnico('1113130');">disegno tecnico</span></td></tr>
+	</tbody></table>
+	
+	</td>
+
+	<td align="center" width="1%" style="border-bottom: 2px solid rgb(161,161,161); padding-right: 10;">
+	
+	<div class="prezzidanascondere">
+	<table border="0" id="tabella_prezzi">
+	<tbody><tr>
+	<td align="left">
+	<span class="font_nero font_myriad font_normale font_size_12">
+	Listino&nbsp;&nbsp;<b>LP18</b>:	</span>
+	</td>
+	<td align="right">
+	<span class="font_nero font_myriad font_normale font_size_12"><b>
+	€&nbsp;456,50	</b></span>
+	</td>
+	</tr>
+	<tr>
+	<td align="left">
+	<span class="font_nero font_myriad font_normale font_size_12">
+	Sconto:	</span>
+	</td>
+	<td align="right">
+	<span class="font_nero font_myriad font_grassetto font_size_12">
+	35,00%	</span>
+	</td>
+	</tr>
+	<tr>
+	<td align="left">
+	<span class="font_nero font_myriad font_normale font_size_15">
+	prezzo:	</span></td>
+	
+	<td align="right">
+	<span class="font_verde font_myriad font_grassetto font_size_15">
+	€&nbsp;296,73	</span>
+	</td>
+	</tr>
+	<tr><td align="center" colspan="2" class="font_nero font_myriad font_grassetto font_size_10">
+		</td></tr>
+
+		<tr>
+	<td align="right">
+		<span class="font_myriad font_nero font_normale font_size_14">n.</span>
+	&nbsp;
+	<input type="text" size="4" id="qta_carrello11" value="" class="font_nero font_myriad font_normale font_size_15 campoQta bordo_grigio_scuro" onkeypress="if(event.which == 13){  aggiungiArticoloCarrello('1113130', '11', '296.725', '456.50000', '35', '0', '0', '1', 'L18');  }else{ return controlloNumeriInteri(event); } ">
+		</td>
+	<td align="left">
+		<img src="images/carrello_aggiungi.png" class="immaginemenuBig font_link" onclick=" aggiungiArticoloCarrello('1113130', '11', '296.725', '456.50000', '35', '0', '0', '1', 'L18'); ">
+		</td>
+	</tr>
+	
+	</tbody></table>
+	</div>
+
+	</td>
+
+	</tr>
+
+	<tr>
+	
+	<td align="left" style="border-bottom: 2px solid rgb(161,161,161);">
+	
+	<table border="0">
+	<tbody><tr>
+	<td align="center" width="1%" rowspan="6">
+	<div id="img_articolo" class="img_articolo" align="center" style="border: 2px solid rgb(161,161,161); background-color: #FFF; width: 150px; height: 150px; margin: 10px 10px 10px 10px;" onmouseover="apridivimmaginebig('../paint/1113131.jpg');" onmouseout="chiudidivimmaginebig();">
+				<img src="../paint/1113131.jpg" class="immagine_articolo" style="margin-top: 0px; border: 0px solid green; max-width: 150px; max-height: 150px;">
+	</div>
+	</td>
+	<td align="left" valign="bottom"><span class="font_nero font_myriad font_grassetto font_size_14">1113131</span></td>
+	</tr>
+	<tr><td align="left" valign="top"><span class="font_nero font_myriad font_normale font_size_12">ALBERO W2500 0860 SD25 S4/S5 S.FORC.</span></td></tr>
+	<tr><td align="right" valign="top">&nbsp;</td></tr>
+	<tr><td align="right" valign="top"><span class="font_nero font_myriad font_normale font_size_10"><img src="images/giacenza_rosso.png" class="immaginemenu">non disponibile&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br><span class="font_link font_myriad font_size_14 font_grassetto font_verde" onclick="richiediDataDispo('1113131','');">richiedi la disponibilità</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></td></tr>
+	<tr><td align="left" valign="top"><span class="font_myriad font_normale font_size_10 font_link" onclick="apridivrifalternativo('1113131');">riferimento alternativo</span></td></tr>
+	<tr><td align="left" valign="top"><span class="font_myriad font_normale font_size_10 font_link" onclick="apridivdisegnotecnico('1113131');">disegno tecnico</span></td></tr>
+	</tbody></table>
+	
+	</td>
+
+	<td align="center" width="1%" style="border-bottom: 2px solid rgb(161,161,161); padding-right: 10;">
+	
+	<div class="prezzidanascondere">
+	<table border="0" id="tabella_prezzi">
+	<tbody><tr>
+	<td align="left">
+	<span class="font_nero font_myriad font_normale font_size_12">
+	Listino&nbsp;&nbsp;<b>LP18</b>:	</span>
+	</td>
+	<td align="right">
+	<span class="font_nero font_myriad font_normale font_size_12"><b>
+	€&nbsp;458,50	</b></span>
+	</td>
+	</tr>
+	<tr>
+	<td align="left">
+	<span class="font_nero font_myriad font_normale font_size_12">
+	Sconto:	</span>
+	</td>
+	<td align="right">
+	<span class="font_nero font_myriad font_grassetto font_size_12">
+	35,00%	</span>
+	</td>
+	</tr>
+	<tr>
+	<td align="left">
+	<span class="font_nero font_myriad font_normale font_size_15">
+	prezzo:	</span></td>
+	
+	<td align="right">
+	<span class="font_verde font_myriad font_grassetto font_size_15">
+	€&nbsp;298,03	</span>
+	</td>
+	</tr>
+	<tr><td align="center" colspan="2" class="font_nero font_myriad font_grassetto font_size_10">
+		</td></tr>
+
+		<tr>
+	<td align="right">
+		<span class="font_myriad font_nero font_normale font_size_14">n.</span>
+	&nbsp;
+	<input type="text" size="4" id="qta_carrello12" value="" class="font_nero font_myriad font_normale font_size_15 campoQta bordo_grigio_scuro" onkeypress="if(event.which == 13){  aggiungiArticoloCarrello('1113131', '12', '298.025', '458.50000', '35', '0', '0', '1', 'L18');  }else{ return controlloNumeriInteri(event); } ">
+		</td>
+	<td align="left">
+		<img src="images/carrello_aggiungi.png" class="immaginemenuBig font_link" onclick=" aggiungiArticoloCarrello('1113131', '12', '298.025', '458.50000', '35', '0', '0', '1', 'L18'); ">
+		</td>
+	</tr>
+	
+	</tbody></table>
+	</div>
+
+	</td>
+
+	</tr>
+
+	<tr>
+	
+	<td align="left" style="border-bottom: 2px solid rgb(161,161,161);">
+	
+	<table border="0">
+	<tbody><tr>
+	<td align="center" width="1%" rowspan="6">
+	<div id="img_articolo" class="img_articolo" align="center" style="border: 2px solid rgb(161,161,161); background-color: #FFF; width: 150px; height: 150px; margin: 10px 10px 10px 10px;" onmouseover="apridivimmaginebig('../paint/1113132.jpg');" onmouseout="chiudidivimmaginebig();">
+				<img src="../paint/1113132.jpg" class="immagine_articolo" style="margin-top: 0px; border: 0px solid green; max-width: 150px; max-height: 150px;">
+	</div>
+	</td>
+	<td align="left" valign="bottom"><span class="font_nero font_myriad font_grassetto font_size_14">1113132</span></td>
+	</tr>
+	<tr><td align="left" valign="top"><span class="font_nero font_myriad font_normale font_size_12">ALBERO W2500  1210 SD25Z S4/S5 S.FORC.</span></td></tr>
+	<tr><td align="right" valign="top">&nbsp;</td></tr>
+	<tr><td align="right" valign="top"><span class="font_nero font_myriad font_normale font_size_10"><img src="images/giacenza_verde.png" class="immaginemenu">disponibile&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></td></tr>
+	<tr><td align="left" valign="top"><span class="font_myriad font_normale font_size_10 font_link" onclick="apridivrifalternativo('1113132');">riferimento alternativo</span></td></tr>
+	<tr><td align="left" valign="top"><span class="font_myriad font_normale font_size_10 font_link" onclick="apridivdisegnotecnico('1113132');">disegno tecnico</span></td></tr>
+	</tbody></table>
+	
+	</td>
+
+	<td align="center" width="1%" style="border-bottom: 2px solid rgb(161,161,161); padding-right: 10;">
+	
+	<div class="prezzidanascondere">
+	<table border="0" id="tabella_prezzi">
+	<tbody><tr>
+	<td align="left">
+	<span class="font_nero font_myriad font_normale font_size_12">
+	Listino&nbsp;&nbsp;<b>LP18</b>:	</span>
+	</td>
+	<td align="right">
+	<span class="font_nero font_myriad font_normale font_size_12"><b>
+	€&nbsp;479,40	</b></span>
+	</td>
+	</tr>
+	<tr>
+	<td align="left">
+	<span class="font_nero font_myriad font_normale font_size_12">
+	Sconto:	</span>
+	</td>
+	<td align="right">
+	<span class="font_nero font_myriad font_grassetto font_size_12">
+	35,00%	</span>
+	</td>
+	</tr>
+	<tr>
+	<td align="left">
+	<span class="font_nero font_myriad font_normale font_size_15">
+	prezzo:	</span></td>
+	
+	<td align="right">
+	<span class="font_verde font_myriad font_grassetto font_size_15">
+	€&nbsp;311,61	</span>
+	</td>
+	</tr>
+	<tr><td align="center" colspan="2" class="font_nero font_myriad font_grassetto font_size_10">
+		</td></tr>
+
+		<tr>
+	<td align="right">
+		<span class="font_myriad font_nero font_normale font_size_14">n.</span>
+	&nbsp;
+	<input type="text" size="4" id="qta_carrello13" value="" class="font_nero font_myriad font_normale font_size_15 campoQta bordo_grigio_scuro" onkeypress="if(event.which == 13){  aggiungiArticoloCarrello('1113132', '13', '311.61', '479.40000', '35', '0', '0', '1', 'L18');  }else{ return controlloNumeriInteri(event); } ">
+		</td>
+	<td align="left">
+		<img src="images/carrello_aggiungi.png" class="immaginemenuBig font_link" onclick=" aggiungiArticoloCarrello('1113132', '13', '311.61', '479.40000', '35', '0', '0', '1', 'L18'); ">
+		</td>
+	</tr>
+	
+	</tbody></table>
+	</div>
+
+	</td>
+
+	</tr>
+
+	<tr>
+	
+	<td align="left" style="border-bottom: 2px solid rgb(161,161,161);">
+	
+	<table border="0">
+	<tbody><tr>
+	<td align="center" width="1%" rowspan="6">
+	<div id="img_articolo" class="img_articolo" align="center" style="border: 2px solid rgb(161,161,161); background-color: #FFF; width: 150px; height: 150px; margin: 10px 10px 10px 10px;" onmouseover="apridivimmaginebig('../paint/1113133.jpg');" onmouseout="chiudidivimmaginebig();">
+				<img src="../paint/1113133.jpg" class="immagine_articolo" style="margin-top: 0px; border: 0px solid green; max-width: 150px; max-height: 150px;">
+	</div>
+	</td>
+	<td align="left" valign="bottom"><span class="font_nero font_myriad font_grassetto font_size_14">1113133</span></td>
+	</tr>
+	<tr><td align="left" valign="top"><span class="font_nero font_myriad font_normale font_size_12">ALBERO W2600 0860 SD35 S5H/S6 S.FORC.</span></td></tr>
+	<tr><td align="right" valign="top">&nbsp;</td></tr>
+	<tr><td align="right" valign="top"><span class="font_nero font_myriad font_normale font_size_10"><img src="images/giacenza_rosso.png" class="immaginemenu">non disponibile&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br><span class="font_link font_myriad font_size_14 font_grassetto font_verde" onclick="richiediDataDispo('1113133','');">richiedi la disponibilità</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></td></tr>
+	<tr><td align="left" valign="top"><span class="font_myriad font_normale font_size_10 font_link" onclick="apridivrifalternativo('1113133');">riferimento alternativo</span></td></tr>
+	<tr><td align="left" valign="top"><span class="font_myriad font_normale font_size_10 font_link" onclick="apridivdisegnotecnico('1113133');">disegno tecnico</span></td></tr>
+	</tbody></table>
+	
+	</td>
+
+	<td align="center" width="1%" style="border-bottom: 2px solid rgb(161,161,161); padding-right: 10;">
+	
+	<div class="prezzidanascondere">
+	<table border="0" id="tabella_prezzi">
+	<tbody><tr>
+	<td align="left">
+	<span class="font_nero font_myriad font_normale font_size_12">
+	Listino&nbsp;&nbsp;<b>LP18</b>:	</span>
+	</td>
+	<td align="right">
+	<span class="font_nero font_myriad font_normale font_size_12"><b>
+	€&nbsp;989,30	</b></span>
+	</td>
+	</tr>
+	<tr>
+	<td align="left">
+	<span class="font_nero font_myriad font_normale font_size_12">
+	Sconto:	</span>
+	</td>
+	<td align="right">
+	<span class="font_nero font_myriad font_grassetto font_size_12">
+	35,00%	</span>
+	</td>
+	</tr>
+	<tr>
+	<td align="left">
+	<span class="font_nero font_myriad font_normale font_size_15">
+	prezzo:	</span></td>
+	
+	<td align="right">
+	<span class="font_verde font_myriad font_grassetto font_size_15">
+	€&nbsp;643,05	</span>
+	</td>
+	</tr>
+	<tr><td align="center" colspan="2" class="font_nero font_myriad font_grassetto font_size_10">
+		</td></tr>
+
+		<tr>
+	<td align="right">
+		<span class="font_myriad font_nero font_normale font_size_14">n.</span>
+	&nbsp;
+	<input type="text" size="4" id="qta_carrello14" value="" class="font_nero font_myriad font_normale font_size_15 campoQta bordo_grigio_scuro" onkeypress="if(event.which == 13){  aggiungiArticoloCarrello('1113133', '14', '643.045', '989.30000', '35', '0', '0', '1', 'L18');  }else{ return controlloNumeriInteri(event); } ">
+		</td>
+	<td align="left">
+		<img src="images/carrello_aggiungi.png" class="immaginemenuBig font_link" onclick=" aggiungiArticoloCarrello('1113133', '14', '643.045', '989.30000', '35', '0', '0', '1', 'L18'); ">
+		</td>
+	</tr>
+	
+	</tbody></table>
+	</div>
+
+	</td>
+
+	</tr>
+
+	<tr>
+	
+	<td align="left" style="border-bottom: 2px solid rgb(161,161,161);">
+	
+	<table border="0">
+	<tbody><tr>
+	<td align="center" width="1%" rowspan="6">
+	<div id="img_articolo" class="img_articolo" align="center" style="border: 2px solid rgb(161,161,161); background-color: #FFF; width: 150px; height: 150px; margin: 10px 10px 10px 10px;" onmouseover="apridivimmaginebig('../paint/1113134.jpg');" onmouseout="chiudidivimmaginebig();">
+				<img src="../paint/1113134.jpg" class="immagine_articolo" style="margin-top: 0px; border: 0px solid green; max-width: 150px; max-height: 150px;">
+	</div>
+	</td>
+	<td align="left" valign="bottom"><span class="font_nero font_myriad font_grassetto font_size_14">1113134</span></td>
+	</tr>
+	<tr><td align="left" valign="top"><span class="font_nero font_myriad font_normale font_size_12">ALBERO W2600 1210 SD35 S5H/S6 S.FORC.</span></td></tr>
+	<tr><td align="right" valign="top">&nbsp;</td></tr>
+	<tr><td align="right" valign="top"><span class="font_nero font_myriad font_normale font_size_10"><img src="images/giacenza_verde.png" class="immaginemenu">disponibile&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></td></tr>
+	<tr><td align="left" valign="top"><span class="font_myriad font_normale font_size_10 font_link" onclick="apridivrifalternativo('1113134');">riferimento alternativo</span></td></tr>
+	<tr><td align="left" valign="top"><span class="font_myriad font_normale font_size_10 font_link" onclick="apridivdisegnotecnico('1113134');">disegno tecnico</span></td></tr>
+	</tbody></table>
+	
+	</td>
+
+	<td align="center" width="1%" style="border-bottom: 2px solid rgb(161,161,161); padding-right: 10;">
+	
+	<div class="prezzidanascondere">
+	<table border="0" id="tabella_prezzi">
+	<tbody><tr>
+	<td align="left">
+	<span class="font_nero font_myriad font_normale font_size_12">
+	Listino&nbsp;&nbsp;<b>LP18</b>:	</span>
+	</td>
+	<td align="right">
+	<span class="font_nero font_myriad font_normale font_size_12"><b>
+	€&nbsp;1.047,00	</b></span>
+	</td>
+	</tr>
+	<tr>
+	<td align="left">
+	<span class="font_nero font_myriad font_normale font_size_12">
+	Sconto:	</span>
+	</td>
+	<td align="right">
+	<span class="font_nero font_myriad font_grassetto font_size_12">
+	35,00%	</span>
+	</td>
+	</tr>
+	<tr>
+	<td align="left">
+	<span class="font_nero font_myriad font_normale font_size_15">
+	prezzo:	</span></td>
+	
+	<td align="right">
+	<span class="font_verde font_myriad font_grassetto font_size_15">
+	€&nbsp;680,55	</span>
+	</td>
+	</tr>
+	<tr><td align="center" colspan="2" class="font_nero font_myriad font_grassetto font_size_10">
+		</td></tr>
+
+		<tr>
+	<td align="right">
+		<span class="font_myriad font_nero font_normale font_size_14">n.</span>
+	&nbsp;
+	<input type="text" size="4" id="qta_carrello15" value="" class="font_nero font_myriad font_normale font_size_15 campoQta bordo_grigio_scuro" onkeypress="if(event.which == 13){  aggiungiArticoloCarrello('1113134', '15', '680.55', '1047.00000', '35', '0', '0', '1', 'L18');  }else{ return controlloNumeriInteri(event); } ">
+		</td>
+	<td align="left">
+		<img src="images/carrello_aggiungi.png" class="immaginemenuBig font_link" onclick=" aggiungiArticoloCarrello('1113134', '15', '680.55', '1047.00000', '35', '0', '0', '1', 'L18'); ">
+		</td>
+	</tr>
+	
+	</tbody></table>
+	</div>
+
+	</td>
+
+	</tr>
+
+
+</tbody></table>
+<form name="filtri_elenco_clle_liberi" id="filtri_elenco_clle_liberi"><input type="hidden" name="elencodiricerca[0]" value="1113119"><input type="hidden" name="elencodiricerca[1]" value="1113120"><input type="hidden" name="elencodiricerca[2]" value="1113121"><input type="hidden" name="elencodiricerca[3]" value="1113122"><input type="hidden" name="elencodiricerca[4]" value="1113123"><input type="hidden" name="elencodiricerca[5]" value="1113124"><input type="hidden" name="elencodiricerca[6]" value="1113125"><input type="hidden" name="elencodiricerca[7]" value="1113126"><input type="hidden" name="elencodiricerca[8]" value="1113127"><input type="hidden" name="elencodiricerca[9]" value="1113128"><input type="hidden" name="elencodiricerca[10]" value="1113129"><input type="hidden" name="elencodiricerca[11]" value="1113130"><input type="hidden" name="elencodiricerca[12]" value="1113131"><input type="hidden" name="elencodiricerca[13]" value="1113132"><input type="hidden" name="elencodiricerca[14]" value="1113133"><input type="hidden" name="elencodiricerca[15]" value="1113134"><input type="hidden" name="rice_like" value=""><input type="hidden" name="codice_rice_garden" value=""><input type="hidden" name="tipo_macchina" value=""><input type="hidden" name="tipo_ricambio" value=""><input type="hidden" name="modello" value=""><input type="hidden" name="marca" value=""></form></div>

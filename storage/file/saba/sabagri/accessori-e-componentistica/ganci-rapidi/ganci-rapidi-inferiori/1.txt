@@ -1,0 +1,1238 @@
+<div id="tabella_articoli" class="scrollstyle" style="height: 328px; overflow-y: scroll;">
+<table border="0" width="100%" cellpadding="0" cellspacing="0">
+
+	<tbody><tr>
+	
+	<td align="left" style="border-bottom: 2px solid rgb(161,161,161);">
+	
+	<table border="0">
+	<tbody><tr>
+	<td align="center" width="1%" rowspan="6">
+	<div id="img_articolo" class="img_articolo" align="center" style="border: 2px solid rgb(161,161,161); background-color: #FFF; width: 150px; height: 150px; margin: 10px 10px 10px 10px;" onmouseover="apridivimmaginebig('../paint/201.00.94DX.jpg');" onmouseout="chiudidivimmaginebig();">
+				<img src="../paint/201.00.94DX.jpg" class="immagine_articolo" style="margin-top: 0px; border: 0px solid green; max-width: 150px; max-height: 150px;">
+	</div>
+	</td>
+	<td align="left" valign="bottom"><span class="font_nero font_myriad font_grassetto font_size_14">201.00.94DX</span></td>
+	</tr>
+	<tr><td align="left" valign="top"><span class="font_nero font_myriad font_normale font_size_12">GANCIO  2°   CAT.INF. ATT.RAP.L.LAT.</span></td></tr>
+	<tr><td align="right" valign="top">&nbsp;</td></tr>
+	<tr><td align="right" valign="top"><span class="font_nero font_myriad font_normale font_size_10"><img src="images/giacenza_verde.png" class="immaginemenu">disponibile&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></td></tr>
+	<tr><td align="left" valign="top"><span class="font_myriad font_normale font_size_10 font_link" onclick="apridivrifalternativo('201.00.94DX');">riferimento alternativo</span></td></tr>
+	<tr><td align="left" valign="top"><span class="font_myriad font_normale font_size_10 font_link" onclick="apridivdisegnotecnico('201.00.94DX');">disegno tecnico</span></td></tr>
+	</tbody></table>
+	
+	</td>
+
+	<td align="center" width="1%" style="border-bottom: 2px solid rgb(161,161,161); padding-right: 10;">
+	
+	<div class="prezzidanascondere">
+	<table border="0" id="tabella_prezzi">
+	<tbody><tr>
+	<td align="left">
+	<span class="font_nero font_myriad font_normale font_size_12">
+	Listino&nbsp;&nbsp;<b>LP18</b>:	</span>
+	</td>
+	<td align="right">
+	<span class="font_nero font_myriad font_normale font_size_12"><b>
+	€&nbsp;111,96	</b></span>
+	</td>
+	</tr>
+	<tr>
+	<td align="left">
+	<span class="font_nero font_myriad font_normale font_size_12">
+	Sconto:	</span>
+	</td>
+	<td align="right">
+	<span class="font_nero font_myriad font_grassetto font_size_12">
+	55,00%+&nbsp;3,00%	</span>
+	</td>
+	</tr>
+	<tr>
+	<td align="left">
+	<span class="font_nero font_myriad font_normale font_size_15">
+	prezzo:	</span></td>
+	
+	<td align="right">
+	<span class="font_verde font_myriad font_grassetto font_size_15">
+	€&nbsp;48,87	</span>
+	</td>
+	</tr>
+	<tr><td align="center" colspan="2" class="font_nero font_myriad font_grassetto font_size_10">
+		</td></tr>
+
+		<tr>
+	<td align="right">
+		<span class="font_myriad font_nero font_normale font_size_14">n.</span>
+	&nbsp;
+	<input type="text" size="4" id="qta_carrello0" value="" class="font_nero font_myriad font_normale font_size_15 campoQta bordo_grigio_scuro" onkeypress="if(event.which == 13){  aggiungiArticoloCarrello('201.00.94DX', '0', '48.87054', '111.96000', '55', '3', '0', '1', 'L18');  }else{ return controlloNumeriInteri(event); } ">
+		</td>
+	<td align="left">
+		<img src="images/carrello_aggiungi.png" class="immaginemenuBig font_link" onclick=" aggiungiArticoloCarrello('201.00.94DX', '0', '48.87054', '111.96000', '55', '3', '0', '1', 'L18'); ">
+		</td>
+	</tr>
+	
+	</tbody></table>
+	</div>
+
+	</td>
+
+	</tr>
+
+	<tr>
+	
+	<td align="left" style="border-bottom: 2px solid rgb(161,161,161);">
+	
+	<table border="0">
+	<tbody><tr>
+	<td align="center" width="1%" rowspan="6">
+	<div id="img_articolo" class="img_articolo" align="center" style="border: 2px solid rgb(161,161,161); background-color: #FFF; width: 150px; height: 150px; margin: 10px 10px 10px 10px;" onmouseover="apridivimmaginebig('../paint/201.00.94SX.jpg');" onmouseout="chiudidivimmaginebig();">
+				<img src="../paint/201.00.94SX.jpg" class="immagine_articolo" style="margin-top: 0px; border: 0px solid green; max-width: 150px; max-height: 150px;">
+	</div>
+	</td>
+	<td align="left" valign="bottom"><span class="font_nero font_myriad font_grassetto font_size_14">201.00.94SX</span></td>
+	</tr>
+	<tr><td align="left" valign="top"><span class="font_nero font_myriad font_normale font_size_12">GANCIO  2°   CAT.INF. ATT.RAP.L.LAT.</span></td></tr>
+	<tr><td align="right" valign="top">&nbsp;</td></tr>
+	<tr><td align="right" valign="top"><span class="font_nero font_myriad font_normale font_size_10"><img src="images/giacenza_verde.png" class="immaginemenu">disponibile&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></td></tr>
+	<tr><td align="left" valign="top"><span class="font_myriad font_normale font_size_10 font_link" onclick="apridivrifalternativo('201.00.94SX');">riferimento alternativo</span></td></tr>
+	<tr><td align="left" valign="top"><span class="font_myriad font_normale font_size_10 font_link" onclick="apridivdisegnotecnico('201.00.94SX');">disegno tecnico</span></td></tr>
+	</tbody></table>
+	
+	</td>
+
+	<td align="center" width="1%" style="border-bottom: 2px solid rgb(161,161,161); padding-right: 10;">
+	
+	<div class="prezzidanascondere">
+	<table border="0" id="tabella_prezzi">
+	<tbody><tr>
+	<td align="left">
+	<span class="font_nero font_myriad font_normale font_size_12">
+	Listino&nbsp;&nbsp;<b>LP18</b>:	</span>
+	</td>
+	<td align="right">
+	<span class="font_nero font_myriad font_normale font_size_12"><b>
+	€&nbsp;111,96	</b></span>
+	</td>
+	</tr>
+	<tr>
+	<td align="left">
+	<span class="font_nero font_myriad font_normale font_size_12">
+	Sconto:	</span>
+	</td>
+	<td align="right">
+	<span class="font_nero font_myriad font_grassetto font_size_12">
+	55,00%+&nbsp;3,00%	</span>
+	</td>
+	</tr>
+	<tr>
+	<td align="left">
+	<span class="font_nero font_myriad font_normale font_size_15">
+	prezzo:	</span></td>
+	
+	<td align="right">
+	<span class="font_verde font_myriad font_grassetto font_size_15">
+	€&nbsp;48,87	</span>
+	</td>
+	</tr>
+	<tr><td align="center" colspan="2" class="font_nero font_myriad font_grassetto font_size_10">
+		</td></tr>
+
+		<tr>
+	<td align="right">
+		<span class="font_myriad font_nero font_normale font_size_14">n.</span>
+	&nbsp;
+	<input type="text" size="4" id="qta_carrello1" value="" class="font_nero font_myriad font_normale font_size_15 campoQta bordo_grigio_scuro" onkeypress="if(event.which == 13){  aggiungiArticoloCarrello('201.00.94SX', '1', '48.87054', '111.96000', '55', '3', '0', '1', 'L18');  }else{ return controlloNumeriInteri(event); } ">
+		</td>
+	<td align="left">
+		<img src="images/carrello_aggiungi.png" class="immaginemenuBig font_link" onclick=" aggiungiArticoloCarrello('201.00.94SX', '1', '48.87054', '111.96000', '55', '3', '0', '1', 'L18'); ">
+		</td>
+	</tr>
+	
+	</tbody></table>
+	</div>
+
+	</td>
+
+	</tr>
+
+	<tr>
+	
+	<td align="left" style="border-bottom: 2px solid rgb(161,161,161);">
+	
+	<table border="0">
+	<tbody><tr>
+	<td align="center" width="1%" rowspan="6">
+	<div id="img_articolo" class="img_articolo" align="center" style="border: 2px solid rgb(161,161,161); background-color: #FFF; width: 150px; height: 150px; margin: 10px 10px 10px 10px;" onmouseover="apridivimmaginebig('../paint/201.00.95DX.jpg');" onmouseout="chiudidivimmaginebig();">
+				<img src="../paint/201.00.95DX.jpg" class="immagine_articolo" style="margin-top: 0px; border: 0px solid green; max-width: 150px; max-height: 150px;">
+	</div>
+	</td>
+	<td align="left" valign="bottom"><span class="font_nero font_myriad font_grassetto font_size_14">201.00.95DX</span></td>
+	</tr>
+	<tr><td align="left" valign="top"><span class="font_nero font_myriad font_normale font_size_12">GANCIO  3°/2°CAT.INF. ATT.RAP.L.LAT</span></td></tr>
+	<tr><td align="right" valign="top">&nbsp;</td></tr>
+	<tr><td align="right" valign="top"><span class="font_nero font_myriad font_normale font_size_10"><img src="images/giacenza_rosso.png" class="immaginemenu">non disponibile&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br><span class="font_link font_myriad font_size_14 font_grassetto font_verde" onclick="richiediDataDispo('201.00.95DX','');">richiedi la disponibilità</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></td></tr>
+	<tr><td align="left" valign="top"><span class="font_myriad font_normale font_size_10 font_link" onclick="apridivrifalternativo('201.00.95DX');">riferimento alternativo</span></td></tr>
+	<tr><td align="left" valign="top"><span class="font_myriad font_normale font_size_10 font_link" onclick="apridivdisegnotecnico('201.00.95DX');">disegno tecnico</span></td></tr>
+	</tbody></table>
+	
+	</td>
+
+	<td align="center" width="1%" style="border-bottom: 2px solid rgb(161,161,161); padding-right: 10;">
+	
+	<div class="prezzidanascondere">
+	<table border="0" id="tabella_prezzi">
+	<tbody><tr>
+	<td align="left">
+	<span class="font_nero font_myriad font_normale font_size_12">
+	Listino&nbsp;&nbsp;<b>LP18</b>:	</span>
+	</td>
+	<td align="right">
+	<span class="font_nero font_myriad font_normale font_size_12"><b>
+	€&nbsp;129,31	</b></span>
+	</td>
+	</tr>
+	<tr>
+	<td align="left">
+	<span class="font_nero font_myriad font_normale font_size_12">
+	Sconto:	</span>
+	</td>
+	<td align="right">
+	<span class="font_nero font_myriad font_grassetto font_size_12">
+	55,00%+&nbsp;3,00%	</span>
+	</td>
+	</tr>
+	<tr>
+	<td align="left">
+	<span class="font_nero font_myriad font_normale font_size_15">
+	prezzo:	</span></td>
+	
+	<td align="right">
+	<span class="font_verde font_myriad font_grassetto font_size_15">
+	€&nbsp;56,44	</span>
+	</td>
+	</tr>
+	<tr><td align="center" colspan="2" class="font_nero font_myriad font_grassetto font_size_10">
+		</td></tr>
+
+		<tr>
+	<td align="right">
+		<span class="font_myriad font_nero font_normale font_size_14">n.</span>
+	&nbsp;
+	<input type="text" size="4" id="qta_carrello2" value="" class="font_nero font_myriad font_normale font_size_15 campoQta bordo_grigio_scuro" onkeypress="if(event.which == 13){  aggiungiArticoloCarrello('201.00.95DX', '2', '56.443815', '129.31000', '55', '3', '0', '1', 'L18');  }else{ return controlloNumeriInteri(event); } ">
+		</td>
+	<td align="left">
+		<img src="images/carrello_aggiungi.png" class="immaginemenuBig font_link" onclick=" aggiungiArticoloCarrello('201.00.95DX', '2', '56.443815', '129.31000', '55', '3', '0', '1', 'L18'); ">
+		</td>
+	</tr>
+	
+	</tbody></table>
+	</div>
+
+	</td>
+
+	</tr>
+
+	<tr>
+	
+	<td align="left" style="border-bottom: 2px solid rgb(161,161,161);">
+	
+	<table border="0">
+	<tbody><tr>
+	<td align="center" width="1%" rowspan="6">
+	<div id="img_articolo" class="img_articolo" align="center" style="border: 2px solid rgb(161,161,161); background-color: #FFF; width: 150px; height: 150px; margin: 10px 10px 10px 10px;" onmouseover="apridivimmaginebig('../paint/201.00.95SX.jpg');" onmouseout="chiudidivimmaginebig();">
+				<img src="../paint/201.00.95SX.jpg" class="immagine_articolo" style="margin-top: 0px; border: 0px solid green; max-width: 150px; max-height: 150px;">
+	</div>
+	</td>
+	<td align="left" valign="bottom"><span class="font_nero font_myriad font_grassetto font_size_14">201.00.95SX</span></td>
+	</tr>
+	<tr><td align="left" valign="top"><span class="font_nero font_myriad font_normale font_size_12">GANCIO  3°/2°CAT.INF. ATT.RAP.L.LAT.</span></td></tr>
+	<tr><td align="right" valign="top">&nbsp;</td></tr>
+	<tr><td align="right" valign="top"><span class="font_nero font_myriad font_normale font_size_10"><img src="images/giacenza_rosso.png" class="immaginemenu">non disponibile&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br><span class="font_link font_myriad font_size_14 font_grassetto font_verde" onclick="richiediDataDispo('201.00.95SX','');">richiedi la disponibilità</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></td></tr>
+	<tr><td align="left" valign="top"><span class="font_myriad font_normale font_size_10 font_link" onclick="apridivrifalternativo('201.00.95SX');">riferimento alternativo</span></td></tr>
+	<tr><td align="left" valign="top"><span class="font_myriad font_normale font_size_10 font_link" onclick="apridivdisegnotecnico('201.00.95SX');">disegno tecnico</span></td></tr>
+	</tbody></table>
+	
+	</td>
+
+	<td align="center" width="1%" style="border-bottom: 2px solid rgb(161,161,161); padding-right: 10;">
+	
+	<div class="prezzidanascondere">
+	<table border="0" id="tabella_prezzi">
+	<tbody><tr>
+	<td align="left">
+	<span class="font_nero font_myriad font_normale font_size_12">
+	Listino&nbsp;&nbsp;<b>LP18</b>:	</span>
+	</td>
+	<td align="right">
+	<span class="font_nero font_myriad font_normale font_size_12"><b>
+	€&nbsp;129,31	</b></span>
+	</td>
+	</tr>
+	<tr>
+	<td align="left">
+	<span class="font_nero font_myriad font_normale font_size_12">
+	Sconto:	</span>
+	</td>
+	<td align="right">
+	<span class="font_nero font_myriad font_grassetto font_size_12">
+	55,00%+&nbsp;3,00%	</span>
+	</td>
+	</tr>
+	<tr>
+	<td align="left">
+	<span class="font_nero font_myriad font_normale font_size_15">
+	prezzo:	</span></td>
+	
+	<td align="right">
+	<span class="font_verde font_myriad font_grassetto font_size_15">
+	€&nbsp;56,44	</span>
+	</td>
+	</tr>
+	<tr><td align="center" colspan="2" class="font_nero font_myriad font_grassetto font_size_10">
+		</td></tr>
+
+		<tr>
+	<td align="right">
+		<span class="font_myriad font_nero font_normale font_size_14">n.</span>
+	&nbsp;
+	<input type="text" size="4" id="qta_carrello3" value="" class="font_nero font_myriad font_normale font_size_15 campoQta bordo_grigio_scuro" onkeypress="if(event.which == 13){  aggiungiArticoloCarrello('201.00.95SX', '3', '56.443815', '129.31000', '55', '3', '0', '1', 'L18');  }else{ return controlloNumeriInteri(event); } ">
+		</td>
+	<td align="left">
+		<img src="images/carrello_aggiungi.png" class="immaginemenuBig font_link" onclick=" aggiungiArticoloCarrello('201.00.95SX', '3', '56.443815', '129.31000', '55', '3', '0', '1', 'L18'); ">
+		</td>
+	</tr>
+	
+	</tbody></table>
+	</div>
+
+	</td>
+
+	</tr>
+
+	<tr>
+	
+	<td align="left" style="border-bottom: 2px solid rgb(161,161,161);">
+	
+	<table border="0">
+	<tbody><tr>
+	<td align="center" width="1%" rowspan="6">
+	<div id="img_articolo" class="img_articolo" align="center" style="border: 2px solid rgb(161,161,161); background-color: #FFF; width: 150px; height: 150px; margin: 10px 10px 10px 10px;" onmouseover="apridivimmaginebig('../paint/201.01.04.jpg');" onmouseout="chiudidivimmaginebig();">
+				<img src="../paint/201.01.04.jpg" class="immagine_articolo" style="margin-top: 0px; border: 0px solid green; max-width: 150px; max-height: 150px;">
+	</div>
+	</td>
+	<td align="left" valign="bottom"><span class="font_nero font_myriad font_grassetto font_size_14">201.01.04</span></td>
+	</tr>
+	<tr><td align="left" valign="top"><span class="font_nero font_myriad font_normale font_size_12">CORDA COMANDO GANCI INFERIORI</span></td></tr>
+	<tr><td align="right" valign="top">&nbsp;<span class="font_verde font_myriad font_grassetto font_size_14">Prezzo Netto Outlet&nbsp;&nbsp;€&nbsp;4,90&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></td></tr>
+	<tr><td align="right" valign="top"><span class="font_nero font_myriad font_normale font_size_10"><img src="images/giacenza_verde.png" class="immaginemenu">disponibile&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></td></tr>
+	<tr><td align="left" valign="top"><span class="font_myriad font_normale font_size_10 font_link" onclick="apridivrifalternativo('201.01.04');">riferimento alternativo</span></td></tr>
+	<tr><td align="left" valign="top"><span class="font_myriad font_normale font_size_10 font_link" onclick="apridivdisegnotecnico('201.01.04');">disegno tecnico</span></td></tr>
+	</tbody></table>
+	
+	</td>
+
+	<td align="center" width="1%" style="border-bottom: 2px solid rgb(161,161,161); padding-right: 10;">
+	
+	<div class="prezzidanascondere">
+	<table border="0" id="tabella_prezzi">
+	<tbody><tr>
+	<td align="left">
+	<span class="font_nero font_myriad font_normale font_size_12">
+	Listino&nbsp;&nbsp;<b>LP18</b>:	</span>
+	</td>
+	<td align="right">
+	<span class="font_nero font_myriad font_normale font_size_12"><b>
+	€&nbsp;20,30	</b></span>
+	</td>
+	</tr>
+	<tr>
+	<td align="left">
+	<span class="font_nero font_myriad font_normale font_size_12">
+	Sconto:	</span>
+	</td>
+	<td align="right">
+	<span class="font_nero font_myriad font_grassetto font_size_12">
+	55,00%+&nbsp;3,00%	</span>
+	</td>
+	</tr>
+	<tr>
+	<td align="left">
+	<span class="font_nero font_myriad font_normale font_size_15">
+	prezzo:	</span></td>
+	
+	<td align="right">
+	<span class="font_verde font_myriad font_grassetto font_size_15">
+	€&nbsp;8,86	</span>
+	</td>
+	</tr>
+	<tr><td align="center" colspan="2" class="font_nero font_myriad font_grassetto font_size_10">
+		</td></tr>
+
+		<tr>
+	<td align="right">
+		<span class="font_myriad font_nero font_normale font_size_14">n.</span>
+	&nbsp;
+	<input type="text" size="4" id="qta_carrello4" value="" class="font_nero font_myriad font_normale font_size_15 campoQta bordo_grigio_scuro" onkeypress="if(event.which == 13){  aggiungiArticoloCarrello('201.01.04', '4', '8.86095', '20.30000', '55', '3', '0', '1', 'L18');  }else{ return controlloNumeriInteri(event); } ">
+		</td>
+	<td align="left">
+		<img src="images/carrello_aggiungi.png" class="immaginemenuBig font_link" onclick=" aggiungiArticoloCarrello('201.01.04', '4', '8.86095', '20.30000', '55', '3', '0', '1', 'L18'); ">
+		</td>
+	</tr>
+	
+	</tbody></table>
+	</div>
+
+	</td>
+
+	</tr>
+
+	<tr>
+	
+	<td align="left" style="border-bottom: 2px solid rgb(161,161,161);">
+	
+	<table border="0">
+	<tbody><tr>
+	<td align="center" width="1%" rowspan="6">
+	<div id="img_articolo" class="img_articolo" align="center" style="border: 2px solid rgb(161,161,161); background-color: #FFF; width: 150px; height: 150px; margin: 10px 10px 10px 10px;" onmouseover="apridivimmaginebig('../paint/221.00.92.jpg');" onmouseout="chiudidivimmaginebig();">
+				<img src="../paint/221.00.92.jpg" class="immagine_articolo" style="margin-top: 0px; border: 0px solid green; max-width: 150px; max-height: 150px;">
+	</div>
+	</td>
+	<td align="left" valign="bottom"><span class="font_nero font_myriad font_grassetto font_size_14">221.00.92</span></td>
+	</tr>
+	<tr><td align="left" valign="top"><span class="font_nero font_myriad font_normale font_size_12">GANCIO 1°  CAT.INF.CBM</span></td></tr>
+	<tr><td align="right" valign="top">&nbsp;</td></tr>
+	<tr><td align="right" valign="top"><span class="font_nero font_myriad font_normale font_size_10"><img src="images/giacenza_verde.png" class="immaginemenu">disponibile&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></td></tr>
+	<tr><td align="left" valign="top"><span class="font_myriad font_normale font_size_10 font_link" onclick="apridivrifalternativo('221.00.92');">riferimento alternativo</span></td></tr>
+	<tr><td align="left" valign="top"><span class="font_myriad font_normale font_size_10 font_link" onclick="apridivdisegnotecnico('221.00.92');">disegno tecnico</span></td></tr>
+	</tbody></table>
+	
+	</td>
+
+	<td align="center" width="1%" style="border-bottom: 2px solid rgb(161,161,161); padding-right: 10;">
+	
+	<div class="prezzidanascondere">
+	<table border="0" id="tabella_prezzi">
+	<tbody><tr>
+	<td align="left">
+	<span class="font_nero font_myriad font_normale font_size_12">
+	Listino&nbsp;&nbsp;<b>LPZ18</b>:	</span>
+	</td>
+	<td align="right">
+	<span class="font_nero font_myriad font_normale font_size_12"><b>
+	€&nbsp;110,84	</b></span>
+	</td>
+	</tr>
+	<tr>
+	<td align="left">
+	<span class="font_nero font_myriad font_normale font_size_12">
+	Sconto:	</span>
+	</td>
+	<td align="right">
+	<span class="font_nero font_myriad font_grassetto font_size_12">
+	55,00%+&nbsp;3,00%	</span>
+	</td>
+	</tr>
+	<tr>
+	<td align="left">
+	<span class="font_nero font_myriad font_normale font_size_15">
+	prezzo:	</span></td>
+	
+	<td align="right">
+	<span class="font_verde font_myriad font_grassetto font_size_15">
+	€&nbsp;48,38	</span>
+	</td>
+	</tr>
+	<tr><td align="center" colspan="2" class="font_nero font_myriad font_grassetto font_size_10">
+		</td></tr>
+
+		<tr>
+	<td align="right">
+		<span class="font_myriad font_nero font_normale font_size_14">n.</span>
+	&nbsp;
+	<input type="text" size="4" id="qta_carrello5" value="" class="font_nero font_myriad font_normale font_size_15 campoQta bordo_grigio_scuro" onkeypress="if(event.which == 13){  aggiungiArticoloCarrello('221.00.92', '5', '48.38166', '110.84000', '55', '3', '0', '1', 'Z18');  }else{ return controlloNumeriInteri(event); } ">
+		</td>
+	<td align="left">
+		<img src="images/carrello_aggiungi.png" class="immaginemenuBig font_link" onclick=" aggiungiArticoloCarrello('221.00.92', '5', '48.38166', '110.84000', '55', '3', '0', '1', 'Z18'); ">
+		</td>
+	</tr>
+	
+	</tbody></table>
+	</div>
+
+	</td>
+
+	</tr>
+
+	<tr>
+	
+	<td align="left" style="border-bottom: 2px solid rgb(161,161,161);">
+	
+	<table border="0">
+	<tbody><tr>
+	<td align="center" width="1%" rowspan="6">
+	<div id="img_articolo" class="img_articolo" align="center" style="border: 2px solid rgb(161,161,161); background-color: #FFF; width: 150px; height: 150px; margin: 10px 10px 10px 10px;" onmouseover="apridivimmaginebig('../paint/221.00.92.01C.jpg');" onmouseout="chiudidivimmaginebig();">
+				<img src="../paint/221.00.92.01C.jpg" class="immagine_articolo" style="margin-top: 0px; border: 0px solid green; max-width: 150px; max-height: 150px;">
+	</div>
+	</td>
+	<td align="left" valign="bottom"><span class="font_nero font_myriad font_grassetto font_size_14">221.00.92.01C</span></td>
+	</tr>
+	<tr><td align="left" valign="top"><span class="font_nero font_myriad font_normale font_size_12">KIT RIP.COMPLETO GANCIO 1°CAT INF. - CBM</span></td></tr>
+	<tr><td align="right" valign="top">&nbsp;</td></tr>
+	<tr><td align="right" valign="top"><span class="font_nero font_myriad font_normale font_size_10"><img src="images/giacenza_verde.png" class="immaginemenu">disponibile&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></td></tr>
+	<tr><td align="left" valign="top"><span class="font_myriad font_normale font_size_10 font_link" onclick="apridivrifalternativo('221.00.92.01C');">riferimento alternativo</span></td></tr>
+	<tr><td align="left" valign="top"><span class="font_myriad font_normale font_size_10 font_link" onclick="apridivdisegnotecnico('221.00.92.01C');">disegno tecnico</span></td></tr>
+	</tbody></table>
+	
+	</td>
+
+	<td align="center" width="1%" style="border-bottom: 2px solid rgb(161,161,161); padding-right: 10;">
+	
+	<div class="prezzidanascondere">
+	<table border="0" id="tabella_prezzi">
+	<tbody><tr>
+	<td align="left">
+	<span class="font_nero font_myriad font_normale font_size_12">
+	Listino&nbsp;&nbsp;<b>LP18</b>:	</span>
+	</td>
+	<td align="right">
+	<span class="font_nero font_myriad font_normale font_size_12"><b>
+	€&nbsp;50,92	</b></span>
+	</td>
+	</tr>
+	<tr>
+	<td align="left">
+	<span class="font_nero font_myriad font_normale font_size_12">
+	Sconto:	</span>
+	</td>
+	<td align="right">
+	<span class="font_nero font_myriad font_grassetto font_size_12">
+	55,00%+&nbsp;3,00%	</span>
+	</td>
+	</tr>
+	<tr>
+	<td align="left">
+	<span class="font_nero font_myriad font_normale font_size_15">
+	prezzo:	</span></td>
+	
+	<td align="right">
+	<span class="font_verde font_myriad font_grassetto font_size_15">
+	€&nbsp;22,23	</span>
+	</td>
+	</tr>
+	<tr><td align="center" colspan="2" class="font_nero font_myriad font_grassetto font_size_10">
+		</td></tr>
+
+		<tr>
+	<td align="right">
+		<span class="font_myriad font_nero font_normale font_size_14">n.</span>
+	&nbsp;
+	<input type="text" size="4" id="qta_carrello6" value="" class="font_nero font_myriad font_normale font_size_15 campoQta bordo_grigio_scuro" onkeypress="if(event.which == 13){  aggiungiArticoloCarrello('221.00.92.01C', '6', '22.22658', '50.92000', '55', '3', '0', '1', 'L18');  }else{ return controlloNumeriInteri(event); } ">
+		</td>
+	<td align="left">
+		<img src="images/carrello_aggiungi.png" class="immaginemenuBig font_link" onclick=" aggiungiArticoloCarrello('221.00.92.01C', '6', '22.22658', '50.92000', '55', '3', '0', '1', 'L18'); ">
+		</td>
+	</tr>
+	
+	</tbody></table>
+	</div>
+
+	</td>
+
+	</tr>
+
+	<tr>
+	
+	<td align="left" style="border-bottom: 2px solid rgb(161,161,161);">
+	
+	<table border="0">
+	<tbody><tr>
+	<td align="center" width="1%" rowspan="6">
+	<div id="img_articolo" class="img_articolo" align="center" style="border: 2px solid rgb(161,161,161); background-color: #FFF; width: 150px; height: 150px; margin: 10px 10px 10px 10px;" onmouseover="apridivimmaginebig('../paint/221.00.93.jpg');" onmouseout="chiudidivimmaginebig();">
+				<img src="../paint/221.00.93.jpg" class="immagine_articolo" style="margin-top: 0px; border: 0px solid green; max-width: 150px; max-height: 150px;">
+	</div>
+	</td>
+	<td align="left" valign="bottom"><span class="font_nero font_myriad font_grassetto font_size_14">221.00.93</span></td>
+	</tr>
+	<tr><td align="left" valign="top"><span class="font_nero font_myriad font_normale font_size_12">GANCIO 2°L CAT.INF.CBM*PICCOLO</span></td></tr>
+	<tr><td align="right" valign="top">&nbsp;</td></tr>
+	<tr><td align="right" valign="top"><span class="font_nero font_myriad font_normale font_size_10"><img src="images/giacenza_verde.png" class="immaginemenu">disponibile&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></td></tr>
+	<tr><td align="left" valign="top"><span class="font_myriad font_normale font_size_10 font_link" onclick="apridivrifalternativo('221.00.93');">riferimento alternativo</span></td></tr>
+	<tr><td align="left" valign="top"><span class="font_myriad font_normale font_size_10 font_link" onclick="apridivdisegnotecnico('221.00.93');">disegno tecnico</span></td></tr>
+	</tbody></table>
+	
+	</td>
+
+	<td align="center" width="1%" style="border-bottom: 2px solid rgb(161,161,161); padding-right: 10;">
+	
+	<div class="prezzidanascondere">
+	<table border="0" id="tabella_prezzi">
+	<tbody><tr>
+	<td align="left">
+	<span class="font_nero font_myriad font_normale font_size_12">
+	Listino&nbsp;&nbsp;<b>LPZ18</b>:	</span>
+	</td>
+	<td align="right">
+	<span class="font_nero font_myriad font_normale font_size_12"><b>
+	€&nbsp;111,77	</b></span>
+	</td>
+	</tr>
+	<tr>
+	<td align="left">
+	<span class="font_nero font_myriad font_normale font_size_12">
+	Sconto:	</span>
+	</td>
+	<td align="right">
+	<span class="font_nero font_myriad font_grassetto font_size_12">
+	55,00%+&nbsp;3,00%	</span>
+	</td>
+	</tr>
+	<tr>
+	<td align="left">
+	<span class="font_nero font_myriad font_normale font_size_15">
+	prezzo:	</span></td>
+	
+	<td align="right">
+	<span class="font_verde font_myriad font_grassetto font_size_15">
+	€&nbsp;48,79	</span>
+	</td>
+	</tr>
+	<tr><td align="center" colspan="2" class="font_nero font_myriad font_grassetto font_size_10">
+		</td></tr>
+
+		<tr>
+	<td align="right">
+		<span class="font_myriad font_nero font_normale font_size_14">n.</span>
+	&nbsp;
+	<input type="text" size="4" id="qta_carrello7" value="" class="font_nero font_myriad font_normale font_size_15 campoQta bordo_grigio_scuro" onkeypress="if(event.which == 13){  aggiungiArticoloCarrello('221.00.93', '7', '48.787605', '111.77000', '55', '3', '0', '1', 'Z18');  }else{ return controlloNumeriInteri(event); } ">
+		</td>
+	<td align="left">
+		<img src="images/carrello_aggiungi.png" class="immaginemenuBig font_link" onclick=" aggiungiArticoloCarrello('221.00.93', '7', '48.787605', '111.77000', '55', '3', '0', '1', 'Z18'); ">
+		</td>
+	</tr>
+	
+	</tbody></table>
+	</div>
+
+	</td>
+
+	</tr>
+
+	<tr>
+	
+	<td align="left" style="border-bottom: 2px solid rgb(161,161,161);">
+	
+	<table border="0">
+	<tbody><tr>
+	<td align="center" width="1%" rowspan="6">
+	<div id="img_articolo" class="img_articolo" align="center" style="border: 2px solid rgb(161,161,161); background-color: #FFF; width: 150px; height: 150px; margin: 10px 10px 10px 10px;" onmouseover="apridivimmaginebig('../paint/221.00.93.01C.jpg');" onmouseout="chiudidivimmaginebig();">
+				<img src="../paint/221.00.93.01C.jpg" class="immagine_articolo" style="margin-top: 0px; border: 0px solid green; max-width: 150px; max-height: 150px;">
+	</div>
+	</td>
+	<td align="left" valign="bottom"><span class="font_nero font_myriad font_grassetto font_size_14">221.00.93.01C</span></td>
+	</tr>
+	<tr><td align="left" valign="top"><span class="font_nero font_myriad font_normale font_size_12">KIT RIP.COMPLETO GANCIO 2°L CAT INF.-CBM</span></td></tr>
+	<tr><td align="right" valign="top">&nbsp;</td></tr>
+	<tr><td align="right" valign="top"><span class="font_nero font_myriad font_normale font_size_10"><img src="images/giacenza_verde.png" class="immaginemenu">disponibile&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></td></tr>
+	<tr><td align="left" valign="top"><span class="font_myriad font_normale font_size_10 font_link" onclick="apridivrifalternativo('221.00.93.01C');">riferimento alternativo</span></td></tr>
+	<tr><td align="left" valign="top"><span class="font_myriad font_normale font_size_10 font_link" onclick="apridivdisegnotecnico('221.00.93.01C');">disegno tecnico</span></td></tr>
+	</tbody></table>
+	
+	</td>
+
+	<td align="center" width="1%" style="border-bottom: 2px solid rgb(161,161,161); padding-right: 10;">
+	
+	<div class="prezzidanascondere">
+	<table border="0" id="tabella_prezzi">
+	<tbody><tr>
+	<td align="left">
+	<span class="font_nero font_myriad font_normale font_size_12">
+	Listino&nbsp;&nbsp;<b>LP18</b>:	</span>
+	</td>
+	<td align="right">
+	<span class="font_nero font_myriad font_normale font_size_12"><b>
+	€&nbsp;50,52	</b></span>
+	</td>
+	</tr>
+	<tr>
+	<td align="left">
+	<span class="font_nero font_myriad font_normale font_size_12">
+	Sconto:	</span>
+	</td>
+	<td align="right">
+	<span class="font_nero font_myriad font_grassetto font_size_12">
+	55,00%+&nbsp;3,00%	</span>
+	</td>
+	</tr>
+	<tr>
+	<td align="left">
+	<span class="font_nero font_myriad font_normale font_size_15">
+	prezzo:	</span></td>
+	
+	<td align="right">
+	<span class="font_verde font_myriad font_grassetto font_size_15">
+	€&nbsp;22,05	</span>
+	</td>
+	</tr>
+	<tr><td align="center" colspan="2" class="font_nero font_myriad font_grassetto font_size_10">
+		</td></tr>
+
+		<tr>
+	<td align="right">
+		<span class="font_myriad font_nero font_normale font_size_14">n.</span>
+	&nbsp;
+	<input type="text" size="4" id="qta_carrello8" value="" class="font_nero font_myriad font_normale font_size_15 campoQta bordo_grigio_scuro" onkeypress="if(event.which == 13){  aggiungiArticoloCarrello('221.00.93.01C', '8', '22.05198', '50.52000', '55', '3', '0', '1', 'L18');  }else{ return controlloNumeriInteri(event); } ">
+		</td>
+	<td align="left">
+		<img src="images/carrello_aggiungi.png" class="immaginemenuBig font_link" onclick=" aggiungiArticoloCarrello('221.00.93.01C', '8', '22.05198', '50.52000', '55', '3', '0', '1', 'L18'); ">
+		</td>
+	</tr>
+	
+	</tbody></table>
+	</div>
+
+	</td>
+
+	</tr>
+
+	<tr>
+	
+	<td align="left" style="border-bottom: 2px solid rgb(161,161,161);">
+	
+	<table border="0">
+	<tbody><tr>
+	<td align="center" width="1%" rowspan="6">
+	<div id="img_articolo" class="img_articolo" align="center" style="border: 2px solid rgb(161,161,161); background-color: #FFF; width: 150px; height: 150px; margin: 10px 10px 10px 10px;" onmouseover="apridivimmaginebig('../paint/221.00.94.jpg');" onmouseout="chiudidivimmaginebig();">
+				<img src="../paint/221.00.94.jpg" class="immagine_articolo" style="margin-top: 0px; border: 0px solid green; max-width: 150px; max-height: 150px;">
+	</div>
+	</td>
+	<td align="left" valign="bottom"><span class="font_nero font_myriad font_grassetto font_size_14">221.00.94</span></td>
+	</tr>
+	<tr><td align="left" valign="top"><span class="font_nero font_myriad font_normale font_size_12">GANCIO 2°  CAT.INF.CBM</span></td></tr>
+	<tr><td align="right" valign="top">&nbsp;</td></tr>
+	<tr><td align="right" valign="top"><span class="font_nero font_myriad font_normale font_size_10"><img src="images/giacenza_rosso.png" class="immaginemenu">non disponibile&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br><span class="font_link font_myriad font_size_14 font_grassetto font_verde" onclick="richiediDataDispo('221.00.94','');">richiedi la disponibilità</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></td></tr>
+	<tr><td align="left" valign="top"><span class="font_myriad font_normale font_size_10 font_link" onclick="apridivrifalternativo('221.00.94');">riferimento alternativo</span></td></tr>
+	<tr><td align="left" valign="top"><span class="font_myriad font_normale font_size_10 font_link" onclick="apridivdisegnotecnico('221.00.94');">disegno tecnico</span></td></tr>
+	</tbody></table>
+	
+	</td>
+
+	<td align="center" width="1%" style="border-bottom: 2px solid rgb(161,161,161); padding-right: 10;">
+	
+	<div class="prezzidanascondere">
+	<table border="0" id="tabella_prezzi">
+	<tbody><tr>
+	<td align="left">
+	<span class="font_nero font_myriad font_normale font_size_12">
+	Listino&nbsp;&nbsp;<b>LPZ18</b>:	</span>
+	</td>
+	<td align="right">
+	<span class="font_nero font_myriad font_normale font_size_12"><b>
+	€&nbsp;120,26	</b></span>
+	</td>
+	</tr>
+	<tr>
+	<td align="left">
+	<span class="font_nero font_myriad font_normale font_size_12">
+	Sconto:	</span>
+	</td>
+	<td align="right">
+	<span class="font_nero font_myriad font_grassetto font_size_12">
+	55,00%+&nbsp;3,00%	</span>
+	</td>
+	</tr>
+	<tr>
+	<td align="left">
+	<span class="font_nero font_myriad font_normale font_size_15">
+	prezzo:	</span></td>
+	
+	<td align="right">
+	<span class="font_verde font_myriad font_grassetto font_size_15">
+	€&nbsp;52,49	</span>
+	</td>
+	</tr>
+	<tr><td align="center" colspan="2" class="font_nero font_myriad font_grassetto font_size_10">
+		</td></tr>
+
+		<tr>
+	<td align="right">
+		<span class="font_myriad font_nero font_normale font_size_14">n.</span>
+	&nbsp;
+	<input type="text" size="4" id="qta_carrello9" value="" class="font_nero font_myriad font_normale font_size_15 campoQta bordo_grigio_scuro" onkeypress="if(event.which == 13){  aggiungiArticoloCarrello('221.00.94', '9', '52.49349', '120.26000', '55', '3', '0', '1', 'Z18');  }else{ return controlloNumeriInteri(event); } ">
+		</td>
+	<td align="left">
+		<img src="images/carrello_aggiungi.png" class="immaginemenuBig font_link" onclick=" aggiungiArticoloCarrello('221.00.94', '9', '52.49349', '120.26000', '55', '3', '0', '1', 'Z18'); ">
+		</td>
+	</tr>
+	
+	</tbody></table>
+	</div>
+
+	</td>
+
+	</tr>
+
+	<tr>
+	
+	<td align="left" style="border-bottom: 2px solid rgb(161,161,161);">
+	
+	<table border="0">
+	<tbody><tr>
+	<td align="center" width="1%" rowspan="6">
+	<div id="img_articolo" class="img_articolo" align="center" style="border: 2px solid rgb(161,161,161); background-color: #FFF; width: 150px; height: 150px; margin: 10px 10px 10px 10px;" onmouseover="apridivimmaginebig('../paint/221.00.94.01C.jpg');" onmouseout="chiudidivimmaginebig();">
+				<img src="../paint/221.00.94.01C.jpg" class="immagine_articolo" style="margin-top: 0px; border: 0px solid green; max-width: 150px; max-height: 150px;">
+	</div>
+	</td>
+	<td align="left" valign="bottom"><span class="font_nero font_myriad font_grassetto font_size_14">221.00.94.01C</span></td>
+	</tr>
+	<tr><td align="left" valign="top"><span class="font_nero font_myriad font_normale font_size_12">KIT RIP.COMPLETO GANCIO 2°CAT INF. - CBM</span></td></tr>
+	<tr><td align="right" valign="top">&nbsp;</td></tr>
+	<tr><td align="right" valign="top"><span class="font_nero font_myriad font_normale font_size_10"><img src="images/giacenza_verde.png" class="immaginemenu">disponibile&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></td></tr>
+	<tr><td align="left" valign="top"><span class="font_myriad font_normale font_size_10 font_link" onclick="apridivrifalternativo('221.00.94.01C');">riferimento alternativo</span></td></tr>
+	<tr><td align="left" valign="top"><span class="font_myriad font_normale font_size_10 font_link" onclick="apridivdisegnotecnico('221.00.94.01C');">disegno tecnico</span></td></tr>
+	</tbody></table>
+	
+	</td>
+
+	<td align="center" width="1%" style="border-bottom: 2px solid rgb(161,161,161); padding-right: 10;">
+	
+	<div class="prezzidanascondere">
+	<table border="0" id="tabella_prezzi">
+	<tbody><tr>
+	<td align="left">
+	<span class="font_nero font_myriad font_normale font_size_12">
+	Listino&nbsp;&nbsp;<b>LP18</b>:	</span>
+	</td>
+	<td align="right">
+	<span class="font_nero font_myriad font_normale font_size_12"><b>
+	€&nbsp;56,06	</b></span>
+	</td>
+	</tr>
+	<tr>
+	<td align="left">
+	<span class="font_nero font_myriad font_normale font_size_12">
+	Sconto:	</span>
+	</td>
+	<td align="right">
+	<span class="font_nero font_myriad font_grassetto font_size_12">
+	55,00%+&nbsp;3,00%	</span>
+	</td>
+	</tr>
+	<tr>
+	<td align="left">
+	<span class="font_nero font_myriad font_normale font_size_15">
+	prezzo:	</span></td>
+	
+	<td align="right">
+	<span class="font_verde font_myriad font_grassetto font_size_15">
+	€&nbsp;24,47	</span>
+	</td>
+	</tr>
+	<tr><td align="center" colspan="2" class="font_nero font_myriad font_grassetto font_size_10">
+		</td></tr>
+
+		<tr>
+	<td align="right">
+		<span class="font_myriad font_nero font_normale font_size_14">n.</span>
+	&nbsp;
+	<input type="text" size="4" id="qta_carrello10" value="" class="font_nero font_myriad font_normale font_size_15 campoQta bordo_grigio_scuro" onkeypress="if(event.which == 13){  aggiungiArticoloCarrello('221.00.94.01C', '10', '24.47019', '56.06000', '55', '3', '0', '1', 'L18');  }else{ return controlloNumeriInteri(event); } ">
+		</td>
+	<td align="left">
+		<img src="images/carrello_aggiungi.png" class="immaginemenuBig font_link" onclick=" aggiungiArticoloCarrello('221.00.94.01C', '10', '24.47019', '56.06000', '55', '3', '0', '1', 'L18'); ">
+		</td>
+	</tr>
+	
+	</tbody></table>
+	</div>
+
+	</td>
+
+	</tr>
+
+	<tr>
+	
+	<td align="left" style="border-bottom: 2px solid rgb(161,161,161);">
+	
+	<table border="0">
+	<tbody><tr>
+	<td align="center" width="1%" rowspan="6">
+	<div id="img_articolo" class="img_articolo" align="center" style="border: 2px solid rgb(161,161,161); background-color: #FFF; width: 150px; height: 150px; margin: 10px 10px 10px 10px;" onmouseover="apridivimmaginebig('../paint/221.00.95.jpg');" onmouseout="chiudidivimmaginebig();">
+				<img src="../paint/221.00.95.jpg" class="immagine_articolo" style="margin-top: 0px; border: 0px solid green; max-width: 150px; max-height: 150px;">
+	</div>
+	</td>
+	<td align="left" valign="bottom"><span class="font_nero font_myriad font_grassetto font_size_14">221.00.95</span></td>
+	</tr>
+	<tr><td align="left" valign="top"><span class="font_nero font_myriad font_normale font_size_12">GANCIO 3/2°CAT.INF.CBM</span></td></tr>
+	<tr><td align="right" valign="top">&nbsp;</td></tr>
+	<tr><td align="right" valign="top"><span class="font_nero font_myriad font_normale font_size_10"><img src="images/giacenza_rosso.png" class="immaginemenu">non disponibile&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br><span class="font_link font_myriad font_size_14 font_grassetto font_verde" onclick="richiediDataDispo('221.00.95','');">richiedi la disponibilità</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></td></tr>
+	<tr><td align="left" valign="top"><span class="font_myriad font_normale font_size_10 font_link" onclick="apridivrifalternativo('221.00.95');">riferimento alternativo</span></td></tr>
+	<tr><td align="left" valign="top"><span class="font_myriad font_normale font_size_10 font_link" onclick="apridivdisegnotecnico('221.00.95');">disegno tecnico</span></td></tr>
+	</tbody></table>
+	
+	</td>
+
+	<td align="center" width="1%" style="border-bottom: 2px solid rgb(161,161,161); padding-right: 10;">
+	
+	<div class="prezzidanascondere">
+	<table border="0" id="tabella_prezzi">
+	<tbody><tr>
+	<td align="left">
+	<span class="font_nero font_myriad font_normale font_size_12">
+	Listino&nbsp;&nbsp;<b>LPZ18</b>:	</span>
+	</td>
+	<td align="right">
+	<span class="font_nero font_myriad font_normale font_size_12"><b>
+	€&nbsp;136,70	</b></span>
+	</td>
+	</tr>
+	<tr>
+	<td align="left">
+	<span class="font_nero font_myriad font_normale font_size_12">
+	Sconto:	</span>
+	</td>
+	<td align="right">
+	<span class="font_nero font_myriad font_grassetto font_size_12">
+	55,00%+&nbsp;3,00%	</span>
+	</td>
+	</tr>
+	<tr>
+	<td align="left">
+	<span class="font_nero font_myriad font_normale font_size_15">
+	prezzo:	</span></td>
+	
+	<td align="right">
+	<span class="font_verde font_myriad font_grassetto font_size_15">
+	€&nbsp;59,67	</span>
+	</td>
+	</tr>
+	<tr><td align="center" colspan="2" class="font_nero font_myriad font_grassetto font_size_10">
+		</td></tr>
+
+		<tr>
+	<td align="right">
+		<span class="font_myriad font_nero font_normale font_size_14">n.</span>
+	&nbsp;
+	<input type="text" size="4" id="qta_carrello11" value="" class="font_nero font_myriad font_normale font_size_15 campoQta bordo_grigio_scuro" onkeypress="if(event.which == 13){  aggiungiArticoloCarrello('221.00.95', '11', '59.66955', '136.70000', '55', '3', '0', '1', 'Z18');  }else{ return controlloNumeriInteri(event); } ">
+		</td>
+	<td align="left">
+		<img src="images/carrello_aggiungi.png" class="immaginemenuBig font_link" onclick=" aggiungiArticoloCarrello('221.00.95', '11', '59.66955', '136.70000', '55', '3', '0', '1', 'Z18'); ">
+		</td>
+	</tr>
+	
+	</tbody></table>
+	</div>
+
+	</td>
+
+	</tr>
+
+	<tr>
+	
+	<td align="left" style="border-bottom: 2px solid rgb(161,161,161);">
+	
+	<table border="0">
+	<tbody><tr>
+	<td align="center" width="1%" rowspan="6">
+	<div id="img_articolo" class="img_articolo" align="center" style="border: 2px solid rgb(161,161,161); background-color: #FFF; width: 150px; height: 150px; margin: 10px 10px 10px 10px;" onmouseover="apridivimmaginebig('../paint/221.00.95.01C.jpg');" onmouseout="chiudidivimmaginebig();">
+				<img src="../paint/221.00.95.01C.jpg" class="immagine_articolo" style="margin-top: 0px; border: 0px solid green; max-width: 150px; max-height: 150px;">
+	</div>
+	</td>
+	<td align="left" valign="bottom"><span class="font_nero font_myriad font_grassetto font_size_14">221.00.95.01C</span></td>
+	</tr>
+	<tr><td align="left" valign="top"><span class="font_nero font_myriad font_normale font_size_12">KIT RIP.COMPLETO GANCIO 3°CAT INF. - CBM</span></td></tr>
+	<tr><td align="right" valign="top">&nbsp;</td></tr>
+	<tr><td align="right" valign="top"><span class="font_nero font_myriad font_normale font_size_10"><img src="images/giacenza_verde.png" class="immaginemenu">disponibile&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></td></tr>
+	<tr><td align="left" valign="top"><span class="font_myriad font_normale font_size_10 font_link" onclick="apridivrifalternativo('221.00.95.01C');">riferimento alternativo</span></td></tr>
+	<tr><td align="left" valign="top"><span class="font_myriad font_normale font_size_10 font_link" onclick="apridivdisegnotecnico('221.00.95.01C');">disegno tecnico</span></td></tr>
+	</tbody></table>
+	
+	</td>
+
+	<td align="center" width="1%" style="border-bottom: 2px solid rgb(161,161,161); padding-right: 10;">
+	
+	<div class="prezzidanascondere">
+	<table border="0" id="tabella_prezzi">
+	<tbody><tr>
+	<td align="left">
+	<span class="font_nero font_myriad font_normale font_size_12">
+	Listino&nbsp;&nbsp;<b>LP18</b>:	</span>
+	</td>
+	<td align="right">
+	<span class="font_nero font_myriad font_normale font_size_12"><b>
+	€&nbsp;56,44	</b></span>
+	</td>
+	</tr>
+	<tr>
+	<td align="left">
+	<span class="font_nero font_myriad font_normale font_size_12">
+	Sconto:	</span>
+	</td>
+	<td align="right">
+	<span class="font_nero font_myriad font_grassetto font_size_12">
+	55,00%+&nbsp;3,00%	</span>
+	</td>
+	</tr>
+	<tr>
+	<td align="left">
+	<span class="font_nero font_myriad font_normale font_size_15">
+	prezzo:	</span></td>
+	
+	<td align="right">
+	<span class="font_verde font_myriad font_grassetto font_size_15">
+	€&nbsp;24,64	</span>
+	</td>
+	</tr>
+	<tr><td align="center" colspan="2" class="font_nero font_myriad font_grassetto font_size_10">
+		</td></tr>
+
+		<tr>
+	<td align="right">
+		<span class="font_myriad font_nero font_normale font_size_14">n.</span>
+	&nbsp;
+	<input type="text" size="4" id="qta_carrello12" value="" class="font_nero font_myriad font_normale font_size_15 campoQta bordo_grigio_scuro" onkeypress="if(event.which == 13){  aggiungiArticoloCarrello('221.00.95.01C', '12', '24.63606', '56.44000', '55', '3', '0', '1', 'L18');  }else{ return controlloNumeriInteri(event); } ">
+		</td>
+	<td align="left">
+		<img src="images/carrello_aggiungi.png" class="immaginemenuBig font_link" onclick=" aggiungiArticoloCarrello('221.00.95.01C', '12', '24.63606', '56.44000', '55', '3', '0', '1', 'L18'); ">
+		</td>
+	</tr>
+	
+	</tbody></table>
+	</div>
+
+	</td>
+
+	</tr>
+
+	<tr>
+	
+	<td align="left" style="border-bottom: 2px solid rgb(161,161,161);">
+	
+	<table border="0">
+	<tbody><tr>
+	<td align="center" width="1%" rowspan="6">
+	<div id="img_articolo" class="img_articolo" align="center" style="border: 2px solid rgb(161,161,161); background-color: #FFF; width: 150px; height: 150px; margin: 10px 10px 10px 10px;" onmouseover="apridivimmaginebig('../paint/221.00.96.jpg');" onmouseout="chiudidivimmaginebig();">
+				<img src="../paint/221.00.96.jpg" class="immagine_articolo" style="margin-top: 0px; border: 0px solid green; max-width: 150px; max-height: 150px;">
+	</div>
+	</td>
+	<td align="left" valign="bottom"><span class="font_nero font_myriad font_grassetto font_size_14">221.00.96</span></td>
+	</tr>
+	<tr><td align="left" valign="top"><span class="font_nero font_myriad font_normale font_size_12">GANCIO 4° CAT.INF.CBM</span></td></tr>
+	<tr><td align="right" valign="top">&nbsp;</td></tr>
+	<tr><td align="right" valign="top"><span class="font_nero font_myriad font_normale font_size_10"><img src="images/giacenza_verde.png" class="immaginemenu">disponibile&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></td></tr>
+	<tr><td align="left" valign="top"><span class="font_myriad font_normale font_size_10 font_link" onclick="apridivrifalternativo('221.00.96');">riferimento alternativo</span></td></tr>
+	<tr><td align="left" valign="top"><span class="font_myriad font_normale font_size_10 font_link" onclick="apridivdisegnotecnico('221.00.96');">disegno tecnico</span></td></tr>
+	</tbody></table>
+	
+	</td>
+
+	<td align="center" width="1%" style="border-bottom: 2px solid rgb(161,161,161); padding-right: 10;">
+	
+	<div class="prezzidanascondere">
+	<table border="0" id="tabella_prezzi">
+	<tbody><tr>
+	<td align="left">
+	<span class="font_nero font_myriad font_normale font_size_12">
+	Listino&nbsp;&nbsp;<b>LP18</b>:	</span>
+	</td>
+	<td align="right">
+	<span class="font_nero font_myriad font_normale font_size_12"><b>
+	€&nbsp;407,96	</b></span>
+	</td>
+	</tr>
+	<tr>
+	<td align="left">
+	<span class="font_nero font_myriad font_normale font_size_12">
+	Sconto:	</span>
+	</td>
+	<td align="right">
+	<span class="font_nero font_myriad font_grassetto font_size_12">
+	55,00%+&nbsp;3,00%	</span>
+	</td>
+	</tr>
+	<tr>
+	<td align="left">
+	<span class="font_nero font_myriad font_normale font_size_15">
+	prezzo:	</span></td>
+	
+	<td align="right">
+	<span class="font_verde font_myriad font_grassetto font_size_15">
+	€&nbsp;178,07	</span>
+	</td>
+	</tr>
+	<tr><td align="center" colspan="2" class="font_nero font_myriad font_grassetto font_size_10">
+		</td></tr>
+
+		<tr>
+	<td align="right">
+		<span class="font_myriad font_nero font_normale font_size_14">n.</span>
+	&nbsp;
+	<input type="text" size="4" id="qta_carrello13" value="" class="font_nero font_myriad font_normale font_size_15 campoQta bordo_grigio_scuro" onkeypress="if(event.which == 13){  aggiungiArticoloCarrello('221.00.96', '13', '178.07454', '407.96000', '55', '3', '0', '1', 'L18');  }else{ return controlloNumeriInteri(event); } ">
+		</td>
+	<td align="left">
+		<img src="images/carrello_aggiungi.png" class="immaginemenuBig font_link" onclick=" aggiungiArticoloCarrello('221.00.96', '13', '178.07454', '407.96000', '55', '3', '0', '1', 'L18'); ">
+		</td>
+	</tr>
+	
+	</tbody></table>
+	</div>
+
+	</td>
+
+	</tr>
+
+	<tr>
+	
+	<td align="left" style="border-bottom: 2px solid rgb(161,161,161);">
+	
+	<table border="0">
+	<tbody><tr>
+	<td align="center" width="1%" rowspan="6">
+	<div id="img_articolo" class="img_articolo" align="center" style="border: 2px solid rgb(161,161,161); background-color: #FFF; width: 150px; height: 150px; margin: 10px 10px 10px 10px;" onmouseover="apridivimmaginebig('../paint/221.00.96.01C.jpg');" onmouseout="chiudidivimmaginebig();">
+				<img src="../paint/221.00.96.01C.jpg" class="immagine_articolo" style="margin-top: 0px; border: 0px solid green; max-width: 150px; max-height: 150px;">
+	</div>
+	</td>
+	<td align="left" valign="bottom"><span class="font_nero font_myriad font_grassetto font_size_14">221.00.96.01C</span></td>
+	</tr>
+	<tr><td align="left" valign="top"><span class="font_nero font_myriad font_normale font_size_12">KIT RIP.COMPLETO GANCIO 4°CAT INF. - CBM</span></td></tr>
+	<tr><td align="right" valign="top">&nbsp;</td></tr>
+	<tr><td align="right" valign="top"><span class="font_nero font_myriad font_normale font_size_10"><img src="images/giacenza_verde.png" class="immaginemenu">disponibile&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></td></tr>
+	<tr><td align="left" valign="top"><span class="font_myriad font_normale font_size_10 font_link" onclick="apridivrifalternativo('221.00.96.01C');">riferimento alternativo</span></td></tr>
+	<tr><td align="left" valign="top"><span class="font_myriad font_normale font_size_10 font_link" onclick="apridivdisegnotecnico('221.00.96.01C');">disegno tecnico</span></td></tr>
+	</tbody></table>
+	
+	</td>
+
+	<td align="center" width="1%" style="border-bottom: 2px solid rgb(161,161,161); padding-right: 10;">
+	
+	<div class="prezzidanascondere">
+	<table border="0" id="tabella_prezzi">
+	<tbody><tr>
+	<td align="left">
+	<span class="font_nero font_myriad font_normale font_size_12">
+	Listino&nbsp;&nbsp;<b>LP18</b>:	</span>
+	</td>
+	<td align="right">
+	<span class="font_nero font_myriad font_normale font_size_12"><b>
+	€&nbsp;126,30	</b></span>
+	</td>
+	</tr>
+	<tr>
+	<td align="left">
+	<span class="font_nero font_myriad font_normale font_size_12">
+	Sconto:	</span>
+	</td>
+	<td align="right">
+	<span class="font_nero font_myriad font_grassetto font_size_12">
+	55,00%+&nbsp;3,00%	</span>
+	</td>
+	</tr>
+	<tr>
+	<td align="left">
+	<span class="font_nero font_myriad font_normale font_size_15">
+	prezzo:	</span></td>
+	
+	<td align="right">
+	<span class="font_verde font_myriad font_grassetto font_size_15">
+	€&nbsp;55,13	</span>
+	</td>
+	</tr>
+	<tr><td align="center" colspan="2" class="font_nero font_myriad font_grassetto font_size_10">
+		</td></tr>
+
+		<tr>
+	<td align="right">
+		<span class="font_myriad font_nero font_normale font_size_14">n.</span>
+	&nbsp;
+	<input type="text" size="4" id="qta_carrello14" value="" class="font_nero font_myriad font_normale font_size_15 campoQta bordo_grigio_scuro" onkeypress="if(event.which == 13){  aggiungiArticoloCarrello('221.00.96.01C', '14', '55.12995', '126.30000', '55', '3', '0', '1', 'L18');  }else{ return controlloNumeriInteri(event); } ">
+		</td>
+	<td align="left">
+		<img src="images/carrello_aggiungi.png" class="immaginemenuBig font_link" onclick=" aggiungiArticoloCarrello('221.00.96.01C', '14', '55.12995', '126.30000', '55', '3', '0', '1', 'L18'); ">
+		</td>
+	</tr>
+	
+	</tbody></table>
+	</div>
+
+	</td>
+
+	</tr>
+
+	<tr>
+	
+	<td align="left" style="border-bottom: 2px solid rgb(161,161,161);">
+	
+	<table border="0">
+	<tbody><tr>
+	<td align="center" width="1%" rowspan="6">
+	<div id="img_articolo" class="img_articolo" align="center" style="border: 2px solid rgb(161,161,161); background-color: #FFF; width: 150px; height: 150px; margin: 10px 10px 10px 10px;" onmouseover="apridivimmaginebig('../paint/221.00.97.jpg');" onmouseout="chiudidivimmaginebig();">
+				<img src="../paint/221.00.97.jpg" class="immagine_articolo" style="margin-top: 0px; border: 0px solid green; max-width: 150px; max-height: 150px;">
+	</div>
+	</td>
+	<td align="left" valign="bottom"><span class="font_nero font_myriad font_grassetto font_size_14">221.00.97</span></td>
+	</tr>
+	<tr><td align="left" valign="top"><span class="font_nero font_myriad font_normale font_size_12">GANCIO 3° S CAT.INF.CBM</span></td></tr>
+	<tr><td align="right" valign="top">&nbsp;</td></tr>
+	<tr><td align="right" valign="top"><span class="font_nero font_myriad font_normale font_size_10"><img src="images/giacenza_verde.png" class="immaginemenu">disponibile&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></td></tr>
+	<tr><td align="left" valign="top"><span class="font_myriad font_normale font_size_10 font_link" onclick="apridivrifalternativo('221.00.97');">riferimento alternativo</span></td></tr>
+	<tr><td align="left" valign="top"><span class="font_myriad font_normale font_size_10 font_link" onclick="apridivdisegnotecnico('221.00.97');">disegno tecnico</span></td></tr>
+	</tbody></table>
+	
+	</td>
+
+	<td align="center" width="1%" style="border-bottom: 2px solid rgb(161,161,161); padding-right: 10;">
+	
+	<div class="prezzidanascondere">
+	<table border="0" id="tabella_prezzi">
+	<tbody><tr>
+	<td align="left">
+	<span class="font_nero font_myriad font_normale font_size_12">
+	Listino&nbsp;&nbsp;<b>LP18</b>:	</span>
+	</td>
+	<td align="right">
+	<span class="font_nero font_myriad font_normale font_size_12"><b>
+	€&nbsp;139,70	</b></span>
+	</td>
+	</tr>
+	<tr>
+	<td align="left">
+	<span class="font_nero font_myriad font_normale font_size_12">
+	Sconto:	</span>
+	</td>
+	<td align="right">
+	<span class="font_nero font_myriad font_grassetto font_size_12">
+	55,00%+&nbsp;3,00%	</span>
+	</td>
+	</tr>
+	<tr>
+	<td align="left">
+	<span class="font_nero font_myriad font_normale font_size_15">
+	prezzo:	</span></td>
+	
+	<td align="right">
+	<span class="font_verde font_myriad font_grassetto font_size_15">
+	€&nbsp;60,98	</span>
+	</td>
+	</tr>
+	<tr><td align="center" colspan="2" class="font_nero font_myriad font_grassetto font_size_10">
+		</td></tr>
+
+		<tr>
+	<td align="right">
+		<span class="font_myriad font_nero font_normale font_size_14">n.</span>
+	&nbsp;
+	<input type="text" size="4" id="qta_carrello15" value="" class="font_nero font_myriad font_normale font_size_15 campoQta bordo_grigio_scuro" onkeypress="if(event.which == 13){  aggiungiArticoloCarrello('221.00.97', '15', '60.97905', '139.70000', '55', '3', '0', '1', 'L18');  }else{ return controlloNumeriInteri(event); } ">
+		</td>
+	<td align="left">
+		<img src="images/carrello_aggiungi.png" class="immaginemenuBig font_link" onclick=" aggiungiArticoloCarrello('221.00.97', '15', '60.97905', '139.70000', '55', '3', '0', '1', 'L18'); ">
+		</td>
+	</tr>
+	
+	</tbody></table>
+	</div>
+
+	</td>
+
+	</tr>
+
+
+</tbody></table>
+<form name="filtri_elenco_clle_liberi" id="filtri_elenco_clle_liberi"><input type="hidden" name="elencodiricerca[0]" value="201.00.94DX"><input type="hidden" name="elencodiricerca[1]" value="201.00.94SX"><input type="hidden" name="elencodiricerca[2]" value="201.00.95DX"><input type="hidden" name="elencodiricerca[3]" value="201.00.95SX"><input type="hidden" name="elencodiricerca[4]" value="201.01.04"><input type="hidden" name="elencodiricerca[5]" value="221.00.92"><input type="hidden" name="elencodiricerca[6]" value="221.00.92.01C"><input type="hidden" name="elencodiricerca[7]" value="221.00.93"><input type="hidden" name="elencodiricerca[8]" value="221.00.93.01C"><input type="hidden" name="elencodiricerca[9]" value="221.00.94"><input type="hidden" name="elencodiricerca[10]" value="221.00.94.01C"><input type="hidden" name="elencodiricerca[11]" value="221.00.95"><input type="hidden" name="elencodiricerca[12]" value="221.00.95.01C"><input type="hidden" name="elencodiricerca[13]" value="221.00.96"><input type="hidden" name="elencodiricerca[14]" value="221.00.96.01C"><input type="hidden" name="elencodiricerca[15]" value="221.00.97"><input type="hidden" name="rice_like" value=""><input type="hidden" name="codice_rice_garden" value=""><input type="hidden" name="tipo_macchina" value=""><input type="hidden" name="tipo_ricambio" value=""><input type="hidden" name="modello" value=""><input type="hidden" name="marca" value=""></form></div>

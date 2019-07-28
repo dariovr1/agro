@@ -1,0 +1,2162 @@
+<div id="tabella_articoli" class="scrollstyle" style="height: 328px; overflow-y: scroll;">
+<table border="0" width="100%" cellpadding="0" cellspacing="0">
+
+	<tbody><tr>
+	
+	<td align="left" style="border-bottom: 2px solid rgb(161,161,161);">
+	
+	<table border="0">
+	<tbody><tr>
+	<td align="center" width="1%" rowspan="6">
+	<div id="img_articolo" class="img_articolo" align="center" style="border: 2px solid rgb(161,161,161); background-color: #FFF; width: 150px; height: 150px; margin: 10px 10px 10px 10px;" onmouseover="apridivimmaginebig('../paint/206.00.98.34.jpg');" onmouseout="chiudidivimmaginebig();">
+				<img src="../paint/206.00.98.34.jpg" class="immagine_articolo" style="margin-top: 0px; border: 0px solid green; max-width: 150px; max-height: 150px;">
+	</div>
+	</td>
+	<td align="left" valign="bottom"><span class="font_nero font_myriad font_grassetto font_size_14">206.00.98.34</span></td>
+	</tr>
+	<tr><td align="left" valign="top"><span class="font_nero font_myriad font_normale font_size_12">SERIE DECALC.TRATT.FIAT D.TRAZ.250DTH</span></td></tr>
+	<tr><td align="right" valign="top">&nbsp;</td></tr>
+	<tr><td align="right" valign="top"><span class="font_nero font_myriad font_normale font_size_10"><img src="images/giacenza_verde.png" class="immaginemenu">disponibile&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></td></tr>
+	<tr><td align="left" valign="top"><span class="font_myriad font_normale font_size_10 font_link" onclick="apridivrifalternativo('206.00.98.34');">riferimento alternativo</span></td></tr>
+	<tr><td align="left" valign="top"><span class="font_myriad font_normale font_size_10 font_link" onclick="apridivdisegnotecnico('206.00.98.34');">disegno tecnico</span></td></tr>
+	</tbody></table>
+	
+	</td>
+
+	<td align="center" width="1%" style="border-bottom: 2px solid rgb(161,161,161); padding-right: 10;">
+	
+	<div class="prezzidanascondere">
+	<table border="0" id="tabella_prezzi">
+	<tbody><tr>
+	<td align="left">
+	<span class="font_nero font_myriad font_normale font_size_12">
+	Listino&nbsp;&nbsp;<b>LP18</b>:	</span>
+	</td>
+	<td align="right">
+	<span class="font_nero font_myriad font_normale font_size_12"><b>
+	€&nbsp;61,98	</b></span>
+	</td>
+	</tr>
+	<tr>
+	<td align="left">
+	<span class="font_nero font_myriad font_normale font_size_12">
+	Sconto:	</span>
+	</td>
+	<td align="right">
+	<span class="font_nero font_myriad font_grassetto font_size_12">
+	55,00%+&nbsp;3,00%	</span>
+	</td>
+	</tr>
+	<tr>
+	<td align="left">
+	<span class="font_nero font_myriad font_normale font_size_15">
+	prezzo:	</span></td>
+	
+	<td align="right">
+	<span class="font_verde font_myriad font_grassetto font_size_15">
+	€&nbsp;27,05	</span>
+	</td>
+	</tr>
+	<tr><td align="center" colspan="2" class="font_nero font_myriad font_grassetto font_size_10">
+		</td></tr>
+
+		<tr>
+	<td align="right">
+		<span class="font_myriad font_nero font_normale font_size_14">n.</span>
+	&nbsp;
+	<input type="text" size="4" id="qta_carrello0" value="" class="font_nero font_myriad font_normale font_size_15 campoQta bordo_grigio_scuro" onkeypress="if(event.which == 13){  aggiungiArticoloCarrello('206.00.98.34', '0', '27.05427', '61.98000', '55', '3', '0', '1', 'L18');  }else{ return controlloNumeriInteri(event); } ">
+		</td>
+	<td align="left">
+		<img src="images/carrello_aggiungi.png" class="immaginemenuBig font_link" onclick=" aggiungiArticoloCarrello('206.00.98.34', '0', '27.05427', '61.98000', '55', '3', '0', '1', 'L18'); ">
+		</td>
+	</tr>
+	
+	</tbody></table>
+	</div>
+
+	</td>
+
+	</tr>
+
+	<tr>
+	
+	<td align="left" style="border-bottom: 2px solid rgb(161,161,161);">
+	
+	<table border="0">
+	<tbody><tr>
+	<td align="center" width="1%" rowspan="6">
+	<div id="img_articolo" class="img_articolo" align="center" style="border: 2px solid rgb(161,161,161); background-color: #FFF; width: 150px; height: 150px; margin: 10px 10px 10px 10px;" onmouseover="apridivimmaginebig('../paint/206.00.98.35.jpg');" onmouseout="chiudidivimmaginebig();">
+				<img src="../paint/206.00.98.35.jpg" class="immagine_articolo" style="margin-top: 0px; border: 0px solid green; max-width: 150px; max-height: 150px;">
+	</div>
+	</td>
+	<td align="left" valign="bottom"><span class="font_nero font_myriad font_grassetto font_size_14">206.00.98.35</span></td>
+	</tr>
+	<tr><td align="left" valign="top"><span class="font_nero font_myriad font_normale font_size_12">SERIE DECALC.TRATT.FIAT D.TRAZ.300DTH</span></td></tr>
+	<tr><td align="right" valign="top">&nbsp;</td></tr>
+	<tr><td align="right" valign="top"><span class="font_nero font_myriad font_normale font_size_10"><img src="images/giacenza_verde.png" class="immaginemenu">disponibile&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></td></tr>
+	<tr><td align="left" valign="top"><span class="font_myriad font_normale font_size_10 font_link" onclick="apridivrifalternativo('206.00.98.35');">riferimento alternativo</span></td></tr>
+	<tr><td align="left" valign="top"><span class="font_myriad font_normale font_size_10 font_link" onclick="apridivdisegnotecnico('206.00.98.35');">disegno tecnico</span></td></tr>
+	</tbody></table>
+	
+	</td>
+
+	<td align="center" width="1%" style="border-bottom: 2px solid rgb(161,161,161); padding-right: 10;">
+	
+	<div class="prezzidanascondere">
+	<table border="0" id="tabella_prezzi">
+	<tbody><tr>
+	<td align="left">
+	<span class="font_nero font_myriad font_normale font_size_12">
+	Listino&nbsp;&nbsp;<b>LP18</b>:	</span>
+	</td>
+	<td align="right">
+	<span class="font_nero font_myriad font_normale font_size_12"><b>
+	€&nbsp;53,08	</b></span>
+	</td>
+	</tr>
+	<tr>
+	<td align="left">
+	<span class="font_nero font_myriad font_normale font_size_12">
+	Sconto:	</span>
+	</td>
+	<td align="right">
+	<span class="font_nero font_myriad font_grassetto font_size_12">
+	55,00%+&nbsp;3,00%	</span>
+	</td>
+	</tr>
+	<tr>
+	<td align="left">
+	<span class="font_nero font_myriad font_normale font_size_15">
+	prezzo:	</span></td>
+	
+	<td align="right">
+	<span class="font_verde font_myriad font_grassetto font_size_15">
+	€&nbsp;23,17	</span>
+	</td>
+	</tr>
+	<tr><td align="center" colspan="2" class="font_nero font_myriad font_grassetto font_size_10">
+		</td></tr>
+
+		<tr>
+	<td align="right">
+		<span class="font_myriad font_nero font_normale font_size_14">n.</span>
+	&nbsp;
+	<input type="text" size="4" id="qta_carrello1" value="" class="font_nero font_myriad font_normale font_size_15 campoQta bordo_grigio_scuro" onkeypress="if(event.which == 13){  aggiungiArticoloCarrello('206.00.98.35', '1', '23.16942', '53.08000', '55', '3', '0', '1', 'L18');  }else{ return controlloNumeriInteri(event); } ">
+		</td>
+	<td align="left">
+		<img src="images/carrello_aggiungi.png" class="immaginemenuBig font_link" onclick=" aggiungiArticoloCarrello('206.00.98.35', '1', '23.16942', '53.08000', '55', '3', '0', '1', 'L18'); ">
+		</td>
+	</tr>
+	
+	</tbody></table>
+	</div>
+
+	</td>
+
+	</tr>
+
+	<tr>
+	
+	<td align="left" style="border-bottom: 2px solid rgb(161,161,161);">
+	
+	<table border="0">
+	<tbody><tr>
+	<td align="center" width="1%" rowspan="6">
+	<div id="img_articolo" class="img_articolo" align="center" style="border: 2px solid rgb(161,161,161); background-color: #FFF; width: 150px; height: 150px; margin: 10px 10px 10px 10px;" onmouseover="apridivimmaginebig('../paint/206.00.98.36.jpg');" onmouseout="chiudidivimmaginebig();">
+				<img src="../paint/206.00.98.36.jpg" class="immagine_articolo" style="margin-top: 0px; border: 0px solid green; max-width: 150px; max-height: 150px;">
+	</div>
+	</td>
+	<td align="left" valign="bottom"><span class="font_nero font_myriad font_grassetto font_size_14">206.00.98.36</span></td>
+	</tr>
+	<tr><td align="left" valign="top"><span class="font_nero font_myriad font_normale font_size_12">SERIE DECALC.TRATT.FIAT D.TRAZ.350DTH</span></td></tr>
+	<tr><td align="right" valign="top">&nbsp;</td></tr>
+	<tr><td align="right" valign="top"><span class="font_nero font_myriad font_normale font_size_10"><img src="images/giacenza_verde.png" class="immaginemenu">disponibile&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></td></tr>
+	<tr><td align="left" valign="top"><span class="font_myriad font_normale font_size_10 font_link" onclick="apridivrifalternativo('206.00.98.36');">riferimento alternativo</span></td></tr>
+	<tr><td align="left" valign="top"><span class="font_myriad font_normale font_size_10 font_link" onclick="apridivdisegnotecnico('206.00.98.36');">disegno tecnico</span></td></tr>
+	</tbody></table>
+	
+	</td>
+
+	<td align="center" width="1%" style="border-bottom: 2px solid rgb(161,161,161); padding-right: 10;">
+	
+	<div class="prezzidanascondere">
+	<table border="0" id="tabella_prezzi">
+	<tbody><tr>
+	<td align="left">
+	<span class="font_nero font_myriad font_normale font_size_12">
+	Listino&nbsp;&nbsp;<b>LP18</b>:	</span>
+	</td>
+	<td align="right">
+	<span class="font_nero font_myriad font_normale font_size_12"><b>
+	€&nbsp;61,98	</b></span>
+	</td>
+	</tr>
+	<tr>
+	<td align="left">
+	<span class="font_nero font_myriad font_normale font_size_12">
+	Sconto:	</span>
+	</td>
+	<td align="right">
+	<span class="font_nero font_myriad font_grassetto font_size_12">
+	55,00%+&nbsp;3,00%	</span>
+	</td>
+	</tr>
+	<tr>
+	<td align="left">
+	<span class="font_nero font_myriad font_normale font_size_15">
+	prezzo:	</span></td>
+	
+	<td align="right">
+	<span class="font_verde font_myriad font_grassetto font_size_15">
+	€&nbsp;27,05	</span>
+	</td>
+	</tr>
+	<tr><td align="center" colspan="2" class="font_nero font_myriad font_grassetto font_size_10">
+		</td></tr>
+
+		<tr>
+	<td align="right">
+		<span class="font_myriad font_nero font_normale font_size_14">n.</span>
+	&nbsp;
+	<input type="text" size="4" id="qta_carrello2" value="" class="font_nero font_myriad font_normale font_size_15 campoQta bordo_grigio_scuro" onkeypress="if(event.which == 13){  aggiungiArticoloCarrello('206.00.98.36', '2', '27.05427', '61.98000', '55', '3', '0', '1', 'L18');  }else{ return controlloNumeriInteri(event); } ">
+		</td>
+	<td align="left">
+		<img src="images/carrello_aggiungi.png" class="immaginemenuBig font_link" onclick=" aggiungiArticoloCarrello('206.00.98.36', '2', '27.05427', '61.98000', '55', '3', '0', '1', 'L18'); ">
+		</td>
+	</tr>
+	
+	</tbody></table>
+	</div>
+
+	</td>
+
+	</tr>
+
+	<tr>
+	
+	<td align="left" style="border-bottom: 2px solid rgb(161,161,161);">
+	
+	<table border="0">
+	<tbody><tr>
+	<td align="center" width="1%" rowspan="6">
+	<div id="img_articolo" class="img_articolo" align="center" style="border: 2px solid rgb(161,161,161); background-color: #FFF; width: 150px; height: 150px; margin: 10px 10px 10px 10px;" onmouseover="apridivimmaginebig('../paint/206.00.98.39.jpg');" onmouseout="chiudidivimmaginebig();">
+				<img src="../paint/206.00.98.39.jpg" class="immagine_articolo" style="margin-top: 0px; border: 0px solid green; max-width: 150px; max-height: 150px;">
+	</div>
+	</td>
+	<td align="left" valign="bottom"><span class="font_nero font_myriad font_grassetto font_size_14">206.00.98.39</span></td>
+	</tr>
+	<tr><td align="left" valign="top"><span class="font_nero font_myriad font_normale font_size_12">SERIE DECALC.TR.FIAT D.T.450DTH SUPER</span></td></tr>
+	<tr><td align="right" valign="top">&nbsp;</td></tr>
+	<tr><td align="right" valign="top"><span class="font_nero font_myriad font_normale font_size_10"><img src="images/giacenza_verde.png" class="immaginemenu">disponibile&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></td></tr>
+	<tr><td align="left" valign="top"><span class="font_myriad font_normale font_size_10 font_link" onclick="apridivrifalternativo('206.00.98.39');">riferimento alternativo</span></td></tr>
+	<tr><td align="left" valign="top"><span class="font_myriad font_normale font_size_10 font_link" onclick="apridivdisegnotecnico('206.00.98.39');">disegno tecnico</span></td></tr>
+	</tbody></table>
+	
+	</td>
+
+	<td align="center" width="1%" style="border-bottom: 2px solid rgb(161,161,161); padding-right: 10;">
+	
+	<div class="prezzidanascondere">
+	<table border="0" id="tabella_prezzi">
+	<tbody><tr>
+	<td align="left">
+	<span class="font_nero font_myriad font_normale font_size_12">
+	Listino&nbsp;&nbsp;<b>LP18</b>:	</span>
+	</td>
+	<td align="right">
+	<span class="font_nero font_myriad font_normale font_size_12"><b>
+	€&nbsp;61,62	</b></span>
+	</td>
+	</tr>
+	<tr>
+	<td align="left">
+	<span class="font_nero font_myriad font_normale font_size_12">
+	Sconto:	</span>
+	</td>
+	<td align="right">
+	<span class="font_nero font_myriad font_grassetto font_size_12">
+	55,00%+&nbsp;3,00%	</span>
+	</td>
+	</tr>
+	<tr>
+	<td align="left">
+	<span class="font_nero font_myriad font_normale font_size_15">
+	prezzo:	</span></td>
+	
+	<td align="right">
+	<span class="font_verde font_myriad font_grassetto font_size_15">
+	€&nbsp;26,90	</span>
+	</td>
+	</tr>
+	<tr><td align="center" colspan="2" class="font_nero font_myriad font_grassetto font_size_10">
+		</td></tr>
+
+		<tr>
+	<td align="right">
+		<span class="font_myriad font_nero font_normale font_size_14">n.</span>
+	&nbsp;
+	<input type="text" size="4" id="qta_carrello3" value="" class="font_nero font_myriad font_normale font_size_15 campoQta bordo_grigio_scuro" onkeypress="if(event.which == 13){  aggiungiArticoloCarrello('206.00.98.39', '3', '26.89713', '61.62000', '55', '3', '0', '1', 'L18');  }else{ return controlloNumeriInteri(event); } ">
+		</td>
+	<td align="left">
+		<img src="images/carrello_aggiungi.png" class="immaginemenuBig font_link" onclick=" aggiungiArticoloCarrello('206.00.98.39', '3', '26.89713', '61.62000', '55', '3', '0', '1', 'L18'); ">
+		</td>
+	</tr>
+	
+	</tbody></table>
+	</div>
+
+	</td>
+
+	</tr>
+
+	<tr>
+	
+	<td align="left" style="border-bottom: 2px solid rgb(161,161,161);">
+	
+	<table border="0">
+	<tbody><tr>
+	<td align="center" width="1%" rowspan="6">
+	<div id="img_articolo" class="img_articolo" align="center" style="border: 2px solid rgb(161,161,161); background-color: #FFF; width: 150px; height: 150px; margin: 10px 10px 10px 10px;" onmouseover="apridivimmaginebig('../paint/206.00.98.44.jpg');" onmouseout="chiudidivimmaginebig();">
+				<img src="../paint/206.00.98.44.jpg" class="immagine_articolo" style="margin-top: 0px; border: 0px solid green; max-width: 150px; max-height: 150px;">
+	</div>
+	</td>
+	<td align="left" valign="bottom"><span class="font_nero font_myriad font_grassetto font_size_14">206.00.98.44</span></td>
+	</tr>
+	<tr><td align="left" valign="top"><span class="font_nero font_myriad font_normale font_size_12">SERIE DECALC.TRATT.FIAT D.TRAZ.480DTH</span></td></tr>
+	<tr><td align="right" valign="top">&nbsp;</td></tr>
+	<tr><td align="right" valign="top"><span class="font_nero font_myriad font_normale font_size_10"><img src="images/giacenza_verde.png" class="immaginemenu">disponibile&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></td></tr>
+	<tr><td align="left" valign="top"><span class="font_myriad font_normale font_size_10 font_link" onclick="apridivrifalternativo('206.00.98.44');">riferimento alternativo</span></td></tr>
+	<tr><td align="left" valign="top"><span class="font_myriad font_normale font_size_10 font_link" onclick="apridivdisegnotecnico('206.00.98.44');">disegno tecnico</span></td></tr>
+	</tbody></table>
+	
+	</td>
+
+	<td align="center" width="1%" style="border-bottom: 2px solid rgb(161,161,161); padding-right: 10;">
+	
+	<div class="prezzidanascondere">
+	<table border="0" id="tabella_prezzi">
+	<tbody><tr>
+	<td align="left">
+	<span class="font_nero font_myriad font_normale font_size_12">
+	Listino&nbsp;&nbsp;<b>LP18</b>:	</span>
+	</td>
+	<td align="right">
+	<span class="font_nero font_myriad font_normale font_size_12"><b>
+	€&nbsp;61,62	</b></span>
+	</td>
+	</tr>
+	<tr>
+	<td align="left">
+	<span class="font_nero font_myriad font_normale font_size_12">
+	Sconto:	</span>
+	</td>
+	<td align="right">
+	<span class="font_nero font_myriad font_grassetto font_size_12">
+	55,00%+&nbsp;3,00%	</span>
+	</td>
+	</tr>
+	<tr>
+	<td align="left">
+	<span class="font_nero font_myriad font_normale font_size_15">
+	prezzo:	</span></td>
+	
+	<td align="right">
+	<span class="font_verde font_myriad font_grassetto font_size_15">
+	€&nbsp;26,90	</span>
+	</td>
+	</tr>
+	<tr><td align="center" colspan="2" class="font_nero font_myriad font_grassetto font_size_10">
+		</td></tr>
+
+		<tr>
+	<td align="right">
+		<span class="font_myriad font_nero font_normale font_size_14">n.</span>
+	&nbsp;
+	<input type="text" size="4" id="qta_carrello4" value="" class="font_nero font_myriad font_normale font_size_15 campoQta bordo_grigio_scuro" onkeypress="if(event.which == 13){  aggiungiArticoloCarrello('206.00.98.44', '4', '26.89713', '61.62000', '55', '3', '0', '1', 'L18');  }else{ return controlloNumeriInteri(event); } ">
+		</td>
+	<td align="left">
+		<img src="images/carrello_aggiungi.png" class="immaginemenuBig font_link" onclick=" aggiungiArticoloCarrello('206.00.98.44', '4', '26.89713', '61.62000', '55', '3', '0', '1', 'L18'); ">
+		</td>
+	</tr>
+	
+	</tbody></table>
+	</div>
+
+	</td>
+
+	</tr>
+
+	<tr>
+	
+	<td align="left" style="border-bottom: 2px solid rgb(161,161,161);">
+	
+	<table border="0">
+	<tbody><tr>
+	<td align="center" width="1%" rowspan="6">
+	<div id="img_articolo" class="img_articolo" align="center" style="border: 2px solid rgb(161,161,161); background-color: #FFF; width: 150px; height: 150px; margin: 10px 10px 10px 10px;" onmouseover="apridivimmaginebig('../paint/206.00.98.45.jpg');" onmouseout="chiudidivimmaginebig();">
+				<img src="../paint/206.00.98.45.jpg" class="immagine_articolo" style="margin-top: 0px; border: 0px solid green; max-width: 150px; max-height: 150px;">
+	</div>
+	</td>
+	<td align="left" valign="bottom"><span class="font_nero font_myriad font_grassetto font_size_14">206.00.98.45</span></td>
+	</tr>
+	<tr><td align="left" valign="top"><span class="font_nero font_myriad font_normale font_size_12">SERIE DECALC.TRATT.FIAT D.TRAZ.500DTH</span></td></tr>
+	<tr><td align="right" valign="top">&nbsp;</td></tr>
+	<tr><td align="right" valign="top"><span class="font_nero font_myriad font_normale font_size_10"><img src="images/giacenza_rosso.png" class="immaginemenu">non disponibile&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br><span class="font_link font_myriad font_size_14 font_grassetto font_verde" onclick="richiediDataDispo('206.00.98.45','');">richiedi la disponibilità</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></td></tr>
+	<tr><td align="left" valign="top"><span class="font_myriad font_normale font_size_10 font_link" onclick="apridivrifalternativo('206.00.98.45');">riferimento alternativo</span></td></tr>
+	<tr><td align="left" valign="top"><span class="font_myriad font_normale font_size_10 font_link" onclick="apridivdisegnotecnico('206.00.98.45');">disegno tecnico</span></td></tr>
+	</tbody></table>
+	
+	</td>
+
+	<td align="center" width="1%" style="border-bottom: 2px solid rgb(161,161,161); padding-right: 10;">
+	
+	<div class="prezzidanascondere">
+	<table border="0" id="tabella_prezzi">
+	<tbody><tr>
+	<td align="left">
+	<span class="font_nero font_myriad font_normale font_size_12">
+	Listino&nbsp;&nbsp;<b>LP18</b>:	</span>
+	</td>
+	<td align="right">
+	<span class="font_nero font_myriad font_normale font_size_12"><b>
+	€&nbsp;67,03	</b></span>
+	</td>
+	</tr>
+	<tr>
+	<td align="left">
+	<span class="font_nero font_myriad font_normale font_size_12">
+	Sconto:	</span>
+	</td>
+	<td align="right">
+	<span class="font_nero font_myriad font_grassetto font_size_12">
+	55,00%+&nbsp;3,00%	</span>
+	</td>
+	</tr>
+	<tr>
+	<td align="left">
+	<span class="font_nero font_myriad font_normale font_size_15">
+	prezzo:	</span></td>
+	
+	<td align="right">
+	<span class="font_verde font_myriad font_grassetto font_size_15">
+	€&nbsp;29,26	</span>
+	</td>
+	</tr>
+	<tr><td align="center" colspan="2" class="font_nero font_myriad font_grassetto font_size_10">
+		</td></tr>
+
+		<tr>
+	<td align="right">
+		<span class="font_myriad font_nero font_normale font_size_14">n.</span>
+	&nbsp;
+	<input type="text" size="4" id="qta_carrello5" value="" class="font_nero font_myriad font_normale font_size_15 campoQta bordo_grigio_scuro" onkeypress="if(event.which == 13){  aggiungiArticoloCarrello('206.00.98.45', '5', '29.258595', '67.03000', '55', '3', '0', '1', 'L18');  }else{ return controlloNumeriInteri(event); } ">
+		</td>
+	<td align="left">
+		<img src="images/carrello_aggiungi.png" class="immaginemenuBig font_link" onclick=" aggiungiArticoloCarrello('206.00.98.45', '5', '29.258595', '67.03000', '55', '3', '0', '1', 'L18'); ">
+		</td>
+	</tr>
+	
+	</tbody></table>
+	</div>
+
+	</td>
+
+	</tr>
+
+	<tr>
+	
+	<td align="left" style="border-bottom: 2px solid rgb(161,161,161);">
+	
+	<table border="0">
+	<tbody><tr>
+	<td align="center" width="1%" rowspan="6">
+	<div id="img_articolo" class="img_articolo" align="center" style="border: 2px solid rgb(161,161,161); background-color: #FFF; width: 150px; height: 150px; margin: 10px 10px 10px 10px;" onmouseover="apridivimmaginebig('../paint/206.00.98.47.jpg');" onmouseout="chiudidivimmaginebig();">
+				<img src="../paint/206.00.98.47.jpg" class="immagine_articolo" style="margin-top: 0px; border: 0px solid green; max-width: 150px; max-height: 150px;">
+	</div>
+	</td>
+	<td align="left" valign="bottom"><span class="font_nero font_myriad font_grassetto font_size_14">206.00.98.47</span></td>
+	</tr>
+	<tr><td align="left" valign="top"><span class="font_nero font_myriad font_normale font_size_12">SERIE DECALC.TR.FIAT D.T.540DTH SUPER*</span></td></tr>
+	<tr><td align="right" valign="top">&nbsp;</td></tr>
+	<tr><td align="right" valign="top"><span class="font_nero font_myriad font_normale font_size_10"><img src="images/giacenza_verde.png" class="immaginemenu">disponibile&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></td></tr>
+	<tr><td align="left" valign="top"><span class="font_myriad font_normale font_size_10 font_link" onclick="apridivrifalternativo('206.00.98.47');">riferimento alternativo</span></td></tr>
+	<tr><td align="left" valign="top"><span class="font_myriad font_normale font_size_10 font_link" onclick="apridivdisegnotecnico('206.00.98.47');">disegno tecnico</span></td></tr>
+	</tbody></table>
+	
+	</td>
+
+	<td align="center" width="1%" style="border-bottom: 2px solid rgb(161,161,161); padding-right: 10;">
+	
+	<div class="prezzidanascondere">
+	<table border="0" id="tabella_prezzi">
+	<tbody><tr>
+	<td align="left">
+	<span class="font_nero font_myriad font_normale font_size_12">
+	Listino&nbsp;&nbsp;<b>LP18</b>:	</span>
+	</td>
+	<td align="right">
+	<span class="font_nero font_myriad font_normale font_size_12"><b>
+	€&nbsp;67,03	</b></span>
+	</td>
+	</tr>
+	<tr>
+	<td align="left">
+	<span class="font_nero font_myriad font_normale font_size_12">
+	Sconto:	</span>
+	</td>
+	<td align="right">
+	<span class="font_nero font_myriad font_grassetto font_size_12">
+	55,00%+&nbsp;3,00%	</span>
+	</td>
+	</tr>
+	<tr>
+	<td align="left">
+	<span class="font_nero font_myriad font_normale font_size_15">
+	prezzo:	</span></td>
+	
+	<td align="right">
+	<span class="font_verde font_myriad font_grassetto font_size_15">
+	€&nbsp;29,26	</span>
+	</td>
+	</tr>
+	<tr><td align="center" colspan="2" class="font_nero font_myriad font_grassetto font_size_10">
+		</td></tr>
+
+		<tr>
+	<td align="right">
+		<span class="font_myriad font_nero font_normale font_size_14">n.</span>
+	&nbsp;
+	<input type="text" size="4" id="qta_carrello6" value="" class="font_nero font_myriad font_normale font_size_15 campoQta bordo_grigio_scuro" onkeypress="if(event.which == 13){  aggiungiArticoloCarrello('206.00.98.47', '6', '29.258595', '67.03000', '55', '3', '0', '1', 'L18');  }else{ return controlloNumeriInteri(event); } ">
+		</td>
+	<td align="left">
+		<img src="images/carrello_aggiungi.png" class="immaginemenuBig font_link" onclick=" aggiungiArticoloCarrello('206.00.98.47', '6', '29.258595', '67.03000', '55', '3', '0', '1', 'L18'); ">
+		</td>
+	</tr>
+	
+	</tbody></table>
+	</div>
+
+	</td>
+
+	</tr>
+
+	<tr>
+	
+	<td align="left" style="border-bottom: 2px solid rgb(161,161,161);">
+	
+	<table border="0">
+	<tbody><tr>
+	<td align="center" width="1%" rowspan="6">
+	<div id="img_articolo" class="img_articolo" align="center" style="border: 2px solid rgb(161,161,161); background-color: #FFF; width: 150px; height: 150px; margin: 10px 10px 10px 10px;" onmouseover="apridivimmaginebig('../paint/206.00.98.48.jpg');" onmouseout="chiudidivimmaginebig();">
+				<img src="../paint/206.00.98.48.jpg" class="immagine_articolo" style="margin-top: 0px; border: 0px solid green; max-width: 150px; max-height: 150px;">
+	</div>
+	</td>
+	<td align="left" valign="bottom"><span class="font_nero font_myriad font_grassetto font_size_14">206.00.98.48</span></td>
+	</tr>
+	<tr><td align="left" valign="top"><span class="font_nero font_myriad font_normale font_size_12">SERIE DECALC.TR.FIAT D.T.550DTH</span></td></tr>
+	<tr><td align="right" valign="top">&nbsp;</td></tr>
+	<tr><td align="right" valign="top"><span class="font_nero font_myriad font_normale font_size_10"><img src="images/giacenza_rosso.png" class="immaginemenu">non disponibile&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br><span class="font_link font_myriad font_size_14 font_grassetto font_verde" onclick="richiediDataDispo('206.00.98.48','');">richiedi la disponibilità</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></td></tr>
+	<tr><td align="left" valign="top"><span class="font_myriad font_normale font_size_10 font_link" onclick="apridivrifalternativo('206.00.98.48');">riferimento alternativo</span></td></tr>
+	<tr><td align="left" valign="top"><span class="font_myriad font_normale font_size_10 font_link" onclick="apridivdisegnotecnico('206.00.98.48');">disegno tecnico</span></td></tr>
+	</tbody></table>
+	
+	</td>
+
+	<td align="center" width="1%" style="border-bottom: 2px solid rgb(161,161,161); padding-right: 10;">
+	
+	<div class="prezzidanascondere">
+	<table border="0" id="tabella_prezzi">
+	<tbody><tr>
+	<td align="left">
+	<span class="font_nero font_myriad font_normale font_size_12">
+	Listino&nbsp;&nbsp;<b>LP18</b>:	</span>
+	</td>
+	<td align="right">
+	<span class="font_nero font_myriad font_normale font_size_12"><b>
+	€&nbsp;61,04	</b></span>
+	</td>
+	</tr>
+	<tr>
+	<td align="left">
+	<span class="font_nero font_myriad font_normale font_size_12">
+	Sconto:	</span>
+	</td>
+	<td align="right">
+	<span class="font_nero font_myriad font_grassetto font_size_12">
+	55,00%+&nbsp;3,00%	</span>
+	</td>
+	</tr>
+	<tr>
+	<td align="left">
+	<span class="font_nero font_myriad font_normale font_size_15">
+	prezzo:	</span></td>
+	
+	<td align="right">
+	<span class="font_verde font_myriad font_grassetto font_size_15">
+	€&nbsp;26,64	</span>
+	</td>
+	</tr>
+	<tr><td align="center" colspan="2" class="font_nero font_myriad font_grassetto font_size_10">
+		</td></tr>
+
+		<tr>
+	<td align="right">
+		<span class="font_myriad font_nero font_normale font_size_14">n.</span>
+	&nbsp;
+	<input type="text" size="4" id="qta_carrello7" value="" class="font_nero font_myriad font_normale font_size_15 campoQta bordo_grigio_scuro" onkeypress="if(event.which == 13){  aggiungiArticoloCarrello('206.00.98.48', '7', '26.64396', '61.04000', '55', '3', '0', '1', 'L18');  }else{ return controlloNumeriInteri(event); } ">
+		</td>
+	<td align="left">
+		<img src="images/carrello_aggiungi.png" class="immaginemenuBig font_link" onclick=" aggiungiArticoloCarrello('206.00.98.48', '7', '26.64396', '61.04000', '55', '3', '0', '1', 'L18'); ">
+		</td>
+	</tr>
+	
+	</tbody></table>
+	</div>
+
+	</td>
+
+	</tr>
+
+	<tr>
+	
+	<td align="left" style="border-bottom: 2px solid rgb(161,161,161);">
+	
+	<table border="0">
+	<tbody><tr>
+	<td align="center" width="1%" rowspan="6">
+	<div id="img_articolo" class="img_articolo" align="center" style="border: 2px solid rgb(161,161,161); background-color: #FFF; width: 150px; height: 150px; margin: 10px 10px 10px 10px;" onmouseover="apridivimmaginebig('../paint/206.00.98.52.jpg');" onmouseout="chiudidivimmaginebig();">
+				<img src="../paint/206.00.98.52.jpg" class="immagine_articolo" style="margin-top: 0px; border: 0px solid green; max-width: 150px; max-height: 150px;">
+	</div>
+	</td>
+	<td align="left" valign="bottom"><span class="font_nero font_myriad font_grassetto font_size_14">206.00.98.52</span></td>
+	</tr>
+	<tr><td align="left" valign="top"><span class="font_nero font_myriad font_normale font_size_12">SERIE DECALC.TR.FIAT D.T.600DTH*</span></td></tr>
+	<tr><td align="right" valign="top">&nbsp;</td></tr>
+	<tr><td align="right" valign="top"><span class="font_nero font_myriad font_normale font_size_10"><img src="images/giacenza_verde.png" class="immaginemenu">disponibile&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></td></tr>
+	<tr><td align="left" valign="top"><span class="font_myriad font_normale font_size_10 font_link" onclick="apridivrifalternativo('206.00.98.52');">riferimento alternativo</span></td></tr>
+	<tr><td align="left" valign="top"><span class="font_myriad font_normale font_size_10 font_link" onclick="apridivdisegnotecnico('206.00.98.52');">disegno tecnico</span></td></tr>
+	</tbody></table>
+	
+	</td>
+
+	<td align="center" width="1%" style="border-bottom: 2px solid rgb(161,161,161); padding-right: 10;">
+	
+	<div class="prezzidanascondere">
+	<table border="0" id="tabella_prezzi">
+	<tbody><tr>
+	<td align="left">
+	<span class="font_nero font_myriad font_normale font_size_12">
+	Listino&nbsp;&nbsp;<b>LP18</b>:	</span>
+	</td>
+	<td align="right">
+	<span class="font_nero font_myriad font_normale font_size_12"><b>
+	€&nbsp;61,04	</b></span>
+	</td>
+	</tr>
+	<tr>
+	<td align="left">
+	<span class="font_nero font_myriad font_normale font_size_12">
+	Sconto:	</span>
+	</td>
+	<td align="right">
+	<span class="font_nero font_myriad font_grassetto font_size_12">
+	55,00%+&nbsp;3,00%	</span>
+	</td>
+	</tr>
+	<tr>
+	<td align="left">
+	<span class="font_nero font_myriad font_normale font_size_15">
+	prezzo:	</span></td>
+	
+	<td align="right">
+	<span class="font_verde font_myriad font_grassetto font_size_15">
+	€&nbsp;26,64	</span>
+	</td>
+	</tr>
+	<tr><td align="center" colspan="2" class="font_nero font_myriad font_grassetto font_size_10">
+		</td></tr>
+
+		<tr>
+	<td align="right">
+		<span class="font_myriad font_nero font_normale font_size_14">n.</span>
+	&nbsp;
+	<input type="text" size="4" id="qta_carrello8" value="" class="font_nero font_myriad font_normale font_size_15 campoQta bordo_grigio_scuro" onkeypress="if(event.which == 13){  aggiungiArticoloCarrello('206.00.98.52', '8', '26.64396', '61.04000', '55', '3', '0', '1', 'L18');  }else{ return controlloNumeriInteri(event); } ">
+		</td>
+	<td align="left">
+		<img src="images/carrello_aggiungi.png" class="immaginemenuBig font_link" onclick=" aggiungiArticoloCarrello('206.00.98.52', '8', '26.64396', '61.04000', '55', '3', '0', '1', 'L18'); ">
+		</td>
+	</tr>
+	
+	</tbody></table>
+	</div>
+
+	</td>
+
+	</tr>
+
+	<tr>
+	
+	<td align="left" style="border-bottom: 2px solid rgb(161,161,161);">
+	
+	<table border="0">
+	<tbody><tr>
+	<td align="center" width="1%" rowspan="6">
+	<div id="img_articolo" class="img_articolo" align="center" style="border: 2px solid rgb(161,161,161); background-color: #FFF; width: 150px; height: 150px; margin: 10px 10px 10px 10px;" onmouseover="apridivimmaginebig('../paint/206.00.98.53.jpg');" onmouseout="chiudidivimmaginebig();">
+				<img src="../paint/206.00.98.53.jpg" class="immagine_articolo" style="margin-top: 0px; border: 0px solid green; max-width: 150px; max-height: 150px;">
+	</div>
+	</td>
+	<td align="left" valign="bottom"><span class="font_nero font_myriad font_grassetto font_size_14">206.00.98.53</span></td>
+	</tr>
+	<tr><td align="left" valign="top"><span class="font_nero font_myriad font_normale font_size_12">SERIE DECALC.TR.FIAT D.T.640DTH SUPER*</span></td></tr>
+	<tr><td align="right" valign="top">&nbsp;</td></tr>
+	<tr><td align="right" valign="top"><span class="font_nero font_myriad font_normale font_size_10"><img src="images/giacenza_verde.png" class="immaginemenu">disponibile&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></td></tr>
+	<tr><td align="left" valign="top"><span class="font_myriad font_normale font_size_10 font_link" onclick="apridivrifalternativo('206.00.98.53');">riferimento alternativo</span></td></tr>
+	<tr><td align="left" valign="top"><span class="font_myriad font_normale font_size_10 font_link" onclick="apridivdisegnotecnico('206.00.98.53');">disegno tecnico</span></td></tr>
+	</tbody></table>
+	
+	</td>
+
+	<td align="center" width="1%" style="border-bottom: 2px solid rgb(161,161,161); padding-right: 10;">
+	
+	<div class="prezzidanascondere">
+	<table border="0" id="tabella_prezzi">
+	<tbody><tr>
+	<td align="left">
+	<span class="font_nero font_myriad font_normale font_size_12">
+	Listino&nbsp;&nbsp;<b>LP18</b>:	</span>
+	</td>
+	<td align="right">
+	<span class="font_nero font_myriad font_normale font_size_12"><b>
+	€&nbsp;75,99	</b></span>
+	</td>
+	</tr>
+	<tr>
+	<td align="left">
+	<span class="font_nero font_myriad font_normale font_size_12">
+	Sconto:	</span>
+	</td>
+	<td align="right">
+	<span class="font_nero font_myriad font_grassetto font_size_12">
+	55,00%+&nbsp;3,00%	</span>
+	</td>
+	</tr>
+	<tr>
+	<td align="left">
+	<span class="font_nero font_myriad font_normale font_size_15">
+	prezzo:	</span></td>
+	
+	<td align="right">
+	<span class="font_verde font_myriad font_grassetto font_size_15">
+	€&nbsp;33,17	</span>
+	</td>
+	</tr>
+	<tr><td align="center" colspan="2" class="font_nero font_myriad font_grassetto font_size_10">
+		</td></tr>
+
+		<tr>
+	<td align="right">
+		<span class="font_myriad font_nero font_normale font_size_14">n.</span>
+	&nbsp;
+	<input type="text" size="4" id="qta_carrello9" value="" class="font_nero font_myriad font_normale font_size_15 campoQta bordo_grigio_scuro" onkeypress="if(event.which == 13){  aggiungiArticoloCarrello('206.00.98.53', '9', '33.169635', '75.99000', '55', '3', '0', '1', 'L18');  }else{ return controlloNumeriInteri(event); } ">
+		</td>
+	<td align="left">
+		<img src="images/carrello_aggiungi.png" class="immaginemenuBig font_link" onclick=" aggiungiArticoloCarrello('206.00.98.53', '9', '33.169635', '75.99000', '55', '3', '0', '1', 'L18'); ">
+		</td>
+	</tr>
+	
+	</tbody></table>
+	</div>
+
+	</td>
+
+	</tr>
+
+	<tr>
+	
+	<td align="left" style="border-bottom: 2px solid rgb(161,161,161);">
+	
+	<table border="0">
+	<tbody><tr>
+	<td align="center" width="1%" rowspan="6">
+	<div id="img_articolo" class="img_articolo" align="center" style="border: 2px solid rgb(161,161,161); background-color: #FFF; width: 150px; height: 150px; margin: 10px 10px 10px 10px;" onmouseover="apridivimmaginebig('../paint/206.00.98.55.jpg');" onmouseout="chiudidivimmaginebig();">
+				<img src="../paint/206.00.98.55.jpg" class="immagine_articolo" style="margin-top: 0px; border: 0px solid green; max-width: 150px; max-height: 150px;">
+	</div>
+	</td>
+	<td align="left" valign="bottom"><span class="font_nero font_myriad font_grassetto font_size_14">206.00.98.55</span></td>
+	</tr>
+	<tr><td align="left" valign="top"><span class="font_nero font_myriad font_normale font_size_12">SERIE DECALC.TR.FIAT D.T.666DTH*</span></td></tr>
+	<tr><td align="right" valign="top">&nbsp;</td></tr>
+	<tr><td align="right" valign="top"><span class="font_nero font_myriad font_normale font_size_10"><img src="images/giacenza_rosso.png" class="immaginemenu">non disponibile&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br><span class="font_link font_myriad font_size_14 font_grassetto font_verde" onclick="richiediDataDispo('206.00.98.55','');">richiedi la disponibilità</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></td></tr>
+	<tr><td align="left" valign="top"><span class="font_myriad font_normale font_size_10 font_link" onclick="apridivrifalternativo('206.00.98.55');">riferimento alternativo</span></td></tr>
+	<tr><td align="left" valign="top"><span class="font_myriad font_normale font_size_10 font_link" onclick="apridivdisegnotecnico('206.00.98.55');">disegno tecnico</span></td></tr>
+	</tbody></table>
+	
+	</td>
+
+	<td align="center" width="1%" style="border-bottom: 2px solid rgb(161,161,161); padding-right: 10;">
+	
+	<div class="prezzidanascondere">
+	<table border="0" id="tabella_prezzi">
+	<tbody><tr>
+	<td align="left">
+	<span class="font_nero font_myriad font_normale font_size_12">
+	Listino&nbsp;&nbsp;<b>LP18</b>:	</span>
+	</td>
+	<td align="right">
+	<span class="font_nero font_myriad font_normale font_size_12"><b>
+	€&nbsp;62,71	</b></span>
+	</td>
+	</tr>
+	<tr>
+	<td align="left">
+	<span class="font_nero font_myriad font_normale font_size_12">
+	Sconto:	</span>
+	</td>
+	<td align="right">
+	<span class="font_nero font_myriad font_grassetto font_size_12">
+	55,00%+&nbsp;3,00%	</span>
+	</td>
+	</tr>
+	<tr>
+	<td align="left">
+	<span class="font_nero font_myriad font_normale font_size_15">
+	prezzo:	</span></td>
+	
+	<td align="right">
+	<span class="font_verde font_myriad font_grassetto font_size_15">
+	€&nbsp;27,37	</span>
+	</td>
+	</tr>
+	<tr><td align="center" colspan="2" class="font_nero font_myriad font_grassetto font_size_10">
+		</td></tr>
+
+		<tr>
+	<td align="right">
+		<span class="font_myriad font_nero font_normale font_size_14">n.</span>
+	&nbsp;
+	<input type="text" size="4" id="qta_carrello10" value="" class="font_nero font_myriad font_normale font_size_15 campoQta bordo_grigio_scuro" onkeypress="if(event.which == 13){  aggiungiArticoloCarrello('206.00.98.55', '10', '27.372915', '62.71000', '55', '3', '0', '1', 'L18');  }else{ return controlloNumeriInteri(event); } ">
+		</td>
+	<td align="left">
+		<img src="images/carrello_aggiungi.png" class="immaginemenuBig font_link" onclick=" aggiungiArticoloCarrello('206.00.98.55', '10', '27.372915', '62.71000', '55', '3', '0', '1', 'L18'); ">
+		</td>
+	</tr>
+	
+	</tbody></table>
+	</div>
+
+	</td>
+
+	</tr>
+
+	<tr>
+	
+	<td align="left" style="border-bottom: 2px solid rgb(161,161,161);">
+	
+	<table border="0">
+	<tbody><tr>
+	<td align="center" width="1%" rowspan="6">
+	<div id="img_articolo" class="img_articolo" align="center" style="border: 2px solid rgb(161,161,161); background-color: #FFF; width: 150px; height: 150px; margin: 10px 10px 10px 10px;" onmouseover="apridivimmaginebig('../paint/206.00.98.56.jpg');" onmouseout="chiudidivimmaginebig();">
+				<img src="../paint/206.00.98.56.jpg" class="immagine_articolo" style="margin-top: 0px; border: 0px solid green; max-width: 150px; max-height: 150px;">
+	</div>
+	</td>
+	<td align="left" valign="bottom"><span class="font_nero font_myriad font_grassetto font_size_14">206.00.98.56</span></td>
+	</tr>
+	<tr><td align="left" valign="top"><span class="font_nero font_myriad font_normale font_size_12">SERIE DECALC.TR.FIAT D.T.670DTH</span></td></tr>
+	<tr><td align="right" valign="top">&nbsp;</td></tr>
+	<tr><td align="right" valign="top"><span class="font_nero font_myriad font_normale font_size_10"><img src="images/giacenza_verde.png" class="immaginemenu">disponibile&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></td></tr>
+	<tr><td align="left" valign="top"><span class="font_myriad font_normale font_size_10 font_link" onclick="apridivrifalternativo('206.00.98.56');">riferimento alternativo</span></td></tr>
+	<tr><td align="left" valign="top"><span class="font_myriad font_normale font_size_10 font_link" onclick="apridivdisegnotecnico('206.00.98.56');">disegno tecnico</span></td></tr>
+	</tbody></table>
+	
+	</td>
+
+	<td align="center" width="1%" style="border-bottom: 2px solid rgb(161,161,161); padding-right: 10;">
+	
+	<div class="prezzidanascondere">
+	<table border="0" id="tabella_prezzi">
+	<tbody><tr>
+	<td align="left">
+	<span class="font_nero font_myriad font_normale font_size_12">
+	Listino&nbsp;&nbsp;<b>LP18</b>:	</span>
+	</td>
+	<td align="right">
+	<span class="font_nero font_myriad font_normale font_size_12"><b>
+	€&nbsp;62,93	</b></span>
+	</td>
+	</tr>
+	<tr>
+	<td align="left">
+	<span class="font_nero font_myriad font_normale font_size_12">
+	Sconto:	</span>
+	</td>
+	<td align="right">
+	<span class="font_nero font_myriad font_grassetto font_size_12">
+	55,00%+&nbsp;3,00%	</span>
+	</td>
+	</tr>
+	<tr>
+	<td align="left">
+	<span class="font_nero font_myriad font_normale font_size_15">
+	prezzo:	</span></td>
+	
+	<td align="right">
+	<span class="font_verde font_myriad font_grassetto font_size_15">
+	€&nbsp;27,47	</span>
+	</td>
+	</tr>
+	<tr><td align="center" colspan="2" class="font_nero font_myriad font_grassetto font_size_10">
+		</td></tr>
+
+		<tr>
+	<td align="right">
+		<span class="font_myriad font_nero font_normale font_size_14">n.</span>
+	&nbsp;
+	<input type="text" size="4" id="qta_carrello11" value="" class="font_nero font_myriad font_normale font_size_15 campoQta bordo_grigio_scuro" onkeypress="if(event.which == 13){  aggiungiArticoloCarrello('206.00.98.56', '11', '27.468945', '62.93000', '55', '3', '0', '1', 'L18');  }else{ return controlloNumeriInteri(event); } ">
+		</td>
+	<td align="left">
+		<img src="images/carrello_aggiungi.png" class="immaginemenuBig font_link" onclick=" aggiungiArticoloCarrello('206.00.98.56', '11', '27.468945', '62.93000', '55', '3', '0', '1', 'L18'); ">
+		</td>
+	</tr>
+	
+	</tbody></table>
+	</div>
+
+	</td>
+
+	</tr>
+
+	<tr>
+	
+	<td align="left" style="border-bottom: 2px solid rgb(161,161,161);">
+	
+	<table border="0">
+	<tbody><tr>
+	<td align="center" width="1%" rowspan="6">
+	<div id="img_articolo" class="img_articolo" align="center" style="border: 2px solid rgb(161,161,161); background-color: #FFF; width: 150px; height: 150px; margin: 10px 10px 10px 10px;" onmouseover="apridivimmaginebig('../paint/206.00.98.59.jpg');" onmouseout="chiudidivimmaginebig();">
+				<img src="../paint/206.00.98.59.jpg" class="immagine_articolo" style="margin-top: 0px; border: 0px solid green; max-width: 150px; max-height: 150px;">
+	</div>
+	</td>
+	<td align="left" valign="bottom"><span class="font_nero font_myriad font_grassetto font_size_14">206.00.98.59</span></td>
+	</tr>
+	<tr><td align="left" valign="top"><span class="font_nero font_myriad font_normale font_size_12">SERIE DECALC.TR.FIAT D.T.750DTH</span></td></tr>
+	<tr><td align="right" valign="top">&nbsp;</td></tr>
+	<tr><td align="right" valign="top"><span class="font_nero font_myriad font_normale font_size_10"><img src="images/giacenza_rosso.png" class="immaginemenu">non disponibile&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br><span class="font_link font_myriad font_size_14 font_grassetto font_verde" onclick="richiediDataDispo('206.00.98.59','');">richiedi la disponibilità</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></td></tr>
+	<tr><td align="left" valign="top"><span class="font_myriad font_normale font_size_10 font_link" onclick="apridivrifalternativo('206.00.98.59');">riferimento alternativo</span></td></tr>
+	<tr><td align="left" valign="top"><span class="font_myriad font_normale font_size_10 font_link" onclick="apridivdisegnotecnico('206.00.98.59');">disegno tecnico</span></td></tr>
+	</tbody></table>
+	
+	</td>
+
+	<td align="center" width="1%" style="border-bottom: 2px solid rgb(161,161,161); padding-right: 10;">
+	
+	<div class="prezzidanascondere">
+	<table border="0" id="tabella_prezzi">
+	<tbody><tr>
+	<td align="left">
+	<span class="font_nero font_myriad font_normale font_size_12">
+	Listino&nbsp;&nbsp;<b>LP18</b>:	</span>
+	</td>
+	<td align="right">
+	<span class="font_nero font_myriad font_normale font_size_12"><b>
+	€&nbsp;62,86	</b></span>
+	</td>
+	</tr>
+	<tr>
+	<td align="left">
+	<span class="font_nero font_myriad font_normale font_size_12">
+	Sconto:	</span>
+	</td>
+	<td align="right">
+	<span class="font_nero font_myriad font_grassetto font_size_12">
+	55,00%+&nbsp;3,00%	</span>
+	</td>
+	</tr>
+	<tr>
+	<td align="left">
+	<span class="font_nero font_myriad font_normale font_size_15">
+	prezzo:	</span></td>
+	
+	<td align="right">
+	<span class="font_verde font_myriad font_grassetto font_size_15">
+	€&nbsp;27,44	</span>
+	</td>
+	</tr>
+	<tr><td align="center" colspan="2" class="font_nero font_myriad font_grassetto font_size_10">
+		</td></tr>
+
+		<tr>
+	<td align="right">
+		<span class="font_myriad font_nero font_normale font_size_14">n.</span>
+	&nbsp;
+	<input type="text" size="4" id="qta_carrello12" value="" class="font_nero font_myriad font_normale font_size_15 campoQta bordo_grigio_scuro" onkeypress="if(event.which == 13){  aggiungiArticoloCarrello('206.00.98.59', '12', '27.43839', '62.86000', '55', '3', '0', '1', 'L18');  }else{ return controlloNumeriInteri(event); } ">
+		</td>
+	<td align="left">
+		<img src="images/carrello_aggiungi.png" class="immaginemenuBig font_link" onclick=" aggiungiArticoloCarrello('206.00.98.59', '12', '27.43839', '62.86000', '55', '3', '0', '1', 'L18'); ">
+		</td>
+	</tr>
+	
+	</tbody></table>
+	</div>
+
+	</td>
+
+	</tr>
+
+	<tr>
+	
+	<td align="left" style="border-bottom: 2px solid rgb(161,161,161);">
+	
+	<table border="0">
+	<tbody><tr>
+	<td align="center" width="1%" rowspan="6">
+	<div id="img_articolo" class="img_articolo" align="center" style="border: 2px solid rgb(161,161,161); background-color: #FFF; width: 150px; height: 150px; margin: 10px 10px 10px 10px;" onmouseover="apridivimmaginebig('../paint/206.00.98.62.jpg');" onmouseout="chiudidivimmaginebig();">
+				<img src="../paint/206.00.98.62.jpg" class="immagine_articolo" style="margin-top: 0px; border: 0px solid green; max-width: 150px; max-height: 150px;">
+	</div>
+	</td>
+	<td align="left" valign="bottom"><span class="font_nero font_myriad font_grassetto font_size_14">206.00.98.62</span></td>
+	</tr>
+	<tr><td align="left" valign="top"><span class="font_nero font_myriad font_normale font_size_12">SERIE DECALC.TR.FIAT D.T.780DTH</span></td></tr>
+	<tr><td align="right" valign="top">&nbsp;</td></tr>
+	<tr><td align="right" valign="top"><span class="font_nero font_myriad font_normale font_size_10"><img src="images/giacenza_verde.png" class="immaginemenu">disponibile&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></td></tr>
+	<tr><td align="left" valign="top"><span class="font_myriad font_normale font_size_10 font_link" onclick="apridivrifalternativo('206.00.98.62');">riferimento alternativo</span></td></tr>
+	<tr><td align="left" valign="top"><span class="font_myriad font_normale font_size_10 font_link" onclick="apridivdisegnotecnico('206.00.98.62');">disegno tecnico</span></td></tr>
+	</tbody></table>
+	
+	</td>
+
+	<td align="center" width="1%" style="border-bottom: 2px solid rgb(161,161,161); padding-right: 10;">
+	
+	<div class="prezzidanascondere">
+	<table border="0" id="tabella_prezzi">
+	<tbody><tr>
+	<td align="left">
+	<span class="font_nero font_myriad font_normale font_size_12">
+	Listino&nbsp;&nbsp;<b>LP18</b>:	</span>
+	</td>
+	<td align="right">
+	<span class="font_nero font_myriad font_normale font_size_12"><b>
+	€&nbsp;57,21	</b></span>
+	</td>
+	</tr>
+	<tr>
+	<td align="left">
+	<span class="font_nero font_myriad font_normale font_size_12">
+	Sconto:	</span>
+	</td>
+	<td align="right">
+	<span class="font_nero font_myriad font_grassetto font_size_12">
+	55,00%+&nbsp;3,00%	</span>
+	</td>
+	</tr>
+	<tr>
+	<td align="left">
+	<span class="font_nero font_myriad font_normale font_size_15">
+	prezzo:	</span></td>
+	
+	<td align="right">
+	<span class="font_verde font_myriad font_grassetto font_size_15">
+	€&nbsp;24,97	</span>
+	</td>
+	</tr>
+	<tr><td align="center" colspan="2" class="font_nero font_myriad font_grassetto font_size_10">
+		</td></tr>
+
+		<tr>
+	<td align="right">
+		<span class="font_myriad font_nero font_normale font_size_14">n.</span>
+	&nbsp;
+	<input type="text" size="4" id="qta_carrello13" value="" class="font_nero font_myriad font_normale font_size_15 campoQta bordo_grigio_scuro" onkeypress="if(event.which == 13){  aggiungiArticoloCarrello('206.00.98.62', '13', '24.972165', '57.21000', '55', '3', '0', '1', 'L18');  }else{ return controlloNumeriInteri(event); } ">
+		</td>
+	<td align="left">
+		<img src="images/carrello_aggiungi.png" class="immaginemenuBig font_link" onclick=" aggiungiArticoloCarrello('206.00.98.62', '13', '24.972165', '57.21000', '55', '3', '0', '1', 'L18'); ">
+		</td>
+	</tr>
+	
+	</tbody></table>
+	</div>
+
+	</td>
+
+	</tr>
+
+	<tr>
+	
+	<td align="left" style="border-bottom: 2px solid rgb(161,161,161);">
+	
+	<table border="0">
+	<tbody><tr>
+	<td align="center" width="1%" rowspan="6">
+	<div id="img_articolo" class="img_articolo" align="center" style="border: 2px solid rgb(161,161,161); background-color: #FFF; width: 150px; height: 150px; margin: 10px 10px 10px 10px;" onmouseover="apridivimmaginebig('../paint/206.00.98.63.jpg');" onmouseout="chiudidivimmaginebig();">
+				<img src="../paint/206.00.98.63.jpg" class="immagine_articolo" style="margin-top: 0px; border: 0px solid green; max-width: 150px; max-height: 150px;">
+	</div>
+	</td>
+	<td align="left" valign="bottom"><span class="font_nero font_myriad font_grassetto font_size_14">206.00.98.63</span></td>
+	</tr>
+	<tr><td align="left" valign="top"><span class="font_nero font_myriad font_normale font_size_12">SERIE DECALC.TR.FIAT D.T.800DTH</span></td></tr>
+	<tr><td align="right" valign="top">&nbsp;</td></tr>
+	<tr><td align="right" valign="top"><span class="font_nero font_myriad font_normale font_size_10"><img src="images/giacenza_rosso.png" class="immaginemenu">non disponibile&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br><span class="font_link font_myriad font_size_14 font_grassetto font_verde" onclick="richiediDataDispo('206.00.98.63','');">richiedi la disponibilità</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></td></tr>
+	<tr><td align="left" valign="top"><span class="font_myriad font_normale font_size_10 font_link" onclick="apridivrifalternativo('206.00.98.63');">riferimento alternativo</span></td></tr>
+	<tr><td align="left" valign="top"><span class="font_myriad font_normale font_size_10 font_link" onclick="apridivdisegnotecnico('206.00.98.63');">disegno tecnico</span></td></tr>
+	</tbody></table>
+	
+	</td>
+
+	<td align="center" width="1%" style="border-bottom: 2px solid rgb(161,161,161); padding-right: 10;">
+	
+	<div class="prezzidanascondere">
+	<table border="0" id="tabella_prezzi">
+	<tbody><tr>
+	<td align="left">
+	<span class="font_nero font_myriad font_normale font_size_12">
+	Listino&nbsp;&nbsp;<b>LP18</b>:	</span>
+	</td>
+	<td align="right">
+	<span class="font_nero font_myriad font_normale font_size_12"><b>
+	€&nbsp;53,09	</b></span>
+	</td>
+	</tr>
+	<tr>
+	<td align="left">
+	<span class="font_nero font_myriad font_normale font_size_12">
+	Sconto:	</span>
+	</td>
+	<td align="right">
+	<span class="font_nero font_myriad font_grassetto font_size_12">
+	55,00%+&nbsp;3,00%	</span>
+	</td>
+	</tr>
+	<tr>
+	<td align="left">
+	<span class="font_nero font_myriad font_normale font_size_15">
+	prezzo:	</span></td>
+	
+	<td align="right">
+	<span class="font_verde font_myriad font_grassetto font_size_15">
+	€&nbsp;23,17	</span>
+	</td>
+	</tr>
+	<tr><td align="center" colspan="2" class="font_nero font_myriad font_grassetto font_size_10">
+		</td></tr>
+
+		<tr>
+	<td align="right">
+		<span class="font_myriad font_nero font_normale font_size_14">n.</span>
+	&nbsp;
+	<input type="text" size="4" id="qta_carrello14" value="" class="font_nero font_myriad font_normale font_size_15 campoQta bordo_grigio_scuro" onkeypress="if(event.which == 13){  aggiungiArticoloCarrello('206.00.98.63', '14', '23.173785', '53.09000', '55', '3', '0', '1', 'L18');  }else{ return controlloNumeriInteri(event); } ">
+		</td>
+	<td align="left">
+		<img src="images/carrello_aggiungi.png" class="immaginemenuBig font_link" onclick=" aggiungiArticoloCarrello('206.00.98.63', '14', '23.173785', '53.09000', '55', '3', '0', '1', 'L18'); ">
+		</td>
+	</tr>
+	
+	</tbody></table>
+	</div>
+
+	</td>
+
+	</tr>
+
+	<tr>
+	
+	<td align="left" style="border-bottom: 2px solid rgb(161,161,161);">
+	
+	<table border="0">
+	<tbody><tr>
+	<td align="center" width="1%" rowspan="6">
+	<div id="img_articolo" class="img_articolo" align="center" style="border: 2px solid rgb(161,161,161); background-color: #FFF; width: 150px; height: 150px; margin: 10px 10px 10px 10px;" onmouseover="apridivimmaginebig('../paint/206.00.98.64.jpg');" onmouseout="chiudidivimmaginebig();">
+				<img src="../paint/206.00.98.64.jpg" class="immagine_articolo" style="margin-top: 0px; border: 0px solid green; max-width: 150px; max-height: 150px;">
+	</div>
+	</td>
+	<td align="left" valign="bottom"><span class="font_nero font_myriad font_grassetto font_size_14">206.00.98.64</span></td>
+	</tr>
+	<tr><td align="left" valign="top"><span class="font_nero font_myriad font_normale font_size_12">SERIE DECALC.TR.FIAT D.T.850DTH</span></td></tr>
+	<tr><td align="right" valign="top">&nbsp;</td></tr>
+	<tr><td align="right" valign="top"><span class="font_nero font_myriad font_normale font_size_10"><img src="images/giacenza_rosso.png" class="immaginemenu">non disponibile&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br><span class="font_link font_myriad font_size_14 font_grassetto font_verde" onclick="richiediDataDispo('206.00.98.64','');">richiedi la disponibilità</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></td></tr>
+	<tr><td align="left" valign="top"><span class="font_myriad font_normale font_size_10 font_link" onclick="apridivrifalternativo('206.00.98.64');">riferimento alternativo</span></td></tr>
+	<tr><td align="left" valign="top"><span class="font_myriad font_normale font_size_10 font_link" onclick="apridivdisegnotecnico('206.00.98.64');">disegno tecnico</span></td></tr>
+	</tbody></table>
+	
+	</td>
+
+	<td align="center" width="1%" style="border-bottom: 2px solid rgb(161,161,161); padding-right: 10;">
+	
+	<div class="prezzidanascondere">
+	<table border="0" id="tabella_prezzi">
+	<tbody><tr>
+	<td align="left">
+	<span class="font_nero font_myriad font_normale font_size_12">
+	Listino&nbsp;&nbsp;<b>LP18</b>:	</span>
+	</td>
+	<td align="right">
+	<span class="font_nero font_myriad font_normale font_size_12"><b>
+	€&nbsp;62,86	</b></span>
+	</td>
+	</tr>
+	<tr>
+	<td align="left">
+	<span class="font_nero font_myriad font_normale font_size_12">
+	Sconto:	</span>
+	</td>
+	<td align="right">
+	<span class="font_nero font_myriad font_grassetto font_size_12">
+	55,00%+&nbsp;3,00%	</span>
+	</td>
+	</tr>
+	<tr>
+	<td align="left">
+	<span class="font_nero font_myriad font_normale font_size_15">
+	prezzo:	</span></td>
+	
+	<td align="right">
+	<span class="font_verde font_myriad font_grassetto font_size_15">
+	€&nbsp;27,44	</span>
+	</td>
+	</tr>
+	<tr><td align="center" colspan="2" class="font_nero font_myriad font_grassetto font_size_10">
+		</td></tr>
+
+		<tr>
+	<td align="right">
+		<span class="font_myriad font_nero font_normale font_size_14">n.</span>
+	&nbsp;
+	<input type="text" size="4" id="qta_carrello15" value="" class="font_nero font_myriad font_normale font_size_15 campoQta bordo_grigio_scuro" onkeypress="if(event.which == 13){  aggiungiArticoloCarrello('206.00.98.64', '15', '27.43839', '62.86000', '55', '3', '0', '1', 'L18');  }else{ return controlloNumeriInteri(event); } ">
+		</td>
+	<td align="left">
+		<img src="images/carrello_aggiungi.png" class="immaginemenuBig font_link" onclick=" aggiungiArticoloCarrello('206.00.98.64', '15', '27.43839', '62.86000', '55', '3', '0', '1', 'L18'); ">
+		</td>
+	</tr>
+	
+	</tbody></table>
+	</div>
+
+	</td>
+
+	</tr>
+
+	<tr>
+	
+	<td align="left" style="border-bottom: 2px solid rgb(161,161,161);">
+	
+	<table border="0">
+	<tbody><tr>
+	<td align="center" width="1%" rowspan="6">
+	<div id="img_articolo" class="img_articolo" align="center" style="border: 2px solid rgb(161,161,161); background-color: #FFF; width: 150px; height: 150px; margin: 10px 10px 10px 10px;" onmouseover="apridivimmaginebig('../paint/206.00.98.65.jpg');" onmouseout="chiudidivimmaginebig();">
+				<img src="../paint/206.00.98.65.jpg" class="immagine_articolo" style="margin-top: 0px; border: 0px solid green; max-width: 150px; max-height: 150px;">
+	</div>
+	</td>
+	<td align="left" valign="bottom"><span class="font_nero font_myriad font_grassetto font_size_14">206.00.98.65</span></td>
+	</tr>
+	<tr><td align="left" valign="top"><span class="font_nero font_myriad font_normale font_size_12">SERIE DECALC.TR.FIAT D.T.850 SPECIAL-OM</span></td></tr>
+	<tr><td align="right" valign="top">&nbsp;</td></tr>
+	<tr><td align="right" valign="top"><span class="font_nero font_myriad font_normale font_size_10"><img src="images/giacenza_rosso.png" class="immaginemenu">non disponibile&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br><span class="font_link font_myriad font_size_14 font_grassetto font_verde" onclick="richiediDataDispo('206.00.98.65','');">richiedi la disponibilità</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></td></tr>
+	<tr><td align="left" valign="top"><span class="font_myriad font_normale font_size_10 font_link" onclick="apridivrifalternativo('206.00.98.65');">riferimento alternativo</span></td></tr>
+	<tr><td align="left" valign="top"><span class="font_myriad font_normale font_size_10 font_link" onclick="apridivdisegnotecnico('206.00.98.65');">disegno tecnico</span></td></tr>
+	</tbody></table>
+	
+	</td>
+
+	<td align="center" width="1%" style="border-bottom: 2px solid rgb(161,161,161); padding-right: 10;">
+	
+	<div class="prezzidanascondere">
+	<table border="0" id="tabella_prezzi">
+	<tbody><tr>
+	<td align="left">
+	<span class="font_nero font_myriad font_normale font_size_12">
+	Listino&nbsp;&nbsp;<b>LP18</b>:	</span>
+	</td>
+	<td align="right">
+	<span class="font_nero font_myriad font_normale font_size_12"><b>
+	€&nbsp;62,93	</b></span>
+	</td>
+	</tr>
+	<tr>
+	<td align="left">
+	<span class="font_nero font_myriad font_normale font_size_12">
+	Sconto:	</span>
+	</td>
+	<td align="right">
+	<span class="font_nero font_myriad font_grassetto font_size_12">
+	55,00%+&nbsp;3,00%	</span>
+	</td>
+	</tr>
+	<tr>
+	<td align="left">
+	<span class="font_nero font_myriad font_normale font_size_15">
+	prezzo:	</span></td>
+	
+	<td align="right">
+	<span class="font_verde font_myriad font_grassetto font_size_15">
+	€&nbsp;27,47	</span>
+	</td>
+	</tr>
+	<tr><td align="center" colspan="2" class="font_nero font_myriad font_grassetto font_size_10">
+		</td></tr>
+
+		<tr>
+	<td align="right">
+		<span class="font_myriad font_nero font_normale font_size_14">n.</span>
+	&nbsp;
+	<input type="text" size="4" id="qta_carrello16" value="" class="font_nero font_myriad font_normale font_size_15 campoQta bordo_grigio_scuro" onkeypress="if(event.which == 13){  aggiungiArticoloCarrello('206.00.98.65', '16', '27.468945', '62.93000', '55', '3', '0', '1', 'L18');  }else{ return controlloNumeriInteri(event); } ">
+		</td>
+	<td align="left">
+		<img src="images/carrello_aggiungi.png" class="immaginemenuBig font_link" onclick=" aggiungiArticoloCarrello('206.00.98.65', '16', '27.468945', '62.93000', '55', '3', '0', '1', 'L18'); ">
+		</td>
+	</tr>
+	
+	</tbody></table>
+	</div>
+
+	</td>
+
+	</tr>
+
+	<tr>
+	
+	<td align="left" style="border-bottom: 2px solid rgb(161,161,161);">
+	
+	<table border="0">
+	<tbody><tr>
+	<td align="center" width="1%" rowspan="6">
+	<div id="img_articolo" class="img_articolo" align="center" style="border: 2px solid rgb(161,161,161); background-color: #FFF; width: 150px; height: 150px; margin: 10px 10px 10px 10px;" onmouseover="apridivimmaginebig('../paint/206.00.98.66.jpg');" onmouseout="chiudidivimmaginebig();">
+				<img src="../paint/206.00.98.66.jpg" class="immagine_articolo" style="margin-top: 0px; border: 0px solid green; max-width: 150px; max-height: 150px;">
+	</div>
+	</td>
+	<td align="left" valign="bottom"><span class="font_nero font_myriad font_grassetto font_size_14">206.00.98.66</span></td>
+	</tr>
+	<tr><td align="left" valign="top"><span class="font_nero font_myriad font_normale font_size_12">SERIE DECALC.TR.FIAT D.T.880DTH*</span></td></tr>
+	<tr><td align="right" valign="top">&nbsp;</td></tr>
+	<tr><td align="right" valign="top"><span class="font_nero font_myriad font_normale font_size_10"><img src="images/giacenza_rosso.png" class="immaginemenu">non disponibile&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br><span class="font_link font_myriad font_size_14 font_grassetto font_verde" onclick="richiediDataDispo('206.00.98.66','');">richiedi la disponibilità</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></td></tr>
+	<tr><td align="left" valign="top"><span class="font_myriad font_normale font_size_10 font_link" onclick="apridivrifalternativo('206.00.98.66');">riferimento alternativo</span></td></tr>
+	<tr><td align="left" valign="top"><span class="font_myriad font_normale font_size_10 font_link" onclick="apridivdisegnotecnico('206.00.98.66');">disegno tecnico</span></td></tr>
+	</tbody></table>
+	
+	</td>
+
+	<td align="center" width="1%" style="border-bottom: 2px solid rgb(161,161,161); padding-right: 10;">
+	
+	<div class="prezzidanascondere">
+	<table border="0" id="tabella_prezzi">
+	<tbody><tr>
+	<td align="left">
+	<span class="font_nero font_myriad font_normale font_size_12">
+	Listino&nbsp;&nbsp;<b>LP18</b>:	</span>
+	</td>
+	<td align="right">
+	<span class="font_nero font_myriad font_normale font_size_12"><b>
+	€&nbsp;124,71	</b></span>
+	</td>
+	</tr>
+	<tr>
+	<td align="left">
+	<span class="font_nero font_myriad font_normale font_size_12">
+	Sconto:	</span>
+	</td>
+	<td align="right">
+	<span class="font_nero font_myriad font_grassetto font_size_12">
+	55,00%+&nbsp;3,00%	</span>
+	</td>
+	</tr>
+	<tr>
+	<td align="left">
+	<span class="font_nero font_myriad font_normale font_size_15">
+	prezzo:	</span></td>
+	
+	<td align="right">
+	<span class="font_verde font_myriad font_grassetto font_size_15">
+	€&nbsp;54,44	</span>
+	</td>
+	</tr>
+	<tr><td align="center" colspan="2" class="font_nero font_myriad font_grassetto font_size_10">
+		</td></tr>
+
+		<tr>
+	<td align="right">
+		<span class="font_myriad font_nero font_normale font_size_14">n.</span>
+	&nbsp;
+	<input type="text" size="4" id="qta_carrello17" value="" class="font_nero font_myriad font_normale font_size_15 campoQta bordo_grigio_scuro" onkeypress="if(event.which == 13){  aggiungiArticoloCarrello('206.00.98.66', '17', '54.435915', '124.71000', '55', '3', '0', '1', 'L18');  }else{ return controlloNumeriInteri(event); } ">
+		</td>
+	<td align="left">
+		<img src="images/carrello_aggiungi.png" class="immaginemenuBig font_link" onclick=" aggiungiArticoloCarrello('206.00.98.66', '17', '54.435915', '124.71000', '55', '3', '0', '1', 'L18'); ">
+		</td>
+	</tr>
+	
+	</tbody></table>
+	</div>
+
+	</td>
+
+	</tr>
+
+	<tr>
+	
+	<td align="left" style="border-bottom: 2px solid rgb(161,161,161);">
+	
+	<table border="0">
+	<tbody><tr>
+	<td align="center" width="1%" rowspan="6">
+	<div id="img_articolo" class="img_articolo" align="center" style="border: 2px solid rgb(161,161,161); background-color: #FFF; width: 150px; height: 150px; margin: 10px 10px 10px 10px;" onmouseover="apridivimmaginebig('../paint/206.00.98.67.jpg');" onmouseout="chiudidivimmaginebig();">
+				<img src="../paint/206.00.98.67.jpg" class="immagine_articolo" style="margin-top: 0px; border: 0px solid green; max-width: 150px; max-height: 150px;">
+	</div>
+	</td>
+	<td align="left" valign="bottom"><span class="font_nero font_myriad font_grassetto font_size_14">206.00.98.67</span></td>
+	</tr>
+	<tr><td align="left" valign="top"><span class="font_nero font_myriad font_normale font_size_12">SERIE DECALC.TR.FIAT D.T.880 SPECIAL-OM*</span></td></tr>
+	<tr><td align="right" valign="top">&nbsp;</td></tr>
+	<tr><td align="right" valign="top"><span class="font_nero font_myriad font_normale font_size_10"><img src="images/giacenza_rosso.png" class="immaginemenu">non disponibile&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br><span class="font_link font_myriad font_size_14 font_grassetto font_verde" onclick="richiediDataDispo('206.00.98.67','');">richiedi la disponibilità</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></td></tr>
+	<tr><td align="left" valign="top"><span class="font_myriad font_normale font_size_10 font_link" onclick="apridivrifalternativo('206.00.98.67');">riferimento alternativo</span></td></tr>
+	<tr><td align="left" valign="top"><span class="font_myriad font_normale font_size_10 font_link" onclick="apridivdisegnotecnico('206.00.98.67');">disegno tecnico</span></td></tr>
+	</tbody></table>
+	
+	</td>
+
+	<td align="center" width="1%" style="border-bottom: 2px solid rgb(161,161,161); padding-right: 10;">
+	
+	<div class="prezzidanascondere">
+	<table border="0" id="tabella_prezzi">
+	<tbody><tr>
+	<td align="left">
+	<span class="font_nero font_myriad font_normale font_size_12">
+	Listino&nbsp;&nbsp;<b>LP18</b>:	</span>
+	</td>
+	<td align="right">
+	<span class="font_nero font_myriad font_normale font_size_12"><b>
+	€&nbsp;61,98	</b></span>
+	</td>
+	</tr>
+	<tr>
+	<td align="left">
+	<span class="font_nero font_myriad font_normale font_size_12">
+	Sconto:	</span>
+	</td>
+	<td align="right">
+	<span class="font_nero font_myriad font_grassetto font_size_12">
+	55,00%+&nbsp;3,00%	</span>
+	</td>
+	</tr>
+	<tr>
+	<td align="left">
+	<span class="font_nero font_myriad font_normale font_size_15">
+	prezzo:	</span></td>
+	
+	<td align="right">
+	<span class="font_verde font_myriad font_grassetto font_size_15">
+	€&nbsp;27,05	</span>
+	</td>
+	</tr>
+	<tr><td align="center" colspan="2" class="font_nero font_myriad font_grassetto font_size_10">
+		</td></tr>
+
+		<tr>
+	<td align="right">
+		<span class="font_myriad font_nero font_normale font_size_14">n.</span>
+	&nbsp;
+	<input type="text" size="4" id="qta_carrello18" value="" class="font_nero font_myriad font_normale font_size_15 campoQta bordo_grigio_scuro" onkeypress="if(event.which == 13){  aggiungiArticoloCarrello('206.00.98.67', '18', '27.05427', '61.98000', '55', '3', '0', '1', 'L18');  }else{ return controlloNumeriInteri(event); } ">
+		</td>
+	<td align="left">
+		<img src="images/carrello_aggiungi.png" class="immaginemenuBig font_link" onclick=" aggiungiArticoloCarrello('206.00.98.67', '18', '27.05427', '61.98000', '55', '3', '0', '1', 'L18'); ">
+		</td>
+	</tr>
+	
+	</tbody></table>
+	</div>
+
+	</td>
+
+	</tr>
+
+	<tr>
+	
+	<td align="left" style="border-bottom: 2px solid rgb(161,161,161);">
+	
+	<table border="0">
+	<tbody><tr>
+	<td align="center" width="1%" rowspan="6">
+	<div id="img_articolo" class="img_articolo" align="center" style="border: 2px solid rgb(161,161,161); background-color: #FFF; width: 150px; height: 150px; margin: 10px 10px 10px 10px;" onmouseover="apridivimmaginebig('../paint/206.00.98.70.jpg');" onmouseout="chiudidivimmaginebig();">
+				<img src="../paint/206.00.98.70.jpg" class="immagine_articolo" style="margin-top: 0px; border: 0px solid green; max-width: 150px; max-height: 150px;">
+	</div>
+	</td>
+	<td align="left" valign="bottom"><span class="font_nero font_myriad font_grassetto font_size_14">206.00.98.70</span></td>
+	</tr>
+	<tr><td align="left" valign="top"><span class="font_nero font_myriad font_normale font_size_12">SERIE DECALC.TR.FIAT D.T.1000DTH*</span></td></tr>
+	<tr><td align="right" valign="top">&nbsp;</td></tr>
+	<tr><td align="right" valign="top"><span class="font_nero font_myriad font_normale font_size_10"><img src="images/giacenza_rosso.png" class="immaginemenu">non disponibile&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br><span class="font_link font_myriad font_size_14 font_grassetto font_verde" onclick="richiediDataDispo('206.00.98.70','');">richiedi la disponibilità</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></td></tr>
+	<tr><td align="left" valign="top"><span class="font_myriad font_normale font_size_10 font_link" onclick="apridivrifalternativo('206.00.98.70');">riferimento alternativo</span></td></tr>
+	<tr><td align="left" valign="top"><span class="font_myriad font_normale font_size_10 font_link" onclick="apridivdisegnotecnico('206.00.98.70');">disegno tecnico</span></td></tr>
+	</tbody></table>
+	
+	</td>
+
+	<td align="center" width="1%" style="border-bottom: 2px solid rgb(161,161,161); padding-right: 10;">
+	
+	<div class="prezzidanascondere">
+	<table border="0" id="tabella_prezzi">
+	<tbody><tr>
+	<td align="left">
+	<span class="font_nero font_myriad font_normale font_size_12">
+	Listino&nbsp;&nbsp;<b>LP18</b>:	</span>
+	</td>
+	<td align="right">
+	<span class="font_nero font_myriad font_normale font_size_12"><b>
+	€&nbsp;61,37	</b></span>
+	</td>
+	</tr>
+	<tr>
+	<td align="left">
+	<span class="font_nero font_myriad font_normale font_size_12">
+	Sconto:	</span>
+	</td>
+	<td align="right">
+	<span class="font_nero font_myriad font_grassetto font_size_12">
+	55,00%+&nbsp;3,00%	</span>
+	</td>
+	</tr>
+	<tr>
+	<td align="left">
+	<span class="font_nero font_myriad font_normale font_size_15">
+	prezzo:	</span></td>
+	
+	<td align="right">
+	<span class="font_verde font_myriad font_grassetto font_size_15">
+	€&nbsp;26,79	</span>
+	</td>
+	</tr>
+	<tr><td align="center" colspan="2" class="font_nero font_myriad font_grassetto font_size_10">
+		</td></tr>
+
+		<tr>
+	<td align="right">
+		<span class="font_myriad font_nero font_normale font_size_14">n.</span>
+	&nbsp;
+	<input type="text" size="4" id="qta_carrello19" value="" class="font_nero font_myriad font_normale font_size_15 campoQta bordo_grigio_scuro" onkeypress="if(event.which == 13){  aggiungiArticoloCarrello('206.00.98.70', '19', '26.788005', '61.37000', '55', '3', '0', '1', 'L18');  }else{ return controlloNumeriInteri(event); } ">
+		</td>
+	<td align="left">
+		<img src="images/carrello_aggiungi.png" class="immaginemenuBig font_link" onclick=" aggiungiArticoloCarrello('206.00.98.70', '19', '26.788005', '61.37000', '55', '3', '0', '1', 'L18'); ">
+		</td>
+	</tr>
+	
+	</tbody></table>
+	</div>
+
+	</td>
+
+	</tr>
+
+	<tr>
+	
+	<td align="left" style="border-bottom: 2px solid rgb(161,161,161);">
+	
+	<table border="0">
+	<tbody><tr>
+	<td align="center" width="1%" rowspan="6">
+	<div id="img_articolo" class="img_articolo" align="center" style="border: 2px solid rgb(161,161,161); background-color: #FFF; width: 150px; height: 150px; margin: 10px 10px 10px 10px;" onmouseover="apridivimmaginebig('../paint/206.00.98.71.jpg');" onmouseout="chiudidivimmaginebig();">
+				<img src="../paint/206.00.98.71.jpg" class="immagine_articolo" style="margin-top: 0px; border: 0px solid green; max-width: 150px; max-height: 150px;">
+	</div>
+	</td>
+	<td align="left" valign="bottom"><span class="font_nero font_myriad font_grassetto font_size_14">206.00.98.71</span></td>
+	</tr>
+	<tr><td align="left" valign="top"><span class="font_nero font_myriad font_normale font_size_12">SERIE DECALC.TR.FIAT D.T.1180DTH*</span></td></tr>
+	<tr><td align="right" valign="top">&nbsp;</td></tr>
+	<tr><td align="right" valign="top"><span class="font_nero font_myriad font_normale font_size_10"><img src="images/giacenza_rosso.png" class="immaginemenu">non disponibile&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br><span class="font_link font_myriad font_size_14 font_grassetto font_verde" onclick="richiediDataDispo('206.00.98.71','');">richiedi la disponibilità</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></td></tr>
+	<tr><td align="left" valign="top"><span class="font_myriad font_normale font_size_10 font_link" onclick="apridivrifalternativo('206.00.98.71');">riferimento alternativo</span></td></tr>
+	<tr><td align="left" valign="top"><span class="font_myriad font_normale font_size_10 font_link" onclick="apridivdisegnotecnico('206.00.98.71');">disegno tecnico</span></td></tr>
+	</tbody></table>
+	
+	</td>
+
+	<td align="center" width="1%" style="border-bottom: 2px solid rgb(161,161,161); padding-right: 10;">
+	
+	<div class="prezzidanascondere">
+	<table border="0" id="tabella_prezzi">
+	<tbody><tr>
+	<td align="left">
+	<span class="font_nero font_myriad font_normale font_size_12">
+	Listino&nbsp;&nbsp;<b>LP18</b>:	</span>
+	</td>
+	<td align="right">
+	<span class="font_nero font_myriad font_normale font_size_12"><b>
+	€&nbsp;66,21	</b></span>
+	</td>
+	</tr>
+	<tr>
+	<td align="left">
+	<span class="font_nero font_myriad font_normale font_size_12">
+	Sconto:	</span>
+	</td>
+	<td align="right">
+	<span class="font_nero font_myriad font_grassetto font_size_12">
+	55,00%+&nbsp;3,00%	</span>
+	</td>
+	</tr>
+	<tr>
+	<td align="left">
+	<span class="font_nero font_myriad font_normale font_size_15">
+	prezzo:	</span></td>
+	
+	<td align="right">
+	<span class="font_verde font_myriad font_grassetto font_size_15">
+	€&nbsp;28,90	</span>
+	</td>
+	</tr>
+	<tr><td align="center" colspan="2" class="font_nero font_myriad font_grassetto font_size_10">
+		</td></tr>
+
+		<tr>
+	<td align="right">
+		<span class="font_myriad font_nero font_normale font_size_14">n.</span>
+	&nbsp;
+	<input type="text" size="4" id="qta_carrello20" value="" class="font_nero font_myriad font_normale font_size_15 campoQta bordo_grigio_scuro" onkeypress="if(event.which == 13){  aggiungiArticoloCarrello('206.00.98.71', '20', '28.900665', '66.21000', '55', '3', '0', '1', 'L18');  }else{ return controlloNumeriInteri(event); } ">
+		</td>
+	<td align="left">
+		<img src="images/carrello_aggiungi.png" class="immaginemenuBig font_link" onclick=" aggiungiArticoloCarrello('206.00.98.71', '20', '28.900665', '66.21000', '55', '3', '0', '1', 'L18'); ">
+		</td>
+	</tr>
+	
+	</tbody></table>
+	</div>
+
+	</td>
+
+	</tr>
+
+	<tr>
+	
+	<td align="left" style="border-bottom: 2px solid rgb(161,161,161);">
+	
+	<table border="0">
+	<tbody><tr>
+	<td align="center" width="1%" rowspan="6">
+	<div id="img_articolo" class="img_articolo" align="center" style="border: 2px solid rgb(161,161,161); background-color: #FFF; width: 150px; height: 150px; margin: 10px 10px 10px 10px;" onmouseover="apridivimmaginebig('../paint/206.00.98.73.jpg');" onmouseout="chiudidivimmaginebig();">
+				<img src="../paint/206.00.98.73.jpg" class="immagine_articolo" style="margin-top: 0px; border: 0px solid green; max-width: 150px; max-height: 150px;">
+	</div>
+	</td>
+	<td align="left" valign="bottom"><span class="font_nero font_myriad font_grassetto font_size_14">206.00.98.73</span></td>
+	</tr>
+	<tr><td align="left" valign="top"><span class="font_nero font_myriad font_normale font_size_12">SERIE DECALC.TR.FIAT D.T.1300DTH</span></td></tr>
+	<tr><td align="right" valign="top">&nbsp;</td></tr>
+	<tr><td align="right" valign="top"><span class="font_nero font_myriad font_normale font_size_10"><img src="images/giacenza_rosso.png" class="immaginemenu">non disponibile&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br><span class="font_link font_myriad font_size_14 font_grassetto font_verde" onclick="richiediDataDispo('206.00.98.73','');">richiedi la disponibilità</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></td></tr>
+	<tr><td align="left" valign="top"><span class="font_myriad font_normale font_size_10 font_link" onclick="apridivrifalternativo('206.00.98.73');">riferimento alternativo</span></td></tr>
+	<tr><td align="left" valign="top"><span class="font_myriad font_normale font_size_10 font_link" onclick="apridivdisegnotecnico('206.00.98.73');">disegno tecnico</span></td></tr>
+	</tbody></table>
+	
+	</td>
+
+	<td align="center" width="1%" style="border-bottom: 2px solid rgb(161,161,161); padding-right: 10;">
+	
+	<div class="prezzidanascondere">
+	<table border="0" id="tabella_prezzi">
+	<tbody><tr>
+	<td align="left">
+	<span class="font_nero font_myriad font_normale font_size_12">
+	Listino&nbsp;&nbsp;<b>LP18</b>:	</span>
+	</td>
+	<td align="right">
+	<span class="font_nero font_myriad font_normale font_size_12"><b>
+	€&nbsp;61,98	</b></span>
+	</td>
+	</tr>
+	<tr>
+	<td align="left">
+	<span class="font_nero font_myriad font_normale font_size_12">
+	Sconto:	</span>
+	</td>
+	<td align="right">
+	<span class="font_nero font_myriad font_grassetto font_size_12">
+	55,00%+&nbsp;3,00%	</span>
+	</td>
+	</tr>
+	<tr>
+	<td align="left">
+	<span class="font_nero font_myriad font_normale font_size_15">
+	prezzo:	</span></td>
+	
+	<td align="right">
+	<span class="font_verde font_myriad font_grassetto font_size_15">
+	€&nbsp;27,05	</span>
+	</td>
+	</tr>
+	<tr><td align="center" colspan="2" class="font_nero font_myriad font_grassetto font_size_10">
+		</td></tr>
+
+		<tr>
+	<td align="right">
+		<span class="font_myriad font_nero font_normale font_size_14">n.</span>
+	&nbsp;
+	<input type="text" size="4" id="qta_carrello21" value="" class="font_nero font_myriad font_normale font_size_15 campoQta bordo_grigio_scuro" onkeypress="if(event.which == 13){  aggiungiArticoloCarrello('206.00.98.73', '21', '27.05427', '61.98000', '55', '3', '0', '1', 'L18');  }else{ return controlloNumeriInteri(event); } ">
+		</td>
+	<td align="left">
+		<img src="images/carrello_aggiungi.png" class="immaginemenuBig font_link" onclick=" aggiungiArticoloCarrello('206.00.98.73', '21', '27.05427', '61.98000', '55', '3', '0', '1', 'L18'); ">
+		</td>
+	</tr>
+	
+	</tbody></table>
+	</div>
+
+	</td>
+
+	</tr>
+
+	<tr>
+	
+	<td align="left" style="border-bottom: 2px solid rgb(161,161,161);">
+	
+	<table border="0">
+	<tbody><tr>
+	<td align="center" width="1%" rowspan="6">
+	<div id="img_articolo" class="img_articolo" align="center" style="border: 2px solid rgb(161,161,161); background-color: #FFF; width: 150px; height: 150px; margin: 10px 10px 10px 10px;" onmouseover="apridivimmaginebig('../paint/206.00.98.85.jpg');" onmouseout="chiudidivimmaginebig();">
+				<img src="../paint/206.00.98.85.jpg" class="immagine_articolo" style="margin-top: 0px; border: 0px solid green; max-width: 150px; max-height: 150px;">
+	</div>
+	</td>
+	<td align="left" valign="bottom"><span class="font_nero font_myriad font_grassetto font_size_14">206.00.98.85</span></td>
+	</tr>
+	<tr><td align="left" valign="top"><span class="font_nero font_myriad font_normale font_size_12">SERIE DECALC.TR.FIAT CINGOLAT0 312C</span></td></tr>
+	<tr><td align="right" valign="top">&nbsp;</td></tr>
+	<tr><td align="right" valign="top"><span class="font_nero font_myriad font_normale font_size_10"><img src="images/giacenza_rosso.png" class="immaginemenu">non disponibile&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br><span class="font_link font_myriad font_size_14 font_grassetto font_verde" onclick="richiediDataDispo('206.00.98.85','');">richiedi la disponibilità</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></td></tr>
+	<tr><td align="left" valign="top"><span class="font_myriad font_normale font_size_10 font_link" onclick="apridivrifalternativo('206.00.98.85');">riferimento alternativo</span></td></tr>
+	<tr><td align="left" valign="top"><span class="font_myriad font_normale font_size_10 font_link" onclick="apridivdisegnotecnico('206.00.98.85');">disegno tecnico</span></td></tr>
+	</tbody></table>
+	
+	</td>
+
+	<td align="center" width="1%" style="border-bottom: 2px solid rgb(161,161,161); padding-right: 10;">
+	
+	<div class="prezzidanascondere">
+	<table border="0" id="tabella_prezzi">
+	<tbody><tr>
+	<td align="left">
+	<span class="font_nero font_myriad font_normale font_size_12">
+	Listino&nbsp;&nbsp;<b>LP18</b>:	</span>
+	</td>
+	<td align="right">
+	<span class="font_nero font_myriad font_normale font_size_12"><b>
+	€&nbsp;61,98	</b></span>
+	</td>
+	</tr>
+	<tr>
+	<td align="left">
+	<span class="font_nero font_myriad font_normale font_size_12">
+	Sconto:	</span>
+	</td>
+	<td align="right">
+	<span class="font_nero font_myriad font_grassetto font_size_12">
+	55,00%+&nbsp;3,00%	</span>
+	</td>
+	</tr>
+	<tr>
+	<td align="left">
+	<span class="font_nero font_myriad font_normale font_size_15">
+	prezzo:	</span></td>
+	
+	<td align="right">
+	<span class="font_verde font_myriad font_grassetto font_size_15">
+	€&nbsp;27,05	</span>
+	</td>
+	</tr>
+	<tr><td align="center" colspan="2" class="font_nero font_myriad font_grassetto font_size_10">
+		</td></tr>
+
+		<tr>
+	<td align="right">
+		<span class="font_myriad font_nero font_normale font_size_14">n.</span>
+	&nbsp;
+	<input type="text" size="4" id="qta_carrello22" value="" class="font_nero font_myriad font_normale font_size_15 campoQta bordo_grigio_scuro" onkeypress="if(event.which == 13){  aggiungiArticoloCarrello('206.00.98.85', '22', '27.05427', '61.98000', '55', '3', '0', '1', 'L18');  }else{ return controlloNumeriInteri(event); } ">
+		</td>
+	<td align="left">
+		<img src="images/carrello_aggiungi.png" class="immaginemenuBig font_link" onclick=" aggiungiArticoloCarrello('206.00.98.85', '22', '27.05427', '61.98000', '55', '3', '0', '1', 'L18'); ">
+		</td>
+	</tr>
+	
+	</tbody></table>
+	</div>
+
+	</td>
+
+	</tr>
+
+	<tr>
+	
+	<td align="left" style="border-bottom: 2px solid rgb(161,161,161);">
+	
+	<table border="0">
+	<tbody><tr>
+	<td align="center" width="1%" rowspan="6">
+	<div id="img_articolo" class="img_articolo" align="center" style="border: 2px solid rgb(161,161,161); background-color: #FFF; width: 150px; height: 150px; margin: 10px 10px 10px 10px;" onmouseover="apridivimmaginebig('../paint/206.00.98.86.jpg');" onmouseout="chiudidivimmaginebig();">
+				<img src="../paint/206.00.98.86.jpg" class="immagine_articolo" style="margin-top: 0px; border: 0px solid green; max-width: 150px; max-height: 150px;">
+	</div>
+	</td>
+	<td align="left" valign="bottom"><span class="font_nero font_myriad font_grassetto font_size_14">206.00.98.86</span></td>
+	</tr>
+	<tr><td align="left" valign="top"><span class="font_nero font_myriad font_normale font_size_12">SERIE DECALC.TR.FIAT CINGOLAT0 332C</span></td></tr>
+	<tr><td align="right" valign="top">&nbsp;</td></tr>
+	<tr><td align="right" valign="top"><span class="font_nero font_myriad font_normale font_size_10"><img src="images/giacenza_rosso.png" class="immaginemenu">non disponibile&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br><span class="font_link font_myriad font_size_14 font_grassetto font_verde" onclick="richiediDataDispo('206.00.98.86','');">richiedi la disponibilità</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></td></tr>
+	<tr><td align="left" valign="top"><span class="font_myriad font_normale font_size_10 font_link" onclick="apridivrifalternativo('206.00.98.86');">riferimento alternativo</span></td></tr>
+	<tr><td align="left" valign="top"><span class="font_myriad font_normale font_size_10 font_link" onclick="apridivdisegnotecnico('206.00.98.86');">disegno tecnico</span></td></tr>
+	</tbody></table>
+	
+	</td>
+
+	<td align="center" width="1%" style="border-bottom: 2px solid rgb(161,161,161); padding-right: 10;">
+	
+	<div class="prezzidanascondere">
+	<table border="0" id="tabella_prezzi">
+	<tbody><tr>
+	<td align="left">
+	<span class="font_nero font_myriad font_normale font_size_12">
+	Listino&nbsp;&nbsp;<b>LP18</b>:	</span>
+	</td>
+	<td align="right">
+	<span class="font_nero font_myriad font_normale font_size_12"><b>
+	€&nbsp;53,09	</b></span>
+	</td>
+	</tr>
+	<tr>
+	<td align="left">
+	<span class="font_nero font_myriad font_normale font_size_12">
+	Sconto:	</span>
+	</td>
+	<td align="right">
+	<span class="font_nero font_myriad font_grassetto font_size_12">
+	55,00%+&nbsp;3,00%	</span>
+	</td>
+	</tr>
+	<tr>
+	<td align="left">
+	<span class="font_nero font_myriad font_normale font_size_15">
+	prezzo:	</span></td>
+	
+	<td align="right">
+	<span class="font_verde font_myriad font_grassetto font_size_15">
+	€&nbsp;23,17	</span>
+	</td>
+	</tr>
+	<tr><td align="center" colspan="2" class="font_nero font_myriad font_grassetto font_size_10">
+		</td></tr>
+
+		<tr>
+	<td align="right">
+		<span class="font_myriad font_nero font_normale font_size_14">n.</span>
+	&nbsp;
+	<input type="text" size="4" id="qta_carrello23" value="" class="font_nero font_myriad font_normale font_size_15 campoQta bordo_grigio_scuro" onkeypress="if(event.which == 13){  aggiungiArticoloCarrello('206.00.98.86', '23', '23.173785', '53.09000', '55', '3', '0', '1', 'L18');  }else{ return controlloNumeriInteri(event); } ">
+		</td>
+	<td align="left">
+		<img src="images/carrello_aggiungi.png" class="immaginemenuBig font_link" onclick=" aggiungiArticoloCarrello('206.00.98.86', '23', '23.173785', '53.09000', '55', '3', '0', '1', 'L18'); ">
+		</td>
+	</tr>
+	
+	</tbody></table>
+	</div>
+
+	</td>
+
+	</tr>
+
+	<tr>
+	
+	<td align="left" style="border-bottom: 2px solid rgb(161,161,161);">
+	
+	<table border="0">
+	<tbody><tr>
+	<td align="center" width="1%" rowspan="6">
+	<div id="img_articolo" class="img_articolo" align="center" style="border: 2px solid rgb(161,161,161); background-color: #FFF; width: 150px; height: 150px; margin: 10px 10px 10px 10px;" onmouseover="apridivimmaginebig('../paint/206.00.98.94.jpg');" onmouseout="chiudidivimmaginebig();">
+				<img src="../paint/206.00.98.94.jpg" class="immagine_articolo" style="margin-top: 0px; border: 0px solid green; max-width: 150px; max-height: 150px;">
+	</div>
+	</td>
+	<td align="left" valign="bottom"><span class="font_nero font_myriad font_grassetto font_size_14">206.00.98.94</span></td>
+	</tr>
+	<tr><td align="left" valign="top"><span class="font_nero font_myriad font_normale font_size_12">SERIE DECALC.TR.FIAT CINGOLAT0 455C*</span></td></tr>
+	<tr><td align="right" valign="top">&nbsp;</td></tr>
+	<tr><td align="right" valign="top"><span class="font_nero font_myriad font_normale font_size_10"><img src="images/giacenza_rosso.png" class="immaginemenu">non disponibile&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br><span class="font_link font_myriad font_size_14 font_grassetto font_verde" onclick="richiediDataDispo('206.00.98.94','');">richiedi la disponibilità</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></td></tr>
+	<tr><td align="left" valign="top"><span class="font_myriad font_normale font_size_10 font_link" onclick="apridivrifalternativo('206.00.98.94');">riferimento alternativo</span></td></tr>
+	<tr><td align="left" valign="top"><span class="font_myriad font_normale font_size_10 font_link" onclick="apridivdisegnotecnico('206.00.98.94');">disegno tecnico</span></td></tr>
+	</tbody></table>
+	
+	</td>
+
+	<td align="center" width="1%" style="border-bottom: 2px solid rgb(161,161,161); padding-right: 10;">
+	
+	<div class="prezzidanascondere">
+	<table border="0" id="tabella_prezzi">
+	<tbody><tr>
+	<td align="left">
+	<span class="font_nero font_myriad font_normale font_size_12">
+	Listino&nbsp;&nbsp;<b>LP18</b>:	</span>
+	</td>
+	<td align="right">
+	<span class="font_nero font_myriad font_normale font_size_12"><b>
+	€&nbsp;67,03	</b></span>
+	</td>
+	</tr>
+	<tr>
+	<td align="left">
+	<span class="font_nero font_myriad font_normale font_size_12">
+	Sconto:	</span>
+	</td>
+	<td align="right">
+	<span class="font_nero font_myriad font_grassetto font_size_12">
+	55,00%+&nbsp;3,00%	</span>
+	</td>
+	</tr>
+	<tr>
+	<td align="left">
+	<span class="font_nero font_myriad font_normale font_size_15">
+	prezzo:	</span></td>
+	
+	<td align="right">
+	<span class="font_verde font_myriad font_grassetto font_size_15">
+	€&nbsp;29,26	</span>
+	</td>
+	</tr>
+	<tr><td align="center" colspan="2" class="font_nero font_myriad font_grassetto font_size_10">
+		</td></tr>
+
+		<tr>
+	<td align="right">
+		<span class="font_myriad font_nero font_normale font_size_14">n.</span>
+	&nbsp;
+	<input type="text" size="4" id="qta_carrello24" value="" class="font_nero font_myriad font_normale font_size_15 campoQta bordo_grigio_scuro" onkeypress="if(event.which == 13){  aggiungiArticoloCarrello('206.00.98.94', '24', '29.258595', '67.03000', '55', '3', '0', '1', 'L18');  }else{ return controlloNumeriInteri(event); } ">
+		</td>
+	<td align="left">
+		<img src="images/carrello_aggiungi.png" class="immaginemenuBig font_link" onclick=" aggiungiArticoloCarrello('206.00.98.94', '24', '29.258595', '67.03000', '55', '3', '0', '1', 'L18'); ">
+		</td>
+	</tr>
+	
+	</tbody></table>
+	</div>
+
+	</td>
+
+	</tr>
+
+	<tr>
+	
+	<td align="left" style="border-bottom: 2px solid rgb(161,161,161);">
+	
+	<table border="0">
+	<tbody><tr>
+	<td align="center" width="1%" rowspan="6">
+	<div id="img_articolo" class="img_articolo" align="center" style="border: 2px solid rgb(161,161,161); background-color: #FFF; width: 150px; height: 150px; margin: 10px 10px 10px 10px;" onmouseover="apridivimmaginebig('../paint/206.00.98.96.jpg');" onmouseout="chiudidivimmaginebig();">
+				<img src="../paint/206.00.98.96.jpg" class="immagine_articolo" style="margin-top: 0px; border: 0px solid green; max-width: 150px; max-height: 150px;">
+	</div>
+	</td>
+	<td align="left" valign="bottom"><span class="font_nero font_myriad font_grassetto font_size_14">206.00.98.96</span></td>
+	</tr>
+	<tr><td align="left" valign="top"><span class="font_nero font_myriad font_normale font_size_12">SERIE DECALC.TR.FIAT CINGOLAT0 505C</span></td></tr>
+	<tr><td align="right" valign="top">&nbsp;<span class="font_verde font_myriad font_grassetto font_size_14">Prezzo Netto Outlet&nbsp;&nbsp;€&nbsp;23,62&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></td></tr>
+	<tr><td align="right" valign="top"><span class="font_nero font_myriad font_normale font_size_10"><img src="images/giacenza_verde.png" class="immaginemenu">disponibile&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></td></tr>
+	<tr><td align="left" valign="top"><span class="font_myriad font_normale font_size_10 font_link" onclick="apridivrifalternativo('206.00.98.96');">riferimento alternativo</span></td></tr>
+	<tr><td align="left" valign="top"><span class="font_myriad font_normale font_size_10 font_link" onclick="apridivdisegnotecnico('206.00.98.96');">disegno tecnico</span></td></tr>
+	</tbody></table>
+	
+	</td>
+
+	<td align="center" width="1%" style="border-bottom: 2px solid rgb(161,161,161); padding-right: 10;">
+	
+	<div class="prezzidanascondere">
+	<table border="0" id="tabella_prezzi">
+	<tbody><tr>
+	<td align="left">
+	<span class="font_nero font_myriad font_normale font_size_12">
+	Listino&nbsp;&nbsp;<b>LP18</b>:	</span>
+	</td>
+	<td align="right">
+	<span class="font_nero font_myriad font_normale font_size_12"><b>
+	€&nbsp;61,62	</b></span>
+	</td>
+	</tr>
+	<tr>
+	<td align="left">
+	<span class="font_nero font_myriad font_normale font_size_12">
+	Sconto:	</span>
+	</td>
+	<td align="right">
+	<span class="font_nero font_myriad font_grassetto font_size_12">
+	55,00%+&nbsp;3,00%	</span>
+	</td>
+	</tr>
+	<tr>
+	<td align="left">
+	<span class="font_nero font_myriad font_normale font_size_15">
+	prezzo:	</span></td>
+	
+	<td align="right">
+	<span class="font_verde font_myriad font_grassetto font_size_15">
+	€&nbsp;26,90	</span>
+	</td>
+	</tr>
+	<tr><td align="center" colspan="2" class="font_nero font_myriad font_grassetto font_size_10">
+		</td></tr>
+
+		<tr>
+	<td align="right">
+		<span class="font_myriad font_nero font_normale font_size_14">n.</span>
+	&nbsp;
+	<input type="text" size="4" id="qta_carrello25" value="" class="font_nero font_myriad font_normale font_size_15 campoQta bordo_grigio_scuro" onkeypress="if(event.which == 13){  aggiungiArticoloCarrello('206.00.98.96', '25', '26.89713', '61.62000', '55', '3', '0', '1', 'L18');  }else{ return controlloNumeriInteri(event); } ">
+		</td>
+	<td align="left">
+		<img src="images/carrello_aggiungi.png" class="immaginemenuBig font_link" onclick=" aggiungiArticoloCarrello('206.00.98.96', '25', '26.89713', '61.62000', '55', '3', '0', '1', 'L18'); ">
+		</td>
+	</tr>
+	
+	</tbody></table>
+	</div>
+
+	</td>
+
+	</tr>
+
+	<tr>
+	
+	<td align="left" style="border-bottom: 2px solid rgb(161,161,161);">
+	
+	<table border="0">
+	<tbody><tr>
+	<td align="center" width="1%" rowspan="6">
+	<div id="img_articolo" class="img_articolo" align="center" style="border: 2px solid rgb(161,161,161); background-color: #FFF; width: 150px; height: 150px; margin: 10px 10px 10px 10px;" onmouseover="apridivimmaginebig('../paint/206.00.98.97.jpg');" onmouseout="chiudidivimmaginebig();">
+				<img src="../paint/206.00.98.97.jpg" class="immagine_articolo" style="margin-top: 0px; border: 0px solid green; max-width: 150px; max-height: 150px;">
+	</div>
+	</td>
+	<td align="left" valign="bottom"><span class="font_nero font_myriad font_grassetto font_size_14">206.00.98.97</span></td>
+	</tr>
+	<tr><td align="left" valign="top"><span class="font_nero font_myriad font_normale font_size_12">SERIE DECALC.TR.FIAT CINGOLAT0 555C</span></td></tr>
+	<tr><td align="right" valign="top">&nbsp;</td></tr>
+	<tr><td align="right" valign="top"><span class="font_nero font_myriad font_normale font_size_10"><img src="images/giacenza_rosso.png" class="immaginemenu">non disponibile&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br><span class="font_link font_myriad font_size_14 font_grassetto font_verde" onclick="richiediDataDispo('206.00.98.97','');">richiedi la disponibilità</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></td></tr>
+	<tr><td align="left" valign="top"><span class="font_myriad font_normale font_size_10 font_link" onclick="apridivrifalternativo('206.00.98.97');">riferimento alternativo</span></td></tr>
+	<tr><td align="left" valign="top"><span class="font_myriad font_normale font_size_10 font_link" onclick="apridivdisegnotecnico('206.00.98.97');">disegno tecnico</span></td></tr>
+	</tbody></table>
+	
+	</td>
+
+	<td align="center" width="1%" style="border-bottom: 2px solid rgb(161,161,161); padding-right: 10;">
+	
+	<div class="prezzidanascondere">
+	<table border="0" id="tabella_prezzi">
+	<tbody><tr>
+	<td align="left">
+	<span class="font_nero font_myriad font_normale font_size_12">
+	Listino&nbsp;&nbsp;<b>LP18</b>:	</span>
+	</td>
+	<td align="right">
+	<span class="font_nero font_myriad font_normale font_size_12"><b>
+	€&nbsp;60,91	</b></span>
+	</td>
+	</tr>
+	<tr>
+	<td align="left">
+	<span class="font_nero font_myriad font_normale font_size_12">
+	Sconto:	</span>
+	</td>
+	<td align="right">
+	<span class="font_nero font_myriad font_grassetto font_size_12">
+	55,00%+&nbsp;3,00%	</span>
+	</td>
+	</tr>
+	<tr>
+	<td align="left">
+	<span class="font_nero font_myriad font_normale font_size_15">
+	prezzo:	</span></td>
+	
+	<td align="right">
+	<span class="font_verde font_myriad font_grassetto font_size_15">
+	€&nbsp;26,59	</span>
+	</td>
+	</tr>
+	<tr><td align="center" colspan="2" class="font_nero font_myriad font_grassetto font_size_10">
+		</td></tr>
+
+		<tr>
+	<td align="right">
+		<span class="font_myriad font_nero font_normale font_size_14">n.</span>
+	&nbsp;
+	<input type="text" size="4" id="qta_carrello26" value="" class="font_nero font_myriad font_normale font_size_15 campoQta bordo_grigio_scuro" onkeypress="if(event.which == 13){  aggiungiArticoloCarrello('206.00.98.97', '26', '26.587215', '60.91000', '55', '3', '0', '1', 'L18');  }else{ return controlloNumeriInteri(event); } ">
+		</td>
+	<td align="left">
+		<img src="images/carrello_aggiungi.png" class="immaginemenuBig font_link" onclick=" aggiungiArticoloCarrello('206.00.98.97', '26', '26.587215', '60.91000', '55', '3', '0', '1', 'L18'); ">
+		</td>
+	</tr>
+	
+	</tbody></table>
+	</div>
+
+	</td>
+
+	</tr>
+
+	<tr>
+	
+	<td align="left" style="border-bottom: 2px solid rgb(161,161,161);">
+	
+	<table border="0">
+	<tbody><tr>
+	<td align="center" width="1%" rowspan="6">
+	<div id="img_articolo" class="img_articolo" align="center" style="border: 2px solid rgb(161,161,161); background-color: #FFF; width: 150px; height: 150px; margin: 10px 10px 10px 10px;" onmouseover="apridivimmaginebig('../paint/206.00.98.99.jpg');" onmouseout="chiudidivimmaginebig();">
+				<img src="../paint/206.00.98.99.jpg" class="immagine_articolo" style="margin-top: 0px; border: 0px solid green; max-width: 150px; max-height: 150px;">
+	</div>
+	</td>
+	<td align="left" valign="bottom"><span class="font_nero font_myriad font_grassetto font_size_14">206.00.98.99</span></td>
+	</tr>
+	<tr><td align="left" valign="top"><span class="font_nero font_myriad font_normale font_size_12">SERIE DECALC.TR.FIAT CINGOLAT0 605C</span></td></tr>
+	<tr><td align="right" valign="top">&nbsp;</td></tr>
+	<tr><td align="right" valign="top"><span class="font_nero font_myriad font_normale font_size_10"><img src="images/giacenza_rosso.png" class="immaginemenu">non disponibile&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br><span class="font_link font_myriad font_size_14 font_grassetto font_verde" onclick="richiediDataDispo('206.00.98.99','');">richiedi la disponibilità</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></td></tr>
+	<tr><td align="left" valign="top"><span class="font_myriad font_normale font_size_10 font_link" onclick="apridivrifalternativo('206.00.98.99');">riferimento alternativo</span></td></tr>
+	<tr><td align="left" valign="top"><span class="font_myriad font_normale font_size_10 font_link" onclick="apridivdisegnotecnico('206.00.98.99');">disegno tecnico</span></td></tr>
+	</tbody></table>
+	
+	</td>
+
+	<td align="center" width="1%" style="border-bottom: 2px solid rgb(161,161,161); padding-right: 10;">
+	
+	<div class="prezzidanascondere">
+	<table border="0" id="tabella_prezzi">
+	<tbody><tr>
+	<td align="left">
+	<span class="font_nero font_myriad font_normale font_size_12">
+	Listino&nbsp;&nbsp;<b>LP18</b>:	</span>
+	</td>
+	<td align="right">
+	<span class="font_nero font_myriad font_normale font_size_12"><b>
+	€&nbsp;68,06	</b></span>
+	</td>
+	</tr>
+	<tr>
+	<td align="left">
+	<span class="font_nero font_myriad font_normale font_size_12">
+	Sconto:	</span>
+	</td>
+	<td align="right">
+	<span class="font_nero font_myriad font_grassetto font_size_12">
+	55,00%+&nbsp;3,00%	</span>
+	</td>
+	</tr>
+	<tr>
+	<td align="left">
+	<span class="font_nero font_myriad font_normale font_size_15">
+	prezzo:	</span></td>
+	
+	<td align="right">
+	<span class="font_verde font_myriad font_grassetto font_size_15">
+	€&nbsp;29,71	</span>
+	</td>
+	</tr>
+	<tr><td align="center" colspan="2" class="font_nero font_myriad font_grassetto font_size_10">
+		</td></tr>
+
+		<tr>
+	<td align="right">
+		<span class="font_myriad font_nero font_normale font_size_14">n.</span>
+	&nbsp;
+	<input type="text" size="4" id="qta_carrello27" value="" class="font_nero font_myriad font_normale font_size_15 campoQta bordo_grigio_scuro" onkeypress="if(event.which == 13){  aggiungiArticoloCarrello('206.00.98.99', '27', '29.70819', '68.06000', '55', '3', '0', '1', 'L18');  }else{ return controlloNumeriInteri(event); } ">
+		</td>
+	<td align="left">
+		<img src="images/carrello_aggiungi.png" class="immaginemenuBig font_link" onclick=" aggiungiArticoloCarrello('206.00.98.99', '27', '29.70819', '68.06000', '55', '3', '0', '1', 'L18'); ">
+		</td>
+	</tr>
+	
+	</tbody></table>
+	</div>
+
+	</td>
+
+	</tr>
+
+
+</tbody></table>
+<form name="filtri_elenco_clle_liberi" id="filtri_elenco_clle_liberi"><input type="hidden" name="elencodiricerca[0]" value="206.00.98.34"><input type="hidden" name="elencodiricerca[1]" value="206.00.98.35"><input type="hidden" name="elencodiricerca[2]" value="206.00.98.36"><input type="hidden" name="elencodiricerca[3]" value="206.00.98.39"><input type="hidden" name="elencodiricerca[4]" value="206.00.98.44"><input type="hidden" name="elencodiricerca[5]" value="206.00.98.45"><input type="hidden" name="elencodiricerca[6]" value="206.00.98.47"><input type="hidden" name="elencodiricerca[7]" value="206.00.98.48"><input type="hidden" name="elencodiricerca[8]" value="206.00.98.52"><input type="hidden" name="elencodiricerca[9]" value="206.00.98.53"><input type="hidden" name="elencodiricerca[10]" value="206.00.98.55"><input type="hidden" name="elencodiricerca[11]" value="206.00.98.56"><input type="hidden" name="elencodiricerca[12]" value="206.00.98.59"><input type="hidden" name="elencodiricerca[13]" value="206.00.98.62"><input type="hidden" name="elencodiricerca[14]" value="206.00.98.63"><input type="hidden" name="elencodiricerca[15]" value="206.00.98.64"><input type="hidden" name="elencodiricerca[16]" value="206.00.98.65"><input type="hidden" name="elencodiricerca[17]" value="206.00.98.66"><input type="hidden" name="elencodiricerca[18]" value="206.00.98.67"><input type="hidden" name="elencodiricerca[19]" value="206.00.98.70"><input type="hidden" name="elencodiricerca[20]" value="206.00.98.71"><input type="hidden" name="elencodiricerca[21]" value="206.00.98.73"><input type="hidden" name="elencodiricerca[22]" value="206.00.98.85"><input type="hidden" name="elencodiricerca[23]" value="206.00.98.86"><input type="hidden" name="elencodiricerca[24]" value="206.00.98.94"><input type="hidden" name="elencodiricerca[25]" value="206.00.98.96"><input type="hidden" name="elencodiricerca[26]" value="206.00.98.97"><input type="hidden" name="elencodiricerca[27]" value="206.00.98.99"><input type="hidden" name="rice_like" value=""><input type="hidden" name="codice_rice_garden" value=""><input type="hidden" name="tipo_macchina" value=""><input type="hidden" name="tipo_ricambio" value=""><input type="hidden" name="modello" value=""><input type="hidden" name="marca" value=""></form></div>

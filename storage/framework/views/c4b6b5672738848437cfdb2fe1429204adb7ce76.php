@@ -4,29 +4,26 @@
 				<div id="productMain" class="row">
 
 						<div class="col-md-4">
-								<img src="/items/<?php echo e($elem->codice.'.'.$elem->ext); ?>" class="img-responsive" />
+								<img src="http://ecommerce2.sabaservice.com/paint/<?php echo e($elem->img); ?>" class="img-responsive" />
 						</div>
 
 						<div class="col-md-8">
 							 <div class="box">
-			                    <h1 class="details--title"><?php echo e($elem->nome); ?></h1>
-			                    <p class="goToDescription">Peso: <?php echo e($elem->peso); ?> kg</p>
-			                    <p class="price"><?php echo e($elem->prezzo); ?> €</p>
+			                    <h1 class="details--title"><?php echo e($elem->name); ?></h1>
+			                    <!--<p class="goToDescription">Peso: <?php echo e($elem->peso); ?> kg</p>-->
+			                    <p class="price"><?php echo e($elem->price); ?> €</p>
 			                    
-			                    <?php if(!array_key_exists('danger', $status)): ?>
 			                   		 <p class="text-center buttons"><a href="/cart/insert/<?php echo e($elem->id); ?>" class="btn btn-primary"><i class="fa fa-shopping-cart"></i> Aggiungi al carrello</a>
 			                    	</p>
-			                    <?php endif; ?>
 
-			                    <?php echo $__env->make("components.badge",[
-			                    		"data" => $status
-			                    	], \Illuminate\Support\Arr::except(get_defined_vars(), array('__data', '__path')))->render(); ?>
+			                   <span class="badge"></span>
 
 			                  </div>
 						</div>
 				</div>
 
 					
+					<!--
 						<div id="details" class="box">
 		              	  <h4>Dettaglio prodotto</h4>
 		              	  <ul>
@@ -41,6 +38,7 @@
 
 		              	  <?php endif; ?>
 		              </div>
+		             -->
 
 		</div>
 

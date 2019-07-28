@@ -2,21 +2,16 @@
 
 @section("content")
 	<div class="container">
-		@include("components.bc",
-		[
-			"elem" => $nome
-		])
-
 		<div class="box">
-			<h1>{{$nome}}</h1>
+			<h1>{{$name}}</h1>
 			<div class="row">
-	                <br/>
-	                @foreach($subcat as $sub)
-	                <div class="col-lg-4 col-md-6">
-	                  <div class="product">
+	                @foreach($productcategorie as $prodcat)
+	                <div class="col-md-4">
+	                  <div class="product--categories">
 	                    <div class="text">
 	                    	<br/>
-	                      <h3 style="text-align: center;"><a href="/subcat/{{$sub->id}}">{{ $sub->nome}}</a></h3>
+	                      <img src="http://ecommerce2.sabaservice.com/images/home_page/classi/{{$prodcat->img}}" class="img-responsive" />
+	                      <h3 style="text-align: center;"><a href="/subcat/{{$prodcat->id}}">{{ $prodcat->name}}</a></h3>
 	                    </div>
 	                    <!-- /.text-->
 	                  </div>

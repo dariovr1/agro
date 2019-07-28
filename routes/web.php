@@ -20,9 +20,12 @@ Auth::routes();
 Route::get('user/password-reset','ResetPasswordController@passwordReset');
 Route::post('user/password-reset/create','ResetPasswordController@create');
 
+//productDetailList
+
+Route::get("subcat/{subcatid}/productlist",'ProductController@showProductList');
+
 
 //quantita update
-
 Route::get('quantityUpdate','UpdateDBController@qtyUpdate');
 Route::get('updateimgdb','UpdateDBController@insertImgInDb');
 Route::get('fixrefimg','UpdateDBController@setImgJpg');
@@ -31,6 +34,10 @@ Route::get('fixlowerupper','UpdateDBController@setImgJpg');
 
 Route::get('cronjobqty','CronJobController@updateQuantity');
 Route::get('cronjobqtylimit','CronJobController@updateQuantityLimit');
+
+//saba
+
+Route::get('setfiledata/{brand}/{filename}','SabaController@setfiledata');
 
 //verifica e-mail e reset password
 Route::get('verify/{id}/{mail}','verifyController@verifyEmailforRegister');

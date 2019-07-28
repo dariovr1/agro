@@ -2,7 +2,7 @@
 namespace App\Services;
 
 use Mail;
-use App\Product;
+use App\Models\Product;
 use Log;
 use DB;
 

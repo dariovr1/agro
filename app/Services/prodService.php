@@ -4,7 +4,7 @@ namespace App\Services;
 
 use Mail;
 use App\User;
-use App\Product;
+use App\Models\Product;
 use Cart;
 use Log;
 use App\Services\quantityService;
@@ -17,11 +17,6 @@ class prodService {
 		"danger" => "prodotto esaurito"
 		];
 
- 	private $qtyService;
-
-    public function __construct(){
-        $this->qtyService = new quantityService();
-    }
 
 	public function getProdById($id){
 		return Product::find($id)->toarray();
@@ -32,6 +27,7 @@ class prodService {
 	}
 
 	public function getStatusBadge($id){
+		/*
 		$res = $this->qtyService->getQtyUpdate( $this->idToCode($id) );
 			if( $res > 3 ) {
 				return json_encode(array('success' => 'prodotto disponibile'));
@@ -44,6 +40,7 @@ class prodService {
 			if($res == 0) {
 				return json_encode(array("danger" => "prodotto esaurito"));
 			}
+		*/
 	}
 
 

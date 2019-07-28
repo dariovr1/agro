@@ -3050,3 +3050,24 @@ code {
   content:"*";
   color:red;
 }
+
+
+.productsContainer .product {
+  padding:20px;
+}
+
+.productsContainer .product img {
+  margin-bottom:20px;
+}
+
+
+.productsContainer .product h3 {
+  height:60px;
+  text-align: center;
+}
+
+.productsContainer .product .price {
+  font-size: 1.125rem;
+    text-align: center;
+    font-weight: 300;
+}

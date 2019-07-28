@@ -4,33 +4,27 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
-use App\Categorie,App\Subcategorie,App\Product;
+use \App\Models\Productcategorie,\App\Models\Subcategorie,\App\Models\Product;
+use \App\Models\Type;
 
 
 class CategoryController extends Controller
 {
     public function index($id)
     {
-
-    	$nome = Categorie::where('id', $id)->first()->nome;
-
-    	$subcat = Categorie::find($id)->subcategories;
-
-    	return view("cat.index",compact("subcat","nome"));
+    	return view("cat.index",[
+            "productcategorie" => Type::find($id)->productcategories,
+            "name" => Type::find($id)->name
+        ]);
     }
 
     public function subcatIndex($id){
 
-    	$cat = Subcategorie::find($id)->categorie;
+        //$elem = Subcategorie::find($id)->products()->paginate(24);
 
-    	$allsubcat = Subcategorie::select("id","nome")->where('categorie_id', $cat->id)->get();
-
-    	$nome = Subcategorie::where('id', $id)->first()->nome;
-
-    	//$elem = Subcategorie::find($id)->products;
-
-        $elem = Subcategorie::find($id)->products()->paginate(24);
-
-    	return view("subcat.index",compact("elem","nome","allsubcat","cat"));
+    	return view("subcat.index",[
+            "subcategories" => Productcategorie::find($id)->subcategories,
+            "name" => Productcategorie::find($id)->name
+        ]);
     }
 }

@@ -3,25 +3,39 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use App\Product;
-use App\Services\prodService;
+use App\Models\Product;
+use App\Models\Productsubcategorie;
 
 class ProductController extends Controller
 {
-
-    private $prodService;
-
-    public function __construct(prodService $prod){
-        $this->prodService = $prod;
+    public function showProductList($subcatid)
+    {
+        return view("products.index",[
+            "products" => Productsubcategorie::find($subcatid)->products()->paginate(24)
+        ]);
     }
 
+    private function available($av)
+    {
+        if ($av == 1) {
+            return [
+                "text" => "prodotto disponibile",
+                "badge" => "success"
+            ];
+        }
+
+        return [
+            "text" => "prodotto non disponibile",
+            "badge" => "danger"
+        ];
+    } 
 
     public function index($id)
     {
-    	return view("details.index",[
+
+    	return view("details.main",[
     		"elem" => Product::find($id),
-    		"info" => Product::find($id)->descrizione,
-            "status" => json_decode($this->prodService->getStatusBadge($id), true)
+            "av" => $this->available(Product::find($id)->av)
     	]);
     }
 }

@@ -24,6 +24,16 @@ class AppServiceProvider extends ServiceProvider
             $view->with('slides',Slideshow::all());
         });
 
+          view()->composer('components.sidebar-category',function($view){
+            $view->with('types',\App\Models\Type::all());
+        });
+
+
+         view()->composer('components.header',function($view){
+            $view->with('types',\App\Models\Type::all());
+        });
+
+
          $cart = new cartService();
 
          view()->composer('components.totale',function($view) use ($cart) {

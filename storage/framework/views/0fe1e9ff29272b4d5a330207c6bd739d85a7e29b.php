@@ -9,14 +9,11 @@
                 </div>
                 <div class="card-body">
                   <ul class="nav nav-pills flex-column category-menu">
-                   <?php $__currentLoopData = App\Categorie::all(); $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $categories): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>
-                   <li><a href="/category/<?php echo e($categories["id"]); ?>" class="nav-link"><?php echo e($categories->nome); ?></a>
-                    <?php $subcats = App\Categorie::find($categories->id)->subcategories; ?>
+                   <?php $__currentLoopData = $types; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $type): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>
+                   <li><a href="/category/<?php echo e($type->id); ?>" class="nav-link"><?php echo e($type->name); ?></a>
                       <ul class="">
-                        <?php $__currentLoopData = $subcats; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $subcat): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>
-                            <?php if(!empty($subcat)): ?> 
-                            <li><a href="/index/sc/<?php echo e($subcat->id); ?>" class="nav-link"><?php echo e($subcat->nome); ?></a></li>
-                            <?php endif; ?>
+                        <?php $__currentLoopData = App\Models\Type::find($type->id)->productcategories; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $prodcat): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>
+                            <li><a href="/index/sc/<?php echo e($prodcat->id); ?>" class="nav-link"><?php echo e($prodcat->name); ?></a></li>
                         <?php endforeach; $__env->popLoop(); $loop = $__env->getLastLoop(); ?>
                       </ul>
                    </li>

@@ -9,14 +9,11 @@
                 </div>
                 <div class="card-body">
                   <ul class="nav nav-pills flex-column category-menu">
-                   @foreach( App\Categorie::all() as $categories )
-                   <li><a href="/category/{{ $categories["id"] }}" class="nav-link">{{ $categories->nome }}</a>
-                    <?php $subcats = App\Categorie::find($categories->id)->subcategories; ?>
+                   @foreach( $types as $type )
+                   <li><a href="/category/{{ $type->id }}" class="nav-link">{{ $type->name }}</a>
                       <ul class="">
-                        @foreach( $subcats as $subcat )
-                            @if(!empty($subcat)) 
-                            <li><a href="/index/sc/{{ $subcat->id }}" class="nav-link">{{ $subcat->nome }}</a></li>
-                            @endif
+                        @foreach( App\Models\Type::find($type->id)->productcategories as $prodcat )
+                            <li><a href="/index/sc/{{ $prodcat->id }}" class="nav-link">{{ $prodcat->name }}</a></li>
                         @endforeach
                       </ul>
                    </li>

@@ -22,6 +22,13 @@ if(!function_exists("surplusIvaPrezzo")) {
 }
 
 
+if(!function_exists("compareArray")) {
+	function compareArray($arr1,$arr2){
+		return $arr1 == $arr2;
+	}
+}
+
+
 
 if(!function_exists("FormatNumber")) {
 	function FormatNumber($value){

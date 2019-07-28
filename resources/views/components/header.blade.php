@@ -1,6 +1,4 @@
- <?php
- $category = App\Categorie::all() 
- ?>
+
  <header class="header">
       <!--
       *** TOPBAR ***
@@ -45,14 +43,13 @@
                 <ul class="dropdown-menu megamenu">
                   <li>
                     <div class="row">
-                      @foreach($category as $cat)
+                      @foreach($types as $type)
                          <div class="col-md-6 col-lg-3">
-                            <a href="/category/{{$cat->id}}"><h5>{{ $cat->nome }}</h5></a>
+                            <a href="/category/{{$type->id}}"><h5>{{ $type->name }}</h5></a>
                              <ul class="list-unstyled mb-3">
-                                <?php $subcat = App\Categorie::find($cat->id)->subcategories; ?>
-                                     @foreach($subcat as $subcats)
-                                      <li class="nav-item"><a href="/subcat/{{$subcats->id}}" class="nav-link">{{ $subcats->nome }}</a></li>
-                                     @endforeach
+                         @foreach(App\Models\Type::find($type->id)->productcategories as $prodcat)
+                           <li class="nav-item"><a href="/subcat/{{$prodcat->id}}" class="nav-link">{{ $prodcat->name }}</a></li>
+                         @endforeach
                             </ul>
                           </div>
                       @endforeach
