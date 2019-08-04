@@ -90,3 +90,15 @@ Route::get('/home', 'HomeController@index')->name('home');
 //sucess
 
 Route::get("/success/buy/{id}","PaymentController@ShowOkBuy");
+
+
+//admin
+
+Route::get('admin', function () {
+    return view('admin.login');
+});
+
+Route::get('admin/pages/create', 'Admin\PagesController@index')->middleware('role:admin');
+Route::post('admin/login',  function () {
+    dd("stai provando a loggare");
+});
