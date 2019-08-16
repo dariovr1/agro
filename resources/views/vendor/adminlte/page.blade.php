@@ -86,16 +86,21 @@
 
         @if(config('adminlte.layout') != 'top-nav')
         <!-- Left side column. contains the logo and sidebar -->
+
         <aside class="main-sidebar">
 
             <!-- sidebar: style can be found in sidebar.less -->
             <section class="sidebar">
 
+            @section("top-nav-layout")
+
                 <!-- Sidebar Menu -->
                 <ul class="sidebar-menu" data-widget="tree">
+                    <li>ciao</li>
                     @each('adminlte::partials.menu-item', $adminlte->menu(), 'item')
                 </ul>
                 <!-- /.sidebar-menu -->
+            @show
             </section>
             <!-- /.sidebar -->
         </aside>

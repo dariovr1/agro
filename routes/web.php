@@ -100,5 +100,5 @@ Route::get('admin', function () {
 
 Route::get('admin/pages/create', 'Admin\PagesController@index')->middleware('role:admin');
 Route::post('admin/login',  function () {
-    dd("stai provando a loggare");
+    return view("admin.home");
 });
