@@ -1,7 +1,7 @@
 <?php 
 
 use App\Product;
-use App\Cart;
+use App\Models\Cart;
 use App\Categorie;
 
 

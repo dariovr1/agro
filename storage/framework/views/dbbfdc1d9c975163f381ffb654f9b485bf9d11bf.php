@@ -7,7 +7,6 @@
 
         <div class="container">
                 <div class="row">
-                        <?php echo $__env->make("components.sidebar-category", \Illuminate\Support\Arr::except(get_defined_vars(), array('__data', '__path')))->render(); ?>
                      <div class="col-lg-9">
 
                           <?php if(!empty($elem)): ?>

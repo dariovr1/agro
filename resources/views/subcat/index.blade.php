@@ -5,13 +5,13 @@
     <div class="box">
       <h1>{{$name}}</h1>
       <div class="row">
-                  @foreach($subcategories as $subcategorie)
+                  @foreach($data as $d)
                   <div class="col-md-4">
                     <div class="product--categories">
                       <div class="text">
                         <br/>
-                        <img src="http://ecommerce2.sabaservice.com/images/home_page/classi/{{$subcategorie->img}}" class="img-responsive" />
-                        <h3 style="text-align: center;"><a href="/subcat/{{$subcategorie->id}}/productlist">{{ $subcategorie->name}}</a></h3>
+                        <img src="http://ecommerce2.sabaservice.com/images/home_page/classi/{{$d->img}}" class="img-responsive" />
+                        <h3 style="text-align: center;"><a href="/subcat/{{$d->id}}/productlist">{{ $d->name}}</a></h3>
                       </div>
                       <!-- /.text-->
                     </div>

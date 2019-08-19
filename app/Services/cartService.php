@@ -4,7 +4,7 @@ namespace App\Services;
 
 use Mail;
 use App\User;
-use App\Cart as CartModel;
+use App\Models\Cart as CartModel;
 use Cart;
 use Log;
 use App\Services\prodService;
@@ -90,13 +90,14 @@ class cartService {
 
 	public function insertProdCartSession($id){
 		$carts = CartModel::with('product')->where('user_id',$id)->get();
+
 		foreach($carts as $cart) {
 			Cart::add([
 				'id' => $cart->product->id,
-				'name' => $cart->product->nome,
+				'name' => $cart->product->name,
 				'qty' => $cart->quantita,
-				'price' => str_replace(",",".",$cart->product->prezzo),
-				'options' => ['peso' => $cart->product->peso, 'codice' => $cart->product->codice]
+				'price' => str_replace(",",".",$cart->product->price),
+				'options' => ['codice' => $cart->product->code]
 			]);
 		}
 	} 

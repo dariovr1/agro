@@ -45,6 +45,7 @@ class LoginController extends Controller
     protected function authenticated()
     {
         //dato auth id ho bisogno di verificare se l'utente ha o non ha elementi in carrello ed inserirli in collection Cart
+
         $this->cart->retriaveCartElem(auth()->id());
     }
 

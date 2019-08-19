@@ -4,7 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
-use App\Product;
+use App\Models\Product;
 use Cart;
 use auth;
 use App\Services\cartService;

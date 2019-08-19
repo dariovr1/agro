@@ -47,7 +47,7 @@
                          <div class="col-md-6 col-lg-3">
                             <a href="/category/<?php echo e($type->id); ?>"><h5><?php echo e($type->name); ?></h5></a>
                              <ul class="list-unstyled mb-3">
-                         <?php $__currentLoopData = App\Models\Type::find($type->id)->productcategories; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $prodcat): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>
+                         <?php $__currentLoopData = App\Models\Type::find($type->id)->productcategorie; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $prodcat): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>
                            <li class="nav-item"><a href="/subcat/<?php echo e($prodcat->id); ?>" class="nav-link"><?php echo e($prodcat->name); ?></a></li>
                          <?php endforeach; $__env->popLoop(); $loop = $__env->getLastLoop(); ?>
                             </ul>

@@ -8,6 +8,7 @@ use App\Http\Requests\ResetPasswordRequest;
 
 use App\User;
 
+
 class ResetPasswordController extends Controller
 {
      public function passwordReset()

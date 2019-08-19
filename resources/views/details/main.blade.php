@@ -15,12 +15,13 @@
 			                    <!--<p class="goToDescription">Peso: {{ $elem->peso }} kg</p>-->
 			                    <p class="price">{{ $elem->price }} €</p>
 
-			                    @include("components.badge",$av)
+			                    @include("components.badge",[
+			                    	"badge" => $elem->av == 1 ? "green" : "red",
+			                    	"text" => $elem->av == 1 ? "disponibile" : "non disponibile"
+			                    	])
 			                    
 			                   		 <p class="text-center buttons"><a href="/cart/insert/{{$elem->id}}" class="btn btn-primary"><i class="fa fa-shopping-cart"></i> Aggiungi al carrello</a>
 			                    	</p>
-
-			                   <span class="badge"></span>
 
 			                  </div>
 						</div>

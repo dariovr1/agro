@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Models;
+namespace App;
 
 use Illuminate\Notifications\Notifiable;
 use Illuminate\Contracts\Auth\MustVerifyEmail;
@@ -52,7 +52,7 @@ class User extends Authenticatable
     }
 
      public function carts(){
-        return $this->hasMany(Cart::class);
+        return $this->hasMany(\App\Models\Cart::class);
     }
 
     public function setCompleannoAttribute($value){

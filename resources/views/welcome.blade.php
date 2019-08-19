@@ -10,7 +10,6 @@
 
         <div class="container">
                 <div class="row">
-                        @include("components.sidebar-category")
                      <div class="col-lg-9">
 
                           @if (!empty($elem))

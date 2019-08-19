@@ -13,12 +13,13 @@
 			                    <!--<p class="goToDescription">Peso: <?php echo e($elem->peso); ?> kg</p>-->
 			                    <p class="price"><?php echo e($elem->price); ?> €</p>
 
-			                    <?php echo $__env->make("components.badge",$av, \Illuminate\Support\Arr::except(get_defined_vars(), array('__data', '__path')))->render(); ?>
+			                    <?php echo $__env->make("components.badge",[
+			                    	"badge" => $elem->av == 1 ? "green" : "red",
+			                    	"text" => $elem->av == 1 ? "disponibile" : "non disponibile"
+			                    	], \Illuminate\Support\Arr::except(get_defined_vars(), array('__data', '__path')))->render(); ?>
 			                    
 			                   		 <p class="text-center buttons"><a href="/cart/insert/<?php echo e($elem->id); ?>" class="btn btn-primary"><i class="fa fa-shopping-cart"></i> Aggiungi al carrello</a>
 			                    	</p>
-
-			                   <span class="badge"></span>
 
 			                  </div>
 						</div>
