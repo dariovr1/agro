@@ -25,7 +25,7 @@
 					  		<tr>
 	                          <td>
 		                          	<a href="#">
-		                                <img class="img-responsive" src="/items/{{ $cart->options->codice}}.jpg" />
+		                                <img class="img-responsive" src="{{$cart->options->imgurl}}" />
 		                          	</a>
 	                      	  </td>
 	                          <td><a href="#">{{ $cart->name }}</a></td>
@@ -38,7 +38,7 @@
 	                          	</form>
 	                          </td>
 	                          <td></td>
-	                          <td>{{ $cart->price * $cart->qty  }} €</td>
+	                          <td> {{ number_format((float)$cart->price * $cart->qty, 2, ',', '.')  }} €</td>
 	                          <td>
 	                          	<form name="delete{{ $cart->rowId }}" method="POST" action="/cart/destroy/{{ $cart->rowId }}">
 					  						@method("DELETE")
@@ -52,7 +52,7 @@
 					  		<tfoot>
                         <tr>
                           <th colspan="4">Subtotale prodotti</th>
-                          <th colspan="2">{{$subtotale}} €</th>
+                          <th colspan="2">{{ $subtotale}} €</th>
                         </tr>
                       </tfoot>
 				  		</table>
@@ -62,7 +62,7 @@
                   	<p>il carrello è vuoto. Inserisci un prodotto per continuare gli acquisti.</p>
                   @endif
                   <div class="box-footer d-flex justify-content-between flex-column flex-lg-row">
-                    <div class="left"><a href="category.html" class="btn btn-outline-secondary"><i class="fa fa-chevron-left"></i> Continua gli acquisti</a></div>
+                    <div class="left"><a href="/" class="btn btn-outline-secondary"><i class="fa fa-chevron-left"></i> Continua gli acquisti</a></div>
                     <div class="right">
                       <a href="/cart/checkout">
                    	   <button type="submit" class="btn btn-primary">Procedi con l'ordine<i class="fa fa-chevron-right"></i></button>

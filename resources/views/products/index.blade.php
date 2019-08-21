@@ -15,9 +15,12 @@
                       <div class="product">
                         <div class="text">
                          <img src="http://ecommerce2.sabaservice.com/paint/{{$product->img}}" class="img-responsive" />
+                         <div class="product-detail-price">
                           <h3><a href="/detail/{{$product->id }}">{{ $product->name }}</a></h3>
+                          </div>
                           <p class="price"> 
-                            <del></del>{{ $product->price }} €
+                            <del></del>
+                            {{ number_format((float) $product->price, 2, ',', '.')  }} €
                           </p>
                         <p class="buttons"><a href="/detail/{{ $product->id }}" class="btn btn-outline-secondary">Maggiori dettagli</a><a href="/cart/insert/{{
                             $product->id

@@ -7,6 +7,7 @@
 
 						<div class="col-md-4">
 								<img src="http://ecommerce2.sabaservice.com/paint/{{ $elem->img }}" class="img-responsive" />
+								<img src="http://ecommerce2.sabaservice.com/paint/{{ replacebyD($elem->img) }}" class="img-responsive" />
 						</div>
 
 						<div class="col-md-8">

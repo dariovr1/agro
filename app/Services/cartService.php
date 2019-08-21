@@ -92,12 +92,13 @@ class cartService {
 		$carts = CartModel::with('product')->where('user_id',$id)->get();
 
 		foreach($carts as $cart) {
+
 			Cart::add([
 				'id' => $cart->product->id,
 				'name' => $cart->product->name,
 				'qty' => $cart->quantita,
 				'price' => str_replace(",",".",$cart->product->price),
-				'options' => ['codice' => $cart->product->code]
+				'options' => ['codice' => $cart->product->code , 'imgurl' => $cart->product->imgurl]
 			]);
 		}
 	} 

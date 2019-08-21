@@ -5,6 +5,7 @@
 
 						<div class="col-md-4">
 								<img src="http://ecommerce2.sabaservice.com/paint/<?php echo e($elem->img); ?>" class="img-responsive" />
+								<img src="http://ecommerce2.sabaservice.com/paint/<?php echo e(replacebyD($elem->img)); ?>" class="img-responsive" />
 						</div>
 
 						<div class="col-md-8">

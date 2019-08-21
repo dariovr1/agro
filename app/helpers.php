@@ -21,6 +21,16 @@ if(!function_exists("surplusIvaPrezzo")) {
 	}
 }
 
+if(!function_exists("replacebyD")) {
+
+	function replacebyD($filename){
+		$extension_pos = strrpos($filename, '.'); // find position of the last dot, so where the extension starts
+		$thumb = substr($filename, 0, $extension_pos) . ' D' . substr($filename, $extension_pos);
+
+		return $thumb;
+	}
+}
+
 
 if(!function_exists("compareArray")) {
 	function compareArray($arr1,$arr2){

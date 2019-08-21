@@ -13,9 +13,12 @@
                       <div class="product">
                         <div class="text">
                          <img src="http://ecommerce2.sabaservice.com/paint/<?php echo e($product->img); ?>" class="img-responsive" />
+                         <div class="product-detail-price">
                           <h3><a href="/detail/<?php echo e($product->id); ?>"><?php echo e($product->name); ?></a></h3>
+                          </div>
                           <p class="price"> 
-                            <del></del><?php echo e($product->price); ?> €
+                            <del></del>
+                            <?php echo e(number_format((float) $product->price, 2, ',', '.')); ?> €
                           </p>
                         <p class="buttons"><a href="/detail/<?php echo e($product->id); ?>" class="btn btn-outline-secondary">Maggiori dettagli</a><a href="/cart/insert/<?php echo e($product->id); ?>" class="btn btn-primary"><i class="fa fa-shopping-cart"></i>Aggiungi al carrello</a></p>
                         </div>
