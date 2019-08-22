@@ -52,7 +52,7 @@
 					  		<tfoot>
                         <tr>
                           <th colspan="4">Subtotale prodotti</th>
-                          <th colspan="2">{{ $subtotale}} €</th>
+                          <th colspan="2">{{ $subtotale }}  €</th>
                         </tr>
                       </tfoot>
 				  		</table>
@@ -73,7 +73,7 @@
             </div>
             <!-- /.col-lg-9-->
             @if($count > 0)
-           		 @include("components.totale")
+           		 @include("components.checkout.totale")
             @endif
             <!-- /.col-md-3-->
           </div>

@@ -92,6 +92,11 @@ Route::get('/home', 'HomeController@index')->name('home');
 Route::get("/success/buy/{id}","PaymentController@ShowOkBuy");
 
 
+//search
+
+Route::get("/search","FiltersController@index");
+
+
 //admin
 
 Route::get('admin', function () {

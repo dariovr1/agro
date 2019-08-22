@@ -35,5 +35,14 @@
 }
 
 .product-detail-price {
-  min-height: 90px;
+  display: inline-block;
+}
+
+.productsContainer .product .price {
+  margin-top:20px;
+}
+
+
+.table th {
+  white-space: nowrap;
 }

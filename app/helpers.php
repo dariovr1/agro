@@ -3,7 +3,10 @@
 use App\Product;
 use App\Models\Cart;
 use App\Categorie;
-
+use App\Models\Citie;
+use App\Models\Prov;
+use App\Models\Pay;
+use App\Models\Shipmethod;
 
 if(!function_exists("surplusIvaPrezzo")) {
 
@@ -20,6 +23,45 @@ if(!function_exists("surplusIvaPrezzo")) {
 
 	}
 }
+
+
+if(!function_exists("renderIDOrder")) {
+
+	function renderIDOrder($arr) {
+
+		if ($arr["key"] === "comune"){
+			return Citie::find($arr["value"])->comune;
+		}
+
+		if ($arr["key"] === "provincia"){
+			return Prov::find($arr["value"])->provincia;
+		}
+
+		return $arr["value"];
+	}
+}
+
+if(!function_exists("renderOrderShipping")) {
+
+	function renderOrderShipping($id) {
+
+		return Shipmethod::find($id)->nome;
+
+	}
+}
+
+
+if(!function_exists("renderPayment")) {
+
+	function renderPayment($id) {
+
+		return Pay::find($id)->nome;
+
+	}
+}
+
+
+
 
 if(!function_exists("replacebyD")) {
 

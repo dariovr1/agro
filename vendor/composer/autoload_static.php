@@ -144,6 +144,7 @@ class ComposerStaticInit15ddda0a88a3ef31c9b027f39b7ef5e9
         ),
         'F' => 
         array (
+            'Fouladgar\\EloquentBuilder\\' => 26,
             'Former\\' => 7,
             'Fideloper\\Proxy\\' => 16,
             'Faker\\' => 6,
@@ -407,6 +408,10 @@ class ComposerStaticInit15ddda0a88a3ef31c9b027f39b7ef5e9
         array (
             0 => __DIR__ . '/..' . '/gloudemans/shoppingcart/src',
         ),
+        'Fouladgar\\EloquentBuilder\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/mohammad-fouladgar/eloquent-builder/src',
+        ),
         'Former\\' => 
         array (
             0 => __DIR__ . '/..' . '/anahkiasen/former/src/Former',
@@ -502,9 +507,10 @@ class ComposerStaticInit15ddda0a88a3ef31c9b027f39b7ef5e9
         'App\\BuyCart' => __DIR__ . '/../..' . '/app/Models/BuyCart.php',
         'App\\Buy_product' => __DIR__ . '/../..' . '/app/Models/Buy_product.php',
         'App\\Buy_supplement' => __DIR__ . '/../..' . '/app/Models/Buy_supplement.php',
-        'App\\Cart' => __DIR__ . '/../..' . '/app/Models/Cart.php',
         'App\\Categorie' => __DIR__ . '/../..' . '/app/Models/Categorie.php',
+        'App\\Citie' => __DIR__ . '/../..' . '/app/Models/Citie.php',
         'App\\Console\\Kernel' => __DIR__ . '/../..' . '/app/Console/Kernel.php',
+        'App\\EloquentFilters\\Product\\TitleNameFilter' => __DIR__ . '/../..' . '/app/EloquentFilters/Product/TitleNameFilter.php',
         'App\\Exceptions\\Handler' => __DIR__ . '/../..' . '/app/Exceptions/Handler.php',
         'App\\Http\\Controllers\\AddressController' => __DIR__ . '/../..' . '/app/Http/Controllers/AddressController.php',
         'App\\Http\\Controllers\\Admin\\PagesController' => __DIR__ . '/../..' . '/app/Http/Controllers/Admin/PagesController.php',
@@ -517,6 +523,7 @@ class ComposerStaticInit15ddda0a88a3ef31c9b027f39b7ef5e9
         'App\\Http\\Controllers\\CategoryController' => __DIR__ . '/../..' . '/app/Http/Controllers/CategoryController.php',
         'App\\Http\\Controllers\\Controller' => __DIR__ . '/../..' . '/app/Http/Controllers/Controller.php',
         'App\\Http\\Controllers\\CronJobController' => __DIR__ . '/../..' . '/app/Http/Controllers/CronJobController.php',
+        'App\\Http\\Controllers\\FiltersController' => __DIR__ . '/../..' . '/app/Http/Controllers/FiltersController.php',
         'App\\Http\\Controllers\\FixDbController' => __DIR__ . '/../..' . '/app/Http/Controllers/FixDbController.php',
         'App\\Http\\Controllers\\HomeController' => __DIR__ . '/../..' . '/app/Http/Controllers/HomeController.php',
         'App\\Http\\Controllers\\PagesController' => __DIR__ . '/../..' . '/app/Http/Controllers/PagesController.php',
@@ -548,6 +555,7 @@ class ComposerStaticInit15ddda0a88a3ef31c9b027f39b7ef5e9
         'App\\Mail\\Order' => __DIR__ . '/../..' . '/app/Mail/Order.php',
         'App\\Mail\\RegisterCompleted' => __DIR__ . '/../..' . '/app/Mail/RegisterCompleted.php',
         'App\\Models\\Brand' => __DIR__ . '/../..' . '/app/Models/Brand.php',
+        'App\\Models\\Cart' => __DIR__ . '/../..' . '/app/Models/Cart.php',
         'App\\Models\\Product' => __DIR__ . '/../..' . '/app/Models/Product.php',
         'App\\Models\\Productcategorie' => __DIR__ . '/../..' . '/app/Models/Productcategorie.php',
         'App\\Models\\Productsubcategorie' => __DIR__ . '/../..' . '/app/Models/Productsubcategorie.php',
@@ -584,7 +592,6 @@ class ComposerStaticInit15ddda0a88a3ef31c9b027f39b7ef5e9
         'App\\Traits\\commonModelFunctions' => __DIR__ . '/../..' . '/app/Traits/commonModelFunctions.php',
         'App\\Traits\\htmlExtractorTraits' => __DIR__ . '/../..' . '/app/Traits/htmlExtractorTraits.php',
         'App\\User' => __DIR__ . '/../..' . '/app/User.php',
-        'App\\citie' => __DIR__ . '/../..' . '/app/Models/citie.php',
         'BeyondCode\\DumpServer\\DumpServerCommand' => __DIR__ . '/..' . '/beyondcode/laravel-dump-server/src/DumpServerCommand.php',
         'BeyondCode\\DumpServer\\DumpServerServiceProvider' => __DIR__ . '/..' . '/beyondcode/laravel-dump-server/src/DumpServerServiceProvider.php',
         'BeyondCode\\DumpServer\\Dumper' => __DIR__ . '/..' . '/beyondcode/laravel-dump-server/src/Dumper.php',
@@ -1228,6 +1235,17 @@ class ComposerStaticInit15ddda0a88a3ef31c9b027f39b7ef5e9
         'Former\\Traits\\FieldTest' => __DIR__ . '/..' . '/anahkiasen/former/tests/Traits/FieldTest.php',
         'Former\\Traits\\FormerObject' => __DIR__ . '/..' . '/anahkiasen/former/src/Former/Traits/FormerObject.php',
         'Former\\Traits\\Framework' => __DIR__ . '/..' . '/anahkiasen/former/src/Former/Traits/Framework.php',
+        'Fouladgar\\EloquentBuilder\\Console\\PublishCommand' => __DIR__ . '/..' . '/mohammad-fouladgar/eloquent-builder/src/Console/PublishCommand.php',
+        'Fouladgar\\EloquentBuilder\\EloquentBuilder' => __DIR__ . '/..' . '/mohammad-fouladgar/eloquent-builder/src/EloquentBuilder.php',
+        'Fouladgar\\EloquentBuilder\\Exceptions\\NotFoundFilterException' => __DIR__ . '/..' . '/mohammad-fouladgar/eloquent-builder/src/Exceptions/NotFoundFilterException.php',
+        'Fouladgar\\EloquentBuilder\\Facade' => __DIR__ . '/..' . '/mohammad-fouladgar/eloquent-builder/src/Facade.php',
+        'Fouladgar\\EloquentBuilder\\LumenServiceProvider' => __DIR__ . '/..' . '/mohammad-fouladgar/eloquent-builder/src/LumenServiceProvider.php',
+        'Fouladgar\\EloquentBuilder\\ServiceProvider' => __DIR__ . '/..' . '/mohammad-fouladgar/eloquent-builder/src/ServiceProvider.php',
+        'Fouladgar\\EloquentBuilder\\Support\\Foundation\\AuthorizeWhenResolvedTrait' => __DIR__ . '/..' . '/mohammad-fouladgar/eloquent-builder/src/Support/Foundation/AuthorizeWhenResolvedTrait.php',
+        'Fouladgar\\EloquentBuilder\\Support\\Foundation\\Concrete\\FilterFactory' => __DIR__ . '/..' . '/mohammad-fouladgar/eloquent-builder/src/Support/Foundation/Concrete/FilterFactory.php',
+        'Fouladgar\\EloquentBuilder\\Support\\Foundation\\Contracts\\AuthorizeWhenResolved' => __DIR__ . '/..' . '/mohammad-fouladgar/eloquent-builder/src/Support/Foundation/Contracts/AuthorizeWhenResolved.php',
+        'Fouladgar\\EloquentBuilder\\Support\\Foundation\\Contracts\\Filter' => __DIR__ . '/..' . '/mohammad-fouladgar/eloquent-builder/src/Support/Foundation/Contracts/Filter.php',
+        'Fouladgar\\EloquentBuilder\\Support\\Foundation\\Contracts\\FilterFactory' => __DIR__ . '/..' . '/mohammad-fouladgar/eloquent-builder/src/Support/Foundation/Contracts/FilterFactory.php',
         'Gloudemans\\Shoppingcart\\CanBeBought' => __DIR__ . '/..' . '/gloudemans/shoppingcart/src/CanBeBought.php',
         'Gloudemans\\Shoppingcart\\Cart' => __DIR__ . '/..' . '/gloudemans/shoppingcart/src/Cart.php',
         'Gloudemans\\Shoppingcart\\CartItem' => __DIR__ . '/..' . '/gloudemans/shoppingcart/src/CartItem.php',

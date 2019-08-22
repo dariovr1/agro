@@ -42,7 +42,7 @@
               <!-- /.box-->
             </div>
             <!-- /.col-md-9-->
-            	@include("components.totale")
+            	@include("components.checkout.totale")
             <!-- /.col-md-3-->
           </div>
         </div>

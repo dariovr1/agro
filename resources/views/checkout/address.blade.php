@@ -73,7 +73,7 @@
                         <div class="form-group">
                            @include('components.select',[
                               "name" => "comune",
-                              "elems" => App\Citie::orderBy('comune')->get(),
+                              "elems" => $comune,
                               "id" => "id",
                               "field" => "comune",
                               "required" => "required"
@@ -85,7 +85,7 @@
                       <div class="col-md-6">
                        @include('components.select',[
                             "name" => "provincia",
-                            "elems" => App\Prov::orderBy('provincia')->get(),
+                            "elems" => $provincia,
                             "id" => "id",
                             "field" => "provincia",
                             "required" => "required"
@@ -110,7 +110,7 @@
                 </form>
       </div>
                             <!-- /.box-->
-       @include("components.totale")
+       @include("components.checkout.totale")
     </div>
 
 	</div>

@@ -16,7 +16,7 @@
                       </tr>
                       <tr class="total">
                         <td>Totale</td>
-                        <th style="padding-left:0px; padding-right:0px;">{{$subtotale}} €</th>
+                        <th style="padding-left:0px; padding-right:0px;">{{$totale}} €</th>
                       </tr>
                     </tbody>
                   </table>

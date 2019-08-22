@@ -12,6 +12,7 @@ use App\Services\prodService;
 class cartService {
 
 	private $prod;
+	private $fixprice = 15;
 
 
     public function  __construct(){
@@ -33,7 +34,9 @@ class cartService {
 	}
 
 	public function getTotalCost(){
-		return Cart::subtotal() + $this->cartTotalWeight(); 
+		$total = $this->toDecimal(Cart::subtotal()) + ( $this->fixprice * count(Cart::Content()) );
+		
+		return number_format($total, 2, ',', '.');
 	}
 
 
@@ -42,14 +45,18 @@ class cartService {
 		$this->insertAllCartDb($id);
 	}
 
+
+	private function toDecimal($number){
+		$str = str_replace(str_split(','),'',$number);
+		return (double) $str;
+	}
+
+
 	public function cartTotalWeight(){
-		$weight = 0;
 
-		foreach(Cart::content() as $ce){
-			$weight += $ce->options->peso * $ce->qty; 
-		}
-
-		return $this->calculateTransfer($weight);
+		$total =  $this->fixprice * count(Cart::Content());
+		
+		return number_format($total, 2, ',', '.');
 	}
 
 
@@ -81,10 +88,10 @@ class cartService {
 	public function insertProdIntoCart($prod) {
 			Cart::add([
 				'id' => $prod["id"],
-				'name' => $prod["nome"],
+				'name' => $prod["name"],
 				'qty' => "1",
-				'price' => str_replace(",",".",$prod["prezzo"]),
-				'options' => ['peso' => floatval($prod["peso"]), 'codice' => $prod["codice"] ]
+				'price' => str_replace(",",".",$prod["price"]),
+				'options' => ['codice' => $prod["code"] , 'imgurl' => $prod["imgurl"] ]
 			]);
 	}
 
@@ -97,7 +104,7 @@ class cartService {
 				'id' => $cart->product->id,
 				'name' => $cart->product->name,
 				'qty' => $cart->quantita,
-				'price' => str_replace(",",".",$cart->product->price),
+				'price' => $cart->product->price,
 				'options' => ['codice' => $cart->product->code , 'imgurl' => $cart->product->imgurl]
 			]);
 		}

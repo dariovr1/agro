@@ -36,9 +36,10 @@ class AppServiceProvider extends ServiceProvider
 
          $cart = new cartService();
 
-         view()->composer('components.totale',function($view) use ($cart) {
+         view()->composer('components.checkout.totale',function($view) use ($cart) {
             $view->with('subtotale',Cart::subtotal())
-            ->with('weight',$cart->cartTotalWeight());
+                 ->with('weight',$cart->cartTotalWeight())
+                 ->with('totale',$cart->getTotalCost());
         });
 
     }

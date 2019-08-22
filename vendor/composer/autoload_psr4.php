@@ -63,6 +63,7 @@ return array(
     'GuzzleHttp\\Promise\\' => array($vendorDir . '/guzzlehttp/promises/src'),
     'GuzzleHttp\\' => array($vendorDir . '/guzzlehttp/guzzle/src'),
     'Gloudemans\\Shoppingcart\\' => array($vendorDir . '/gloudemans/shoppingcart/src'),
+    'Fouladgar\\EloquentBuilder\\' => array($vendorDir . '/mohammad-fouladgar/eloquent-builder/src'),
     'Former\\' => array($vendorDir . '/anahkiasen/former/src/Former', $vendorDir . '/anahkiasen/former/tests'),
     'Fideloper\\Proxy\\' => array($vendorDir . '/fideloper/proxy/src'),
     'Faker\\' => array($vendorDir . '/fzaninotto/faker/src/Faker'),

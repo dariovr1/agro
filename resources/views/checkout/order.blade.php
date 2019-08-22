@@ -11,16 +11,19 @@
                       <ul class="list-group">
                       @foreach ($address as $key => $value)
                         @if ($value != "")
-                         <li class="list-group-item"><b>{{$key}}:</b> {{$value}}</li>
+                         <li class="list-group-item"><b>{{$key}}:</b> {{ renderIDOrder([
+                          "key" => $key,
+                          "value" => $value
+                         ]) }}</li>
                          @endif
                       @endforeach
                     </ul>
                     <br/>
                      <h3>Metodo di Spedizione</h3>
-                       <p><b>Metodo di spedizione scelto:</b> {{$shipping["shipping"]}}</p>
+                       <p><b>Metodo di spedizione scelto:</b> {{ renderOrderShipping($shipping["shipping"]) }}</p>
                        <br/>
                       <h3>Metodo di Pagamento</h3>
-                       <p><b>Metodo di pagamento scelto:</b> {{$payment["payment"]}}</p>
+                       <p><b>Metodo di pagamento scelto:</b> {{renderPayment($payment["payment"])}}</p>
                        <h3>Prodotti scelti:</h3>
                      <table class="table">
                         <thead>

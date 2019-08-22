@@ -3,16 +3,26 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use App\Buy, App\ShipMethod, App\BuyCart, App\Pay, App\Supplement;
+
+use App\Models\Buy;
+use App\Models\ShipMethod;
+use App\Models\Pay;
+use App\Models\Supplement;
+use App\Models\Citie;
+use App\Models\Prov;
+
 use App\Http\Requests\SupplAddressStoreRequest;
 use App\Http\Requests\ShippingRequest;
 use App\Http\Requests\PaymentsRequest;
+
 use App\Mail\Order;
 use Session;
 use Auth;
 use Cart;
+
 use App\Services\paypalService;
 use App\Services\cartService;
+
 
 
 
@@ -29,7 +39,10 @@ class checkoutController extends Controller
 
 	public function address()
 	{
-		return view("checkout.address");
+		return view("checkout.address",[
+			"comune" => Citie::orderBy('comune')->get(),
+			"provincia" => Prov::orderBy('provincia')->get()
+		]);
 	}
 
 	public function addressCreate(SupplAddressStoreRequest $request)

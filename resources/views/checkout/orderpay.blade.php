@@ -66,7 +66,7 @@
               <!-- /.box-->
    		 </div>
 
-       @include("components.totale")
+       @include("components.checkout.totale")
 
 
 		</div>

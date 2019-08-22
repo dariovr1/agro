@@ -25,10 +25,7 @@ class CartController extends Controller
     {
 
         return view("cart.index",[
-          "carts" => Cart::content(),
-          "count" => Cart::count(),
-          "weight" => $this->cart->cartTotalWeight(),
-          "subtotale" => Cart::subtotal()
+          "carts" => Cart::content()
         ]);
 
     }

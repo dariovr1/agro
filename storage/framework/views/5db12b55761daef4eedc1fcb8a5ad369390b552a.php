@@ -70,9 +70,9 @@
       </nav>
       <div id="search" class="collapse">
         <div class="container">
-          <form role="search" class="ml-auto">
+          <form role="search" class="ml-auto" method="GET" action="/search">
             <div class="input-group">
-              <input type="text" placeholder="Cerca" class="form-control">
+              <input type="text" name="title_name" placeholder="Cerca" class="form-control">
               <div class="input-group-append">
                 <button type="button" class="btn btn-primary"><i class="fa fa-search"></i></button>
               </div>
