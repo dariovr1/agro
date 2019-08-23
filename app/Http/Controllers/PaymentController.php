@@ -19,6 +19,7 @@ use Redirect;
 use App\Services\cartService;
 use App\Services\buyService;
 use App\User;
+use Cart;
 
 
 class PaymentController extends Controller
@@ -40,19 +41,38 @@ class PaymentController extends Controller
             $this->cart = $cart;
             $this->buy = $buy;
     }
+
+
     public function payWithPayPal()
     {
+
+        //faccio le operazioni di inserimento ordine / pivot table carts ecc.
+        //todo: scrivere indirizzo spedizione in sessione
+        //todo: scrivere l'ordine e ritornare id
+        //todo: scrivere la pivot table con il carts id
+
+        $this->buy->buyProducts();
+
+        $totalcost = str_replace(",",".",$this->cart->getTotalCost());
+
+        foreach(Cart::Content() as $item) {
+            if ($item->id == 4270) {
+                $totalcost = "0.01";
+            }
+        }
+
+
                 $payer = new Payer();
                         $payer->setPaymentMethod('PayPal');
                 $item_1 = new Item();
                 $item_1->setName('Carrello di Agroambiente srl') /** item name **/
                             ->setCurrency('EUR')
                             ->setQuantity(1)
-                            ->setPrice($this->cart->getTotalCost()); /** unit price **/
+                            ->setPrice($totalcost); /** unit price **/
                 $item_list = new ItemList();
                         $item_list->setItems(array($item_1));
                 $amount = new Amount();
-                $amount->setCurrency('EUR')->setTotal($this->cart->getTotalCost());
+                $amount->setCurrency('EUR')->setTotal($totalcost);
                 $transaction = new Transaction();
                 $transaction->setAmount($amount)
                             ->setItemList($item_list)
@@ -66,6 +86,7 @@ class PaymentController extends Controller
                             ->setRedirectUrls($redirect_urls)
                             ->setTransactions(array($transaction));
                         try {
+                $this->api_context = 
                 $payment->create($this->api_context);
                 } catch (\PayPal\Exception\PPConnectionException $ex) {
                     if (Config::get('app.debug')) {
@@ -88,31 +109,50 @@ class PaymentController extends Controller
                 }
                         return Redirect::route('Status')->with("error","errore sconosciuto");
          }
+
+
+         
          public function Return(Request $request)
          {
+
+            $arr = [];
+
              $payment = Payment::get($request->paymentId,$this->api_context);
              $ex = new PaymentExecution();
              $ex->setPayerId($request->PayerID);
              $result = $payment->execute($ex,$this->api_context);
              if( $result->getState() == "approved" ){
 
-               $buyid = $this->buy->buyProducts([
-                     "user_id" => auth()->id(),
-                    "date" => now(),
-                    "pay_id" => session("payment")["payment"],
-                    "shipmethod_id" => session("shipping")["shipping"]
-                ]);
+                $this->buy->orderCompleted(Session::get('idOrder'));
 
-                return redirect("/success/buy/".$buyid);
+
+                sendEmail("emails.order",Cart::content()->toArray(),User::find(auth()->id())->email,"riepilogo acquisti agroambiente s.r.l");
+
+
+            $arr["carrello"] = Cart::content()->toArray();
+
+            $arr["spedizione"] = session("address");
+
+            $arr["anagrafica"] = $this->buy->retriaveUserbyOrder(Session::get('idOrder'));
+
+
+        sendEmail("emails.adminorder",[
+            "user" => $arr["anagrafica"][0],
+            "spedizione" => $arr["spedizione"],
+            "carrello" => $arr["carrello"]
+        ],"agroambientesrl@gmail.com","NUOVO ORDINE:: CODICE ORDINE ".Session::get('idOrder'));
+
+
+                return redirect("/success/buy");
 
          }
 
         }
 
 
-        public function ShowOkBuy($id){
+        public function ShowOkBuy(){
             return view("success.buy",[
-                "user" => User::find(auth()->id())
+                "user" =>  $this->buy->retriaveUserbyOrder(Session::get('idOrder'))
             ]);
         }
 

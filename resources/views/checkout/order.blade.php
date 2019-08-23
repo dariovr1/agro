@@ -37,15 +37,22 @@
                        @foreach ($items as $item)
                          <tr>
                           <td>{{$item->name}}</td>
-                           <td>{{$item->price}}</td>
+                           <td>{{renderEuroFormat($item->price)}} €</td>
                           <td>{{$item->qty}}</td>
                         </tr>
                        @endforeach
                        <tr>
                           <td><b>Subtotale</b></td>
-                          <td><b>{{$subtotal}}</b></td>
+                          <td><b>{{$subtotale}} €</b></td>
                           <td></td>
                        </tr>
+
+                        <tr>
+                          <td><b>Totale (spedizione inclusa)</b></td>
+                          <td><b>{{$totale}} €</b></td>
+                          <td></td>
+                       </tr>
+
                     </tbody>
                   </table>
 

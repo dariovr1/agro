@@ -56,7 +56,7 @@
 				  		</table>
                   </div>
                   <?php endif; ?>
-                   <?php if($count == 0): ?>
+                   <?php if( $count == 0 ): ?>
                   	<p>il carrello è vuoto. Inserisci un prodotto per continuare gli acquisti.</p>
                   <?php endif; ?>
                   <div class="box-footer d-flex justify-content-between flex-column flex-lg-row">

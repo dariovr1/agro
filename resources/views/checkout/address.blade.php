@@ -104,7 +104,7 @@
                     <!-- /.row-->
                   </div>
                   <div class="box-footer d-flex justify-content-between">
-                    <a href="basket.html" class="btn btn-outline-secondary"><i class="fa fa-chevron-left"></i>Vai al carrello</a>
+                    <a href="/cart" class="btn btn-outline-secondary"><i class="fa fa-chevron-left"></i>Vai al carrello</a>
                     <button type="submit" class="btn btn-primary">Continua con il metodo di spedizione<i class="fa fa-chevron-right"></i></button>
                   </div>
                 </form>

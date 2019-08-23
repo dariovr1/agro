@@ -7,6 +7,7 @@ use App\User;
 use App\Models\Cart as CartModel;
 use Cart;
 use Log;
+use Session;
 use App\Services\prodService;
 
 class cartService {
@@ -42,7 +43,8 @@ class cartService {
 
 	public function newCartbyId($id){
 		$this->destroyAllDbRef($id);
-		$this->insertAllCartDb($id);
+		$array_pivot_carts_products = $this->insertAllCartDb($id);
+		Session::put("buy_cart",$array_pivot_carts_products);
 	}
 
 
@@ -119,14 +121,22 @@ class cartService {
 	}
 
 	private function insertAllCartDb($id){
+
+		$arr = [];
+
 		foreach( Cart::content() as $cartItem ){
-			CartModel::insert([
+			$id = CartModel::create([
 				"product_id" => $cartItem->id,
 				"user_id" => $id,
 				"time" => now(),
 				"quantita" => $cartItem->qty
-			]);
+			])->id;
+
+			$arr[$cartItem->id] = $id;
 		}
+
+		return $arr;
+
 	}
 
 	private function destroyAllDbRef($id){

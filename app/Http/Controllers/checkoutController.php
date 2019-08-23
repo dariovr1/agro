@@ -97,8 +97,7 @@ class checkoutController extends Controller
 			"address" => session("address"),
 			"shipping" => session("shipping"),
 			"payment" => session("payment"),
-			"items" => Cart::Content(),
-			"subtotal" => Cart::subtotal()
+			"items" => Cart::Content()
 		]);
 	}
 

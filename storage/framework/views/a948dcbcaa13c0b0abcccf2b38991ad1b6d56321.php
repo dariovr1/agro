@@ -34,15 +34,22 @@
                        <?php $__currentLoopData = $items; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $item): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>
                          <tr>
                           <td><?php echo e($item->name); ?></td>
-                           <td><?php echo e($item->price); ?></td>
+                           <td><?php echo e(renderEuroFormat($item->price)); ?> €</td>
                           <td><?php echo e($item->qty); ?></td>
                         </tr>
                        <?php endforeach; $__env->popLoop(); $loop = $__env->getLastLoop(); ?>
                        <tr>
                           <td><b>Subtotale</b></td>
-                          <td><b><?php echo e($subtotal); ?></b></td>
+                          <td><b><?php echo e($subtotale); ?> €</b></td>
                           <td></td>
                        </tr>
+
+                        <tr>
+                          <td><b>Totale (spedizione inclusa)</b></td>
+                          <td><b><?php echo e($totale); ?> €</b></td>
+                          <td></td>
+                       </tr>
+
                     </tbody>
                   </table>
 

@@ -6,7 +6,7 @@ use Illuminate\Http\Request;
 
 use App\Models\Product;
 use Cart;
-use auth;
+use Auth;
 use App\Services\cartService;
 
 
@@ -25,14 +25,16 @@ class CartController extends Controller
     {
 
         return view("cart.index",[
-          "carts" => Cart::content()
+          "carts" => Cart::content(),
+          "subtotale" => Cart::subtotal(),
+          "count" => count(Cart::content())
         ]);
 
     }
 
     public function checkout(){
 
-      $this->cart->newCartbyId(auth()->id());
+      $this->cart->newCartbyId(Auth::id());
 
       return redirect("checkout/address");
 

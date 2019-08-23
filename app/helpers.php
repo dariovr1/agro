@@ -25,6 +25,17 @@ if(!function_exists("surplusIvaPrezzo")) {
 }
 
 
+//return number_format($total, 2, ',', '.')
+
+if(!function_exists("renderEuroFormat")) {
+
+	function renderEuroFormat($value){
+		return number_format($value, 2, ',', '.');
+	}
+
+}
+
+
 if(!function_exists("renderIDOrder")) {
 
 	function renderIDOrder($arr) {
@@ -94,7 +105,6 @@ if(!function_exists("sendEmail")) {
 		Mail::send($view, ['data'=> $data], function ($message) use ($to,$subject) {
 	            $message->from('noreply@agroambientesrl.com', 'Info Agroambiente')
 	            ->to($to)
-	            ->cc("agroambientesrl@gmail.com")
 	            ->bcc("jobamato@gmail.com")
 	            ->subject($subject);
 	        });

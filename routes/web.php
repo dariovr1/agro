@@ -89,7 +89,7 @@ Route::get('/home', 'HomeController@index')->name('home');
 
 //sucess
 
-Route::get("/success/buy/{id}","PaymentController@ShowOkBuy");
+Route::get("/success/buy","PaymentController@ShowOkBuy");
 
 
 //search

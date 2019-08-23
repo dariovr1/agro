@@ -1,44 +1,63 @@
 <?php 
 
 namespace App\Services;
-use App\Buy;
-use App\Supplement;
-use App\Buy_supplement;
-use App\Buy_product;
-use session;
-use Cart;
+use App\Models\Buy;
+use App\Models\Supplement;
+use App\Models\BuyCart;
+use Session;
+use Auth;
+use Log;
+use DB;
 
 class buyService {
 
-	private $buyID;
-	private $address;
-
-	public function buyProducts($data){
-	 return $this->saveBuyDb($data)->insertSupplement()->savePivotBuyProduct();
-
+	public function buyProducts(){
+	  $id_supplement = $this->insertSupplement();
+	  $id_order = $this->saveBuyDb($id_supplement);
+	  Session::put('idOrder', $id_order);
+	  $this->savePivotBuyProduct($id_order);
 	}
 
-    private function saveBuyDb($data){
-		 $this->buyID = Buy::create($data)->id;
-		 return $this;
+	public function orderCompleted($id_order){
+		DB::table('buys')
+            ->where('id', $id_order)
+            ->update(['done' => 1]);
 	}
 
-	private function savePivotBuyProduct(){
-		foreach(Cart::content() as $item){
-			Buy_product::create([
-				"buy_id" => $this->buyID,
-				"product_id" => $item->id
+
+	public function retriaveUserbyOrder($id_order){
+		return Buy::find($id_order)->user()->get()->toArray();
+	}
+
+    private function saveBuyDb($id_supplement){
+
+		$id =  Buy::create([
+			"user_id" => Auth::id(),
+			"pay_id" => session("payment")["payment"],
+			"shipmethod_id" => session("shipping")["shipping"],
+			"supplement_id" => $id_supplement
+		 ])->id;
+
+		return $id;
+	}
+
+	private function savePivotBuyProduct($id_order){
+
+		foreach(session("buy_cart") as $pivotItem) {
+
+			BuyCart::create([
+				"buy_id" => $id_order,
+				"cart_id" => $pivotItem
 			]);
 		}
-
-		return $this->buyID;
 	}
+
 
 	private function insertSupplement(){
 
 		if( count(session("address")) > 1 ){
 
-			$this->address = Supplement::create([
+			$address = Supplement::create([
 				"nome" => session("address")["nome"],
 				"cognome" => session("address")["cognome"],
 				"via" => session("address")["via"],
@@ -50,16 +69,9 @@ class buyService {
 				"telefono" => session("address")["telefono"]
 			])->id;
 			
-		}else {
-			$this->address = session("address")["id"];
 		}
 
-		Buy_supplement::create([
-			"buy_id" => $this->buyID,
-			"supplement_id" => $this->address
-		]);
-
-		return $this;
+		return $address;
 
 	}
 

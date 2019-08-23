@@ -1,14 +1,14 @@
 <?php
 
-namespace App;
+namespace App\Models;
 
 use Illuminate\Database\Eloquent\Model;
 
 class BuyCart extends Model
 {
-   	    protected $table = 'buy_cart';
 
-   	    protected $fillable = ['buy_id'];
+	 public $timestamps = false;
 
-   	    public $timestamps = false;
+	protected $table = 'buy_cart';
+    protected $fillable = ['buy_id','cart_id'];
 }

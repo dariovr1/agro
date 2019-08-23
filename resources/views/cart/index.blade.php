@@ -58,7 +58,7 @@
 				  		</table>
                   </div>
                   @endif
-                   @if($count == 0)
+                   @if( $count == 0 )
                   	<p>il carrello è vuoto. Inserisci un prodotto per continuare gli acquisti.</p>
                   @endif
                   <div class="box-footer d-flex justify-content-between flex-column flex-lg-row">

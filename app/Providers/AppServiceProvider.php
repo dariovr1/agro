@@ -42,6 +42,12 @@ class AppServiceProvider extends ServiceProvider
                  ->with('totale',$cart->getTotalCost());
         });
 
+        view()->composer('checkout.order',function($view) use ($cart) {
+                 $view->with('subtotale',Cart::subtotal())
+                 ->with('totale',$cart->getTotalCost());
+        });
+
+
     }
 
     /**

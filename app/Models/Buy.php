@@ -1,20 +1,21 @@
 <?php
 
-namespace App;
+namespace App\Models;
 
 use Illuminate\Database\Eloquent\Model;
 use session;
-use Cart;
 use App\User;
-use Cart as CartModel;
+use Cart;
 
 
 class Buy extends Model
 {
 
-    protected $fillable = ['user_id',"pay_id","shipmethod_id"];
+    protected $fillable = ['user_id',"pay_id","shipmethod_id","supplement_id"];
 
         public $timestamps = false;
+
+/*
 
      protected static function boot(){
         parent::boot();
@@ -24,6 +25,8 @@ class Buy extends Model
 
         });
     }
+
+    */
 
    	 public function user()
     {
@@ -40,10 +43,6 @@ class Buy extends Model
 
      public function pay(){
     	return $this->belongsTo(Pay::class);
-    }
-
-       public function products(){
-        return $this->belongsToMany(Product::class);
     }
 
 

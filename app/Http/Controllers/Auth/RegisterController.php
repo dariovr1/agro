@@ -51,9 +51,7 @@ class RegisterController extends Controller
      */
     public function showRegistrationForm(Request $request)
     {
-        $choice = ($request->azienda) ? "auth.registercorporate" : "auth.register";
-
-       return view($choice);
+       return view("auth.register");
     }
     
     /**
@@ -74,11 +72,7 @@ class RegisterController extends Controller
             'compleanno' => ['required','before:18 years ago'],
             'sesso' => ['required'],
             'phone' => 'required|numeric|min:10',
-            'accept_terms' => ['required'],
-            'piva' => 'required|numeric|min:10',
-            'codfiscale' => 'required|numeric|min:11',
-            'ragsoc' => 'required|string|min:4',
-            'paese' => 'required'
+            'accept_terms' => ['required']
         ], [
             'compleanno.date_format' => 'il formato della data è errato',
             'compleanno.before' => 'sei troppo giovane per iscriverti al portale',
