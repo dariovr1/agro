@@ -5,7 +5,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 
 use App\Models\Buy;
-use App\Models\ShipMethod;
+use App\Models\Shipmethod;
 use App\Models\Pay;
 use App\Models\Supplement;
 use App\Models\Citie;
@@ -56,7 +56,7 @@ class checkoutController extends Controller
 	public function spedizione()
 	{
 		return view("checkout.shipping",[
-			"shipping" => ShipMethod::all()
+			"shipping" => Shipmethod::all()
 		]);
 	}
 

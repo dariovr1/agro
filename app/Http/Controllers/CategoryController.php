@@ -6,6 +6,8 @@ use Illuminate\Http\Request;
 
 use \App\Models\Productcategorie;
 
+use \App\Models\Type;
+
 class CategoryController extends Controller
 {
     public function index($id)

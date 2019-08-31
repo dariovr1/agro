@@ -8,7 +8,7 @@
                     <div class="product--categories">
                       <div class="text">
                         <br/>
-                        <img src="http://ecommerce2.sabaservice.com/images/home_page/classi/<?php echo e($d->img); ?>" class="img-responsive" />
+                        <img src="<?php echo e($d->imgurl.$d->img); ?>" class="img-responsive" />
                         <h3 style="text-align: center;"><a href="/subcat/<?php echo e($d->id); ?>/productlist"><?php echo e($d->name); ?></a></h3>
                       </div>
                       <!-- /.text-->

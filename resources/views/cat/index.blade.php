@@ -3,9 +3,9 @@
 @section("content")
 	<div class="container">
 		<div class="box">
-			<h1>{{$name}}</h1>
+			<h1>{{$data->name}}</h1>
 			<div class="row">
-	                @foreach($productcategorie as $prodcat)
+	                @foreach($data as $prodcat)
 	                <div class="col-md-4">
 	                  <div class="product--categories">
 	                    <div class="text">

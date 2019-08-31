@@ -10,7 +10,7 @@
                     <div class="product--categories">
                       <div class="text">
                         <br/>
-                        <img src="http://ecommerce2.sabaservice.com/images/home_page/classi/{{$d->img}}" class="img-responsive" />
+                        <img src="{{$d->imgurl.$d->img}}" class="img-responsive" />
                         <h3 style="text-align: center;"><a href="/subcat/{{$d->id}}/productlist">{{ $d->name}}</a></h3>
                       </div>
                       <!-- /.text-->

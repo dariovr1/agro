@@ -45,7 +45,7 @@
                     <div class="row">
                       @foreach($types as $type)
                          <div class="col-md-6 col-lg-3">
-                            <a href="/category/{{$type->id}}"><h5>{{ $type->name }}</h5></a>
+                           <h5>{{ $type->name }}</h5>
                              <ul class="list-unstyled mb-3">
                          @foreach(App\Models\Type::find($type->id)->productcategorie as $prodcat)
                            <li class="nav-item"><a href="/subcat/{{$prodcat->id}}" class="nav-link">{{ $prodcat->name }}</a></li>

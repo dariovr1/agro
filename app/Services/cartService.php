@@ -35,7 +35,7 @@ class cartService {
 	}
 
 	public function getTotalCost(){
-		$total = $this->toDecimal(Cart::subtotal()) + ( $this->fixprice * count(Cart::Content()) );
+		$total = $this->toDecimal(Cart::subtotal()) +  $this->fixprice;
 		
 		return number_format($total, 2, ',', '.');
 	}
@@ -56,7 +56,7 @@ class cartService {
 
 	public function cartTotalWeight(){
 
-		$total =  $this->fixprice * count(Cart::Content());
+		$total =  $this->fixprice;
 		
 		return number_format($total, 2, ',', '.');
 	}
