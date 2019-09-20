@@ -21,7 +21,7 @@
 			                    	"text" => $elem->av == 1 ? "disponibile" : "non disponibile"
 			                    	])
 
-			                    	@if($elem->av === 1)
+			                    	@if($elem->av === "1")
 			                    
 			                   		 <p class="text-center buttons"><a href="/cart/insert/{{$elem->id}}" class="btn btn-primary"><i class="fa fa-shopping-cart"></i> Aggiungi al carrello</a>
 			                    	</p>
