@@ -46,3 +46,18 @@
 .table th {
   white-space: nowrap;
 }
+
+
+.available {
+   font-size:15px;
+  text-align: center;
+  display: block;
+}
+
+.noAv {
+  color:red;
+}
+
+.Av {
+  color:green;
+}

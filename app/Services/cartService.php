@@ -88,12 +88,13 @@ class cartService {
 
 
 	public function insertProdIntoCart($prod) {
+
 			Cart::add([
 				'id' => $prod["id"],
 				'name' => $prod["name"],
 				'qty' => "1",
 				'price' => str_replace(",",".",$prod["price"]),
-				'options' => ['codice' => $prod["code"] , 'imgurl' => $prod["imgurl"] ]
+				'options' => ['codice' => $prod["code"] , 'imgurl' => $prod["imgurl"] , 'av' => $prod["av"] ]
 			]);
 	}
 

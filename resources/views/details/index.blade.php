@@ -14,6 +14,9 @@
 			                    <h1 class="details--title">{{ $elem->name }}</h1>
 			                    <!--<p class="goToDescription">Peso: {{ $elem->peso }} kg</p>-->
 			                    <p class="price">{{ $elem->price }} €</p>
+
+
+			            
 			                    
 			                   		 <p class="text-center buttons"><a href="/cart/insert/{{$elem->id}}" class="btn btn-primary"><i class="fa fa-shopping-cart"></i> Aggiungi al carrello</a>
 			                    	</p>

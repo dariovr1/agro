@@ -8,6 +8,22 @@ use App\Models\Prov;
 use App\Models\Pay;
 use App\Models\Shipmethod;
 
+
+if(!function_exists("checkIfProductAvailable")) {
+	function checkIfProductAvailable($carts){
+
+		foreach($carts as $cart){
+
+			if($cart === 0) {
+				return false;
+			}
+			
+		}
+
+		return true;
+	}
+}
+
 if(!function_exists("surplusIvaPrezzo")) {
 
 	function surplusIvaPrezzo($value) {

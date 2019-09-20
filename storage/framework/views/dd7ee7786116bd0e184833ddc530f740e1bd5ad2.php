@@ -18,9 +18,13 @@
 			                    	"badge" => $elem->av == 1 ? "green" : "red",
 			                    	"text" => $elem->av == 1 ? "disponibile" : "non disponibile"
 			                    	], \Illuminate\Support\Arr::except(get_defined_vars(), array('__data', '__path')))->render(); ?>
+
+			                    	<?php if($elem->av === 1): ?>
 			                    
 			                   		 <p class="text-center buttons"><a href="/cart/insert/<?php echo e($elem->id); ?>" class="btn btn-primary"><i class="fa fa-shopping-cart"></i> Aggiungi al carrello</a>
 			                    	</p>
+
+			                    	<?php endif; ?>
 
 			                  </div>
 						</div>

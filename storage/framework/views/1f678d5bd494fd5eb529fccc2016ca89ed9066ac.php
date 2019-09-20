@@ -14,7 +14,7 @@
 						      <tr>
 						        <th colspan="2">Prodotto</th>
 						        <th>Quantità</th>
-						        <th></th>
+						        <th>disponibilità</th>
 						        <th colspan="2">Totale Parziale</th>
 						      </tr>
 						    </thead>
@@ -35,7 +35,13 @@
 	                          	<input type="number" name="qty" value="<?php echo e($cart->qty); ?>" class="form-control numberCheckOut" onclick="return document.forms.update<?php echo e($cart->rowId); ?>.submit();" />
 	                          	</form>
 	                          </td>
-	                          <td></td>
+	                          <td>
+	                          	<?php if($cart->options->av === 1): ?> 
+	                          	 <i class="fa fa-check available Av"></i>
+	                          	<?php else: ?>
+	                          		<i class="fa fa-ban available noAv" aria-hidden="true"></i>
+	                          	<?php endif; ?>
+	                          </td>
 	                          <td> <?php echo e(number_format((float)$cart->price * $cart->qty, 2, ',', '.')); ?> €</td>
 	                          <td>
 	                          	<form name="delete<?php echo e($cart->rowId); ?>" method="POST" action="/cart/destroy/<?php echo e($cart->rowId); ?>">
@@ -63,7 +69,9 @@
                     <div class="left"><a href="/" class="btn btn-outline-secondary"><i class="fa fa-chevron-left"></i> Continua gli acquisti</a></div>
                     <div class="right">
                       <a href="/cart/checkout">
+                    	<?php if(checkIfProductAvailable($carts)): ?>
                    	   <button type="submit" class="btn btn-primary">Procedi con l'ordine<i class="fa fa-chevron-right"></i></button>
+                   	   <?php endif; ?>
                    	  </a>
                     </div>
                   </div>
