@@ -16,7 +16,7 @@
 						      <tr>
 						        <th colspan="2">Prodotto</th>
 						        <th>Quantità</th>
-						        <th></th>
+						        <th>disponibilità</th>
 						        <th colspan="2">Totale Parziale</th>
 						      </tr>
 						    </thead>
@@ -37,7 +37,13 @@
 	                          	<input type="number" name="qty" value="{{ $cart->qty }}" class="form-control numberCheckOut" onclick="return document.forms.update{{ $cart->rowId }}.submit();" />
 	                          	</form>
 	                          </td>
-	                          <td></td>
+	                          <td>
+	                          	@if ($cart->options->av === 1) 
+	                          	 <i class="fa fa-check available Av"></i>
+	                          	@else
+	                          		<i class="fa fa-ban available noAv" aria-hidden="true"></i>
+	                          	@endif
+	                          </td>
 	                          <td> {{ number_format((float)$cart->price * $cart->qty, 2, ',', '.')  }} €</td>
 	                          <td>
 	                          	<form name="delete{{ $cart->rowId }}" method="POST" action="/cart/destroy/{{ $cart->rowId }}">
@@ -65,7 +71,9 @@
                     <div class="left"><a href="/" class="btn btn-outline-secondary"><i class="fa fa-chevron-left"></i> Continua gli acquisti</a></div>
                     <div class="right">
                       <a href="/cart/checkout">
+                    	@if(checkIfProductAvailable($carts))
                    	   <button type="submit" class="btn btn-primary">Procedi con l'ordine<i class="fa fa-chevron-right"></i></button>
+                   	   @endif
                    	  </a>
                     </div>
                   </div>

@@ -20,7 +20,10 @@
                             <del></del>
                             <?php echo e(number_format((float) $product->price, 2, ',', '.')); ?> €
                           </p>
-                        <p class="buttons"><a href="/detail/<?php echo e($product->id); ?>" class="btn btn-outline-secondary">Maggiori dettagli</a><a href="/cart/insert/<?php echo e($product->id); ?>" class="btn btn-primary"><i class="fa fa-shopping-cart"></i>Aggiungi al carrello</a></p>
+                        <p class="buttons"><a href="/detail/<?php echo e($product->id); ?>" class="btn btn-outline-secondary">Maggiori dettagli</a>
+                          <?php if($product->av === 1): ?>
+                          <a href="/cart/insert/<?php echo e($product->id); ?>" class="btn btn-primary"><i class="fa fa-shopping-cart"></i>Aggiungi al carrello</a></p>
+                          <?php endif; ?>
                         </div>
                         <!-- /.text-->
                       </div>
