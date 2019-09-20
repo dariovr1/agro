@@ -38,7 +38,7 @@
 	                          	</form>
 	                          </td>
 	                          <td>
-	                          	@if ($cart->options->av === 1) 
+	                          	@if ($cart->options->av === "1") 
 	                          	 <i class="fa fa-check available Av"></i>
 	                          	@else
 	                          		<i class="fa fa-ban available noAv" aria-hidden="true"></i>

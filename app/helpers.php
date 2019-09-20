@@ -14,7 +14,7 @@ if(!function_exists("checkIfProductAvailable")) {
 
 		foreach($carts as $cart){
 
-			if($cart === 0) {
+			if($cart === "0") {
 				return false;
 			}
 			
