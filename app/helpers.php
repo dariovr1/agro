@@ -9,6 +9,17 @@ use App\Models\Pay;
 use App\Models\Shipmethod;
 
 
+if(!function_exists("getPaypalType")) {
+	function getPaypalType() {
+		if($_SERVER['REMOTE_ADDR'] === "127.0.0.1") {
+			return "paypal.sandbox";
+		}
+
+		return "paypal.live";
+	}
+}
+
+
 if(!function_exists("checkIfProductAvailable")) {
 	function checkIfProductAvailable($carts){
 
