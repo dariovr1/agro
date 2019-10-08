@@ -36,7 +36,7 @@
 	                          	</form>
 	                          </td>
 	                          <td>
-	                          	<?php if($cart->options->av === 1): ?> 
+	                          	<?php if($cart->options->av === "1"): ?> 
 	                          	 <i class="fa fa-check available Av"></i>
 	                          	<?php else: ?>
 	                          		<i class="fa fa-ban available noAv" aria-hidden="true"></i>
